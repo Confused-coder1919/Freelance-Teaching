@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The English & Tech Studio — Paris | Fluent English · Confident Kids · Digital Skills for the Future</title>
+<meta name="description" content="Private English & technology lessons for kids and teens in Paris. Native English teacher & cybersecurity engineer helping students build fluency, confidence, and real-world digital skills." />
+<meta property="og:title" content="Kids English + Coding in Paris — Fluent English, Confidence & Future-Ready Skills" />
+<meta property="og:description" content="Native English teacher & cybersecurity engineer in Paris. Personalized English + Coding lessons that build confidence, creativity, and exam success for kids & teens." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.jpg" />
+  <meta name="theme-color" content="#0b1220" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: { brand: { yellow: '#FFD24A', dark: '#0b1220' } },
+          boxShadow: {
+            luxe: '0 10px 30px -10px rgba(255,210,74,.2), inset 0 1px 0 0 rgba(255,255,255,.04)'
+          },
+        }
+      }
+    }
+  </script>
+  <style>
+    :root{ --brand:#FFD24A; }
+    a:focus-visible,button:focus-visible{ outline:3px solid var(--brand); outline-offset:2px }
+    body{ font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji" }
+    h1,h2,h3{ font-family:"Playfair Display",ui-serif,Georgia,serif }
+    .glass{ background:rgba(2,6,23,.6); backdrop-filter:saturate(140%) blur(8px) }
+    .fade-up{ opacity:0; transform:translateY(8px); transition:opacity .6s ease, transform .6s ease }
+    .fade-up.is-inview{ opacity:1; transform:translateY(0) }
+  </style>
+  <!-- LOCAL BUSINESS SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Kids English + Coding Paris",
+    "description":"Premium English, coding, and exam prep for kids and teens in Paris.",
+    "areaServed":"Paris, Île-de-France",
+    "telephone":"+33667135850",
+    "url":"https://example.com/",
+    "sameAs":["https://www.linkedin.com/in/syed-mostafa/","https://syedtashfin.vercel.app/"]
+  }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 selection:bg-brand-yellow selection:text-slate-900 leading-relaxed">
+  <!-- TOP BAR / NAV -->
+  <header class="sticky top-0 z-50 border-b border-white/5 glass">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="#home" class="text-lg sm:text-xl font-semibold hover:text-brand-yellow">BrightMinds Paris</a>
+        <div class="hidden md:flex items-center gap-8 text-sm">
+          <a data-i18n="nav.programs" href="#programs" class="hover:text-brand-yellow">Programs</a>
+          <a data-i18n="nav.benefits" href="#benefits" class="hover:text-brand-yellow">Benefits</a>
+          <a data-i18n="nav.pricing" href="#pricing" class="hover:text-brand-yellow">Pricing</a>
+          <a data-i18n="nav.exam" href="#exam" class="hover:text-brand-yellow">IGCSE/A‑Level</a>
+          <a data-i18n="nav.faq" href="#faq" class="hover:text-brand-yellow">FAQ</a>
+        </div>
+        <div class="flex items-center gap-3">
+          <!-- LANG SWITCH -->
+          <div class="flex items-center gap-1 rounded-xl border border-slate-700 px-2 py-1" role="group" aria-label="Language">
+            <button id="lang-en" class="text-xs px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700" aria-pressed="true" data-lang="en">EN</button>
+            <button id="lang-fr" class="text-xs px-2 py-1 rounded-lg hover:bg-slate-700" data-lang="fr">FR</button>
+          </div>
+          <a data-i18n="nav.cta" href="#lead" class="rounded-2xl bg-brand-yellow px-4 py-2 font-medium text-slate-900 hover:brightness-95">Free Parent Consult</a>
+          <button id="menuBtn" class="md:hidden" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">☰</button>
+        </div>
+      </div>
+      <div id="mobileMenu" class="md:hidden hidden pb-4">
+        <div class="flex flex-col gap-2">
+          <a data-i18n="nav.programs" href="#programs" class="hover:text-brand-yellow">Programs</a>
+          <a data-i18n="nav.benefits" href="#benefits" class="hover:text-brand-yellow">Benefits</a>
+          <a data-i18n="nav.pricing" href="#pricing" class="hover:text-brand-yellow">Pricing</a>
+          <a data-i18n="nav.exam" href="#exam" class="hover:text-brand-yellow">IGCSE/A‑Level</a>
+          <a data-i18n="nav.faq" href="#faq" class="hover:text-brand-yellow">FAQ</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- HERO -->
+<section id="home" class="relative bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-10 items-center">
+    <div class="fade-up">
+      <h1 data-i18n-html="hero.title" class="text-4xl sm:text-5xl font-bold leading-tight">
+        Empower your child with <span class="text-brand-yellow">fluent English</span>, confidence & future-ready digital skills
+      </h1>
+
+      <p data-i18n="hero.sub" class="mt-4 text-lg text-slate-300">
+        Native English teacher & cybersecurity engineer in Paris. Personalized English + technology lessons:
+        conversation, vocabulary & grammar; website projects (HTML/CSS/JS); presentation skills; and
+        international exam prep (IELTS, TOEIC, IGCSE, A-Level). Safe, structured, bilingual.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a data-i18n="hero.cta" href="#lead" class="rounded-2xl bg-brand-yellow px-6 py-3 font-semibold text-slate-900 hover:brightness-95">
+          Book a Free Parent Consult (15m)
+        </a>
+        <a id="whatsapp-hero" href="https://wa.me/33667135850" target="_blank" rel="noopener"
+           class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow">
+          WhatsApp
+        </a>
+      </div>
+
+      <p data-i18n="hero.foot" class="mt-4 text-sm text-slate-400">
+        Private, bilingual sessions at home in Paris or online. Micro-entrepreneur Status.
+      </p>
+      <div class="mt-6 text-sm opacity-80">
+        Instructor at <span class="font-semibold">IPI - École d’Informatique</span> | <span class="font-semibold">Ingetis</span> | <span class="font-semibold">ABC (American Business College)</span> · M2 Cybersecurity and Cloud Computing @ ESILV
+      </div>
+    </div>
+
+    <div class="relative rounded-3xl border border-white/10 bg-slate-900/60 p-4 shadow-luxe fade-up">
+      <img
+        src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1600&auto=format&fit=crop"
+        alt="Student working with a native English teacher on coding and presentation skills"
+        class="rounded-2xl object-cover w-full h-80"
+        width="1600" height="640" decoding="async" fetchpriority="high"
+      />
+      <div class="absolute -bottom-6 left-6 right-6 rounded-2xl border border-emerald-600/30 bg-emerald-900/20 p-4 text-emerald-100 text-sm flex items-center justify-between gap-3 glass">
+        <div>
+          <strong data-i18n="banner">Now enrolling</strong>:
+          <span data-i18n="bannerTail">limited private slots this month. Priority to sibling groups and referrals.</span>
+        </div>
+        <a data-i18n="bannerCta" href="#lead" class="rounded-xl bg-brand-yellow/90 px-4 py-2 text-slate-900 font-semibold hover:brightness-95">Book now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- TRUST BAR -->
+  <section class="border-t border-white/5">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+      <div class="flex flex-wrap items-center justify-center gap-6 text-xs text-slate-400 fade-up">
+        <span data-i18n="trust.areas">Trusted by parents in 16e · Neuilly · Levallois</span>
+        <span class="hidden sm:inline">•</span>
+        <span data-i18n="trust.dbsc">Enhanced DBS available on request</span>
+        <span class="hidden sm:inline">•</span>
+        <span data-i18n="trust.invoice">Invoices (micro‑entrepreneur)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section id="programs" class="border-t border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="programs.title" class="text-3xl font-bold fade-up">Programs by Age</h2>
+      <p data-i18n="programs.sub" class="mt-2 text-slate-300 fade-up">Project‑based learning with measurable outcomes — English + technology.</p>
+      <div class="mt-12 grid lg:grid-cols-3 gap-8">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 data-i18n="programs.p1.title" class="text-xl font-semibold">8–10 · English & Digital Discovery</h3>
+          <ul class="mt-3 list-disc pl-5 text-slate-300 text-sm space-y-1">
+            <li data-i18n="programs.p1.l1">Build confidence through fun English conversation and storytelling</li>
+            <li data-i18n="programs.p1.l2">Learn presentation and speaking skills in a positive, encouraging environment</li>
+            <li data-i18n="programs.p1.l3">Explore creative projects: design a simple personal webpage or digital poster</li>
+            <li data-i18n="programs.p1.l4">Practice safe, responsible use of technology and the internet</li>
+            <li data-i18n="programs.p1.l5">Grow curiosity, creativity, and self-expression — entirely in English</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 data-i18n="programs.p2.title" class="text-xl font-semibold">11–14 · English, IT & Business Basics</h3>
+          <ul class="mt-3 list-disc pl-5 text-slate-300 text-sm space-y-1">
+            <li data-i18n="programs.p2.l1">Strengthen English for schoolwork, writing, and confident speaking</li>
+            <li data-i18n="programs.p2.l2">Learn key IT concepts: hardware, software, and how computers work</li>
+            <li data-i18n="programs.p2.l3">Create small website projects using HTML, CSS, and simple interactivity</li>
+            <li data-i18n="programs.p2.l4">Discover the basics of business, money, and smart digital finance</li>
+            <li data-i18n="programs.p2.l5">Build early exam readiness — practice skills for IGCSE, TOEIC, or IELTS foundations</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 data-i18n="programs.p3.title" class="text-xl font-semibold">15–18 · Academic English, Coding & AI Readiness</h3>
+          <ul class="mt-3 list-disc pl-5 text-slate-300 text-sm space-y-1">
+            <li data-i18n="programs.p3.l1">Master academic and professional English through comprehension, writing exercises, and presentations</li>
+            <li data-i18n="programs.p3.l2">Develop full website projects using HTML, CSS, JavaScript, and modern tools</li>
+            <li data-i18n="programs.p3.l3">Explore coding logic and new technologies including AI and prompt engineering</li>
+            <li data-i18n="programs.p3.l4">Prepare for international exams: TOEIC, IELTS, and IGCSE/A-Level English & IT</li>
+            <li data-i18n="programs.p3.l5">Build confidence for university interviews, presentations, and future digital careers</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- BENEFITS -->
+<section id="benefits" class="border-t border-slate-800">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+    <h2 data-i18n="benefits.title" class="text-3xl font-bold fade-up">Why parents choose this program</h2>
+    <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b1.t" class="font-semibold">Experienced English & Technology Instructor</h3>
+        <p data-i18n="benefits.b1.d" class="mt-2 text-sm text-slate-300">
+          Currently teaching at business and engineering schools in Paris — bringing real-world expertise into engaging, age-appropriate lessons for your child.
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b2.t" class="font-semibold">Visible Progress & Confidence</h3>
+        <p data-i18n="benefits.b2.d" class="mt-2 text-sm text-slate-300">
+          Parents receive regular updates and can see clear growth every few sessions — in English fluency, self-expression, and digital skills.
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b3.t" class="font-semibold">Learning with Purpose</h3>
+        <p data-i18n="benefits.b3.d" class="mt-2 text-sm text-slate-300">
+          English is taught through meaningful, modern topics — from technology and website design to AI — so students stay curious and motivated.
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b4.t" class="font-semibold">Academic & Exam Preparation</h3>
+        <p data-i18n="benefits.b4.d" class="mt-2 text-sm text-slate-300">
+          Structured, step-by-step guidance for school English, IGCSE, or international exams like TOEIC and IELTS — always focused on real understanding and confident communication.
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b5.t" class="font-semibold">Flexible & Personalised Format</h3>
+        <p data-i18n="benefits.b5.d" class="mt-2 text-sm text-slate-300">
+          Home lessons in Paris or online sessions. Flexible scheduling, with sibling or friend groups encouraged.
+        </p>
+      </div>
+
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 data-i18n="benefits.b6.t" class="font-semibold">Confidence that Lasts</h3>
+        <p data-i18n="benefits.b6.d" class="mt-2 text-sm text-slate-300">
+          Your child learns to speak clearly, think critically, and express ideas naturally — building true confidence that goes beyond grammar.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- TESTIMONIALS / SOCIAL PROOF -->
+  <section id="testimonials" class="border-t border-white/5">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="testimonials.title" class="text-3xl font-bold fade-up">Parent feedback</h2>
+      <p data-i18n="testimonials.sub" class="mt-2 text-slate-300 max-w-2xl fade-up">Results that matter: confidence, clear communication, and real projects your child can show.</p>
+      <div class="mt-12 grid md:grid-cols-3 gap-8">
+        <figure class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <blockquote class="text-slate-200" data-i18n="testimonials.q1">“Our son built his first website and started speaking in full sentences. The structure and kindness are outstanding.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-400" data-i18n="testimonials.a1">— Parent, Neuilly (11‑year‑old)</figcaption>
+        </figure>
+        <figure class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <blockquote class="text-slate-200" data-i18n="testimonials.q2">“Focused IGCSE prep + practical IT — she jumped a grade and loved showing her project to family.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-400" data-i18n="testimonials.a2">— Parent, 16ᵉ (15‑year‑old)</figcaption>
+        </figure>
+        <figure class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <blockquote class="text-slate-200" data-i18n="testimonials.q3">“Professional, reliable, bilingual. We appreciate the session notes and clear progress milestones.”</blockquote>
+          <figcaption class="mt-3 text-xs text-slate-400" data-i18n="testimonials.a3">— Parent, Levallois (13‑year‑old)</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING (with highlighted plan) -->
+  <section id="pricing" class="border-t border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="pricing.title" class="text-3xl font-bold fade-up">Pricing</h2>
+      <p data-i18n="pricing.sub" class="mt-2 text-slate-300 fade-up">Transparent rates. Private lessons or small groups (2–4). Invoices provided.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 class="text-lg font-semibold" data-i18n="pricing.p1.t">Private 1:1</h3>
+          <p class="mt-1 text-3xl font-bold"><span class="text-brand-yellow">€50</span><span class="text-base font-normal" data-i18n="pricing.perHour">/h</span></p>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="pricing.p1.d">Flexible scheduling. Home or online.</p>
+          <a data-i18n="pricing.cta1" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Book trial</a>
+        </div>
+        <div class="rounded-3xl border border-brand-yellow bg-slate-900/40 p-6 shadow-[0_0_0_3px_rgba(255,210,74,0.15)] fade-up">
+          <h3 class="text-lg font-semibold" data-i18n="pricing.p2.t">Small Group (2–4)</h3>
+          <p class="mt-1 text-3xl font-bold"><span class="text-brand-yellow">€30</span><span class="text-base font-normal" data-i18n="pricing.p2.unit">/student·h</span></p>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="pricing.p2.d">Great for siblings & friends. Project‑based.</p>
+          <a data-i18n="pricing.cta2" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Check availability</a>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 class="text-lg font-semibold" data-i18n="pricing.p3.t">Exam Pack</h3>
+          <p class="mt-1 text-3xl font-bold"><span class="text-brand-yellow">€240</span><span class="text-base font-normal" data-i18n="pricing.p3.unit">/5h</span></p>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="pricing.p3.d">Targeted IGCSE/O‑Level/A‑Level English & IT prep.</p>
+          <a data-i18n="pricing.cta3" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Reserve</a>
+        </div>
+      </div>
+      <p class="mt-4 text-xs text-slate-400 fade-up" data-i18n="pricing.note">In‑person sessions may include a transport supplement depending on location.</p>
+    </div>
+  </section>
+
+  <!-- EXAM SUPPORT -->
+  <section id="exam" class="border-t border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="exam.title" class="text-3xl font-bold fade-up">IGCSE / O‑Level / A‑Level Support</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 class="font-semibold" data-i18n="exam.e1.t">English (First/Second Language)</h3>
+          <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
+            <li data-i18n="exam.e1.l1">Reading comprehension & analysis</li>
+            <li data-i18n="exam.e1.l2">Essay structure & argumentation</li>
+            <li data-i18n="exam.e1.l3">Speaking & presentation tasks</li>
+          </ul>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+          <h3 class="font-semibold" data-i18n="exam.e2.t">Information & Communication Technology / Computer Science</h3>
+          <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
+            <li data-i18n="exam.e2.l1">Web fundamentals (HTML/CSS/JS), algorithms</li>
+            <li data-i18n="exam.e2.l2">Practical projects & past papers</li>
+            <li data-i18n="exam.e2.l3">Exam strategy & timing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS / STEPS -->
+  <section id="process" class="border-t border-white/5">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="process.title" class="text-3xl font-bold fade-up">How it works</h2>
+      <div class="mt-12 grid md:grid-cols-3 gap-8">
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <div class="text-brand-yellow text-2xl font-bold">1</div>
+          <h3 class="mt-2 font-semibold" data-i18n="process.s1.t">Parent consult</h3>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="process.s1.d">15‑minute call to understand goals, level, and schedule.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <div class="text-brand-yellow text-2xl font-bold">2</div>
+          <h3 class="mt-2 font-semibold" data-i18n="process.s2.t">Personal plan</h3>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="process.s2.d">A tailored 4‑session milestone plan + recommended packs.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl p-6 shadow-luxe fade-up">
+          <div class="text-brand-yellow text-2xl font-bold">3</div>
+          <h3 class="mt-2 font-semibold" data-i18n="process.s3.t">Start & track progress</h3>
+          <p class="mt-2 text-sm text-slate-300" data-i18n="process.s3.d">Weekly sessions with notes and demo links parents can review.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="border-t border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="faq.title" class="text-3xl font-bold fade-up">FAQ / Questions fréquentes</h2>
+      <div class="mt-8 grid md:grid-cols-2 gap-6">
+        <details class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up"><summary class="cursor-pointer font-semibold" data-i18n="faq.q1">Where are sessions held? / Où ont lieu les cours ?</summary><p class="mt-2 text-sm text-slate-300" data-i18n="faq.a1">Home visits in Paris or online via Google Meet. / À domicile à Paris ou en ligne (Google Meet).</p></details>
+        <details class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up"><summary class="cursor-pointer font-semibold" data-i18n="faq.q2">Which ages and levels? / Quels âges et niveaux ?</summary><p class="mt-2 text-sm text-slate-300" data-i18n="faq.a2">8–18 years. From beginner to advanced; IGCSE, O‑Level, A‑Level supported.</p></details>
+        <details class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up"><summary class="cursor-pointer font-semibold" data-i18n="faq.q3">Invoices & status? / Factures et statut ?</summary><p class="mt-2 text-sm text-slate-300" data-i18n="faq.a3">Invoices provided via micro‑entrepreneur status. / Factures fournies (micro‑entrepreneur).</p></details>
+        <details class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up"><summary class="cursor-pointer font-semibold" data-i18n="faq.q4">Safeguarding & privacy</summary><p class="mt-2 text-sm text-slate-300" data-i18n="faq.a4">Parent welcome to sit nearby; neutral, age‑appropriate content; no social media sharing; device safety guidance included.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- LEAD SECTION: lightweight form + Calendly -->
+  <section id="lead" class="border-t border-slate-800">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-24">
+      <h2 data-i18n="lead.title" class="text-3xl font-bold fade-up">Book a free 15‑minute parent consult</h2>
+      <p data-i18n="lead.sub" class="mt-2 text-slate-300 fade-up">We’ll discuss goals, availability, and the best program for your child. Online or at home in Paris.</p>
+
+      <div class="mt-8 grid md:grid-cols-2 gap-6 items-stretch">
+        <!-- SHORT LEAD FORM (no backend: pre-fills WhatsApp + mailto) -->
+        <form id="leadForm" class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 space-y-4 fade-up" novalidate>
+          <div>
+            <label for="pname" class="block text-sm text-slate-300" data-i18n="lead.f.name">Parent name</label>
+            <input id="pname" name="pname" type="text" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" required />
+          </div>
+          <div>
+            <label for="email" class="block text-sm text-slate-300">Email</label>
+            <input id="email" name="email" type="email" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" required />
+          </div>
+          <div>
+            <label for="child" class="block text-sm text-slate-300" data-i18n="lead.f.child">Child age(s) & goals</label>
+            <textarea id="child" name="child" rows="3" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" placeholder="11 — build a website; 15 — IGCSE English B2" required></textarea>
+          </div>
+          <div>
+            <label for="slot" class="block text-sm text-slate-300" data-i18n="lead.f.slot">Preferred time</label>
+            <select id="slot" name="slot" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2">
+              <option value="Weekday evening">Weekday evening</option>
+              <option value="Saturday">Saturday</option>
+              <option value="Sunday">Sunday</option>
+            </select>
+          </div>
+          <div class="flex flex-wrap gap-3 pt-2">
+            <button type="submit" class="rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95" data-i18n="lead.cta.submit">Send & prefill WhatsApp</button>
+            <a id="mailtoLink" href="#" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">Email</a>
+          </div>
+          <p id="leadMsg" class="text-xs text-emerald-300 hidden">✅ Thanks! Opening WhatsApp with your details…</p>
+        </form>
+
+        <!-- CALENDLY / EMBED SLOTTER -->
+        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-4 fade-up">
+          <div class="aspect-[16/9]">
+            <!-- Replace with your live scheduling link -->
+            <iframe title="Calendly" src="https://calendly.com/" class="w-full h-full rounded-2xl" loading="lazy"></iframe>
+          </div>
+          <div class="mt-3 text-xs text-slate-400" data-i18n="lead.calnote">Prefer to chat first? Use WhatsApp — instant response.</div>
+        </div>
+      </div>
+
+      <div class="mt-6 flex flex-wrap gap-3 fade-up">
+        <a id="whatsapp-lead" href="https://wa.me/33667135850" target="_blank" rel="noopener" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">WhatsApp</a>
+        <a id="email-lead" href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm text-slate-400">© <span id="year"></span> Kids English + Coding Paris</p>
+        <div class="text-sm text-slate-400">SIREN/SIRET: <span class="opacity-60">(add here)</span> · <a href="#" class="hover:text-brand-yellow">Mentions légales</a> · <a href="#" class="hover:text-brand-yellow">RGPD</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile CTA -->
+  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 md:hidden rounded-2xl border border-white/10 glass p-3 shadow-xl">
+    <div class="mx-auto max-w-7xl flex items-center justify-between gap-3">
+      <div class="text-xs text-slate-300" data-i18n="sticky.text">Limited slots this month</div>
+      <a data-i18n="sticky.cta" href="#lead" class="rounded-xl bg-brand-yellow px-3 py-2 text-sm font-semibold text-slate-900">Book consult</a>
+    </div>
+  </div>
+
+  <!-- Exit Intent Modal (simple, no storage until interaction) -->
+  <div id="exitModal" class="hidden fixed inset-0 z-[60] items-center justify-center p-4">
+    <div class="absolute inset-0 bg-black/60" aria-hidden="true"></div>
+    <div role="dialog" aria-modal="true" class="relative max-w-md w-full rounded-2xl border border-white/10 glass p-6 shadow-luxe">
+      <h3 class="text-xl font-semibold">🎁 <span data-i18n="exit.title">Free mini‑lesson outline</span></h3>
+      <p class="mt-2 text-sm text-slate-300" data-i18n="exit.desc">Leave your email — I’ll send a sample 4‑session plan tailored to your child’s age.</p>
+      <form id="exitForm" class="mt-4 space-y-3">
+        <input type="email" id="exitEmail" class="w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" placeholder="you@email.com" required />
+        <button class="w-full rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95" data-i18n="exit.cta">Send me the outline</button>
+        <p id="exitThanks" class="hidden text-emerald-300 text-xs">✅ Thanks! I’ll follow up shortly.</p>
+      </form>
+      <button id="exitClose" class="absolute top-2 right-3 text-slate-400 hover:text-white" aria-label="Close">✕</button>
+    </div>
+  </div>
+
+  <!-- Progress bar -->
+  <div id="progress" class="fixed top-0 left-0 h-1 bg-brand-yellow w-0 z-[70]"></div>
+
+  <script>
+    // ---------- UTILITIES ----------
+    const $ = (sel, root=document) => root.querySelector(sel);
+    const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
+    const setYear = () => { const y = $('#year'); if (y) y.textContent = new Date().getFullYear(); };
+
+    // Scroll progress
+    const progress = $('#progress');
+    const onScroll = () => {
+      const st = window.scrollY; const h = document.body.scrollHeight - window.innerHeight;
+      const pct = Math.min(100, Math.max(0, (st / h) * 100));
+      if (progress) progress.style.width = pct + '%';
+    };
+
+    // Animate in-view elements
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('is-inview'); });
+    }, { threshold:.15 });
+    $$('.fade-up').forEach(el=>io.observe(el));
+
+    // Mobile menu
+    const menuBtn = $('#menuBtn'), mobileMenu = $('#mobileMenu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+        const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+        menuBtn.setAttribute('aria-expanded', String(!expanded));
+      });
+    }
+    
+    // ---------- I18N (robust, refined copy) ----------
+const dict = {
+  en: {
+    nav: {
+      programs: 'Programs',
+      benefits: 'Benefits',
+      pricing: 'Pricing',
+      exam: 'IGCSE/A-Level',
+      faq: 'FAQ',
+      cta: 'Free Parent Consult'
+    },
+
+    hero: {
+      title:
+        'Empower your child with <span class="text-brand-yellow">fluent English</span>, confidence & future-ready digital skills',
+      sub:
+        'Native English teacher & cybersecurity engineer in Paris. Personalized English + technology lessons: conversation, vocabulary & grammar; website projects (HTML/CSS/JS); presentation skills; and international exam prep (IELTS, TOEIC, IGCSE, A-Level). Safe, structured, bilingual.',
+      cta: 'Book a Free Parent Consult (15m)',
+      foot: 'Private, bilingual sessions at home in Paris or online. Micro-entrepreneur Status.'
+    },
+
+    banner: 'Now enrolling',
+    bannerTail: 'limited private slots this month. Priority to sibling groups and referrals.',
+    bannerCta: 'Book now',
+
+    trust: {
+      areas: 'Trusted by parents in 16e · Neuilly · Levallois',
+      dbsc: 'Enhanced DBS available on request',
+      invoice: 'Invoices (micro-entrepreneur)'
+    },
+
+    programs: {
+  title: 'Programs by Age',
+  sub: 'Project-based learning with measurable outcomes — English + technology.',
+  p1: {
+    title: '8–10 · English & Digital Discovery',
+    l1: 'Build confidence through fun English conversation, games, and storytelling',
+    l2: 'Practice clear communication and presentation skills in a supportive environment',
+    l3: 'Create small digital projects — a personal webpage, interactive story, or online poster',
+    l4: 'Learn safe, responsible, and balanced technology use',
+    l5: 'Grow curiosity, creativity, and self-expression — entirely in English'
+     
+    },
+    p2: {
+      title: '11–14 · English, IT & Business Basics',
+      l1: 'Strengthen English for schoolwork, writing, and confident speaking',
+      l2: 'Learn key IT concepts: hardware, software, and how computers work',
+      l3: 'Create small website projects using HTML, CSS, and simple interactivity',
+      l4: 'Discover the basics of business, money, and smart digital finance',
+      l5: 'Build early exam readiness — practice skills for IGCSE, TOEIC, or IELTS foundations'
+    },
+      p3: {
+      title: '15–18 · Academic English, Coding & AI Readiness',
+      l1: 'Master academic and professional English through comprehension, writing exercises, and presentations',
+      l2: 'Develop full website projects using HTML, CSS, JavaScript, and modern tools',
+      l3: 'Explore coding logic and new technologies including AI and prompt engineering',
+      l4: 'Prepare for international exams: TOEIC, IELTS, and IGCSE/A-Level English & IT',
+      l5: 'Build confidence for university interviews, presentations, and future digital careers'
+      }
+    },
+
+    benefits: {
+      title: 'Why parents choose this program',
+      b1: {
+        t: 'Experienced English & Technology Instructor',
+        d: 'Currently teaching at business and engineering schools in Paris — bringing real-world expertise into engaging, age-appropriate lessons for your child.'
+      },
+      b2: {
+        t: 'Visible Progress & Confidence',
+        d: 'Parents receive regular updates and can see clear growth every few sessions — in English fluency, self-expression, and digital skills.'
+      },
+      b3: {
+        t: 'Learning with Purpose',
+        d: 'English is taught through meaningful, modern topics — from technology and website design to AI — so students stay curious and motivated.'
+      },
+      b4: {
+        t: 'Academic & Exam Preparation',
+        d: 'Structured, step-by-step guidance for school English, IGCSE, or international exams like TOEIC and IELTS — always focused on real understanding and confident communication.'
+      },
+      b5: {
+        t: 'Flexible & Personalised Format',
+        d: 'Home lessons in Paris or online sessions. Flexible scheduling, with sibling or friend groups encouraged.'
+      },
+      b6: {
+        t: 'Confidence that Lasts',
+        d: 'Your child learns to speak clearly, think critically, and express ideas naturally — building true confidence that goes beyond grammar.'
+      }
+        },
+
+    testimonials: {
+      title: 'Parent feedback',
+      sub: 'Results that matter: confidence, clear communication, and real projects your child can show.',
+      q1: '“Our son built his first website and started speaking in full sentences. The structure and kindness are outstanding.”',
+      a1: '— Parent, Neuilly (11-year-old)',
+      q2: '“Focused IGCSE prep + practical IT — she jumped a grade and loved showing her project to family.”',
+      a2: '— Parent, 16ᵉ (15-year-old)',
+      q3: '“Professional, reliable, bilingual. We appreciate the session notes and clear progress milestones.”',
+      a3: '— Parent, Levallois (13-year-old)'
+    },
+
+    pricing: {
+      title: 'Pricing',
+      sub: 'Transparent rates. Private lessons or small groups (2–4). Invoices provided.',
+      perHour: '/h',
+      p1: { t: 'Private 1:1', d: 'Flexible scheduling. Home or online.' },
+      p2: { t: 'Small Group (2–4)', unit: '/student·h', d: 'Great for siblings & friends. Project-based.' },
+      p3: { t: 'Exam Pack', unit: '/5h', d: 'Targeted IGCSE/O-Level/A-Level English & IT prep.' },
+      cta1: 'Book trial',
+      cta2: 'Check availability',
+      cta3: 'Reserve',
+      note: 'In-person sessions may include a transport supplement depending on location.'
+    },
+
+    exam: {
+      title: 'IGCSE / O-Level / A-Level Support',
+      e1: {
+        t: 'English (First/Second Language)',
+        l1: 'Reading comprehension & analysis',
+        l2: 'Essay structure & argumentation',
+        l3: 'Speaking & presentation tasks'
+      },
+      e2: {
+        t: 'Information & Communication Technology / Computer Science',
+        l1: 'Web fundamentals (HTML/CSS/JS), algorithms',
+        l2: 'Practical projects & past papers',
+        l3: 'Exam strategy & timing'
+      }
+    },
+
+    process: {
+      title: 'How it works',
+      s1: { t: 'Parent consult', d: '15-minute call to understand goals, level, and schedule.' },
+      s2: { t: 'Personal plan', d: 'A tailored 4-session milestone plan + recommended packs.' },
+      s3: { t: 'Start & track progress', d: 'Weekly sessions with notes and demo links parents can review.' }
+    },
+
+    faq: {
+      title: 'FAQ / Questions fréquentes',
+      q1: 'Where are sessions held? / Où ont lieu les cours ?',
+      a1: 'Home visits in Paris or online via Google Meet. / À domicile à Paris ou en ligne (Google Meet).',
+      q2: 'Which ages and levels? / Quels âges et niveaux ?',
+      a2: '8–18 years. From beginner to advanced; IGCSE, O-Level, A-Level supported.',
+      q3: 'Invoices & status? / Factures et statut ?',
+      a3: 'Invoices provided via micro-entrepreneur status. / Factures fournies (micro-entrepreneur).',
+      q4: 'Safeguarding & privacy',
+      a4: 'Parent welcome to sit nearby; neutral, age-appropriate content; no social media sharing; device safety guidance included.'
+    },
+
+    lead: {
+      title: 'Book a free 15-minute parent consult',
+      sub: 'We’ll discuss goals, availability, and the best program for your child. Online or at home in Paris.',
+      f: { name: 'Parent name', child: 'Child age(s) & goals', slot: 'Preferred time' },
+      cta: { submit: 'Send & prefill WhatsApp' },
+      calnote: 'Prefer to chat first? Use WhatsApp — instant response.'
+    },
+
+    sticky: { text: 'Limited slots this month', cta: 'Book consult' },
+
+    exit: {
+      title: 'Free mini-lesson outline',
+      desc: 'Leave your email — I’ll send a sample 4-session plan tailored to your child’s age.',
+      cta: 'Send me the outline'
+    }
+  },
+
+  fr: {
+    nav: {
+      programs: 'Programmes',
+      benefits: 'Avantages',
+      pricing: 'Tarifs',
+      exam: 'IGCSE/A-Level',
+      faq: 'FAQ',
+      cta: 'Appel parent gratuit'
+    },
+
+    hero: {
+      title:
+        'Développez <span class="text-brand-yellow">un anglais fluide</span>, la confiance et des compétences numériques d’avenir',
+      sub:
+        'Professeur natif d’anglais & ingénieur cybersécurité à Paris. Cours personnalisés anglais + technologie : conversation, vocabulaire & grammaire ; projets web (HTML/CSS/JS) ; prise de parole & présentations ; et préparation aux examens internationaux (IELTS, TOEIC, IGCSE, A-Level). Sûr, structuré, bilingue.',
+      cta: 'Réserver un appel parent (15 min)',
+      foot: 'Cours privés, bilingues, à domicile à Paris ou en ligne. Factures micro-entrepreneur.'
+    },
+
+    banner: 'Inscriptions en cours',
+    bannerTail: 'places privées limitées ce mois-ci. Priorité aux fratries et parrainages.',
+    bannerCta: 'Réserver',
+
+    trust: {
+      areas: 'Recommandé par des parents à Paris 16e · Neuilly · Levallois',
+      dbsc: 'Casier judiciaire (DBS) sur demande',
+      invoice: 'Factures (micro-entrepreneur)'
+    },
+
+    programs: {
+      title: 'Programmes par âge',
+      sub: 'Apprentissage par projets avec résultats mesurables — anglais + technologie.',
+      p1: {
+        title: '8–10 · Découverte de l’anglais et du numérique',
+        l1: 'Développer la confiance à travers des jeux, des conversations et des histoires en anglais',
+        l2: 'Apprendre à s’exprimer clairement et à présenter ses idées dans un cadre bienveillant',
+        l3: 'Créer de petits projets numériques — page web personnelle, histoire interactive ou affiche en ligne',
+        l4: 'Découvrir un usage sûr, responsable et équilibré des technologies',
+        l5: 'Cultiver la curiosité, la créativité et l’expression personnelle — entièrement en anglais'
+      },
+    p2: {
+      title: '11–14 · Compétences du futur : anglais, informatique et bases du business',
+      l1: 'Renforcer l’anglais scolaire, l’écriture et l’expression orale en toute confiance',
+      l2: 'Découvrir les notions clés d’informatique : matériel, logiciels, fonctionnement des ordinateurs',
+      l3: 'Créer de petits projets web avec HTML, CSS et bases d’interactivité',
+      l4: 'Introduire les principes du business, de l’argent et de la finance numérique',
+      l5: 'Préparer les examens à venir — entraînement aux bases de l’IGCSE, du TOEIC ou de l’IELTS'
+    },
+
+      p3: {
+      title: '15–18 · Anglais académique, codage et initiation à l’IA',
+      l1: 'Maîtriser l’anglais académique et professionnel grâce à la compréhension, aux exercices d’écriture et aux présentations',
+      l2: 'Réaliser des projets web complets en HTML, CSS, JavaScript et outils modernes',
+      l3: 'Découvrir la logique du code et les nouvelles technologies : IA et ingénierie de prompts',
+      l4: 'Préparer les examens internationaux : TOEIC, IELTS, IGCSE/A-Level (Anglais & IT)',
+      l5: 'Développer la confiance pour les entretiens, les présentations et les carrières numériques'
+      }
+    },
+
+    benefits: {
+      title: 'Pourquoi les parents choisissent ce programme',
+      b1: { t: 'Anglais natif + ingénieur', d: 'Projets concrets + excellent modèle linguistique.' },
+      b2: { t: 'Résultats clairs', d: 'Progrès visibles toutes les 4 séances + lien démo.' },
+      b3: { t: 'Cadre sûr & structuré', d: 'Contenus adaptés, sécurité numérique, règles respectueuses.' },
+      b4: { t: 'Réussite aux examens', d: 'Soutien IGCSE / O-Level / A-Level (Anglais & IT).' },
+      b5: { t: 'Format flexible', d: 'À domicile à Paris ou en ligne. Groupes fratrie bienvenus.' },
+      b6: { t: 'Facturation', d: 'Factures micro-entrepreneur. Paiement en ligne simple.' }
+    },
+
+    testimonials: {
+      title: 'Avis de parents',
+      sub: 'Des résultats concrets : confiance, clarté, projets présentables.',
+      q1: '« Notre fils a créé son premier site et s’exprime désormais en phrases complètes. Structure et bienveillance remarquables. »',
+      a1: '— Parent, Neuilly (11 ans)',
+      q2: '« Prépa IGCSE ciblée + IT pratique — elle a gagné une note et a adoré montrer son projet. »',
+      a2: '— Parent, 16ᵉ (15 ans)',
+      q3: '« Pro, fiable, bilingue. Nous apprécions les comptes-rendus et étapes claires. »',
+      a3: '— Parent, Levallois (13 ans)'
+    },
+
+    pricing: {
+      title: 'Tarifs',
+      sub: 'Transparents. Cours particuliers ou petits groupes (2–4). Factures fournies.',
+      perHour: '/h',
+      p1: { t: 'Particulier 1:1', d: 'Horaires flexibles. À domicile ou en ligne.' },
+      p2: { t: 'Petit groupe (2–4)', unit: '/élève·h', d: 'Idéal fratries & amis. Par projets.' },
+      p3: { t: 'Pack Examens', unit: '/5h', d: 'Prépa ciblée IGCSE/O-Level/A-Level (Anglais & IT).' },
+      cta1: 'Séance d’essai',
+      cta2: 'Voir disponibilités',
+      cta3: 'Réserver',
+      note: 'Un supplément transport peut s’appliquer selon le lieu.'
+    },
+
+    exam: {
+      title: 'Soutien IGCSE / O-Level / A-Level',
+      e1: {
+        t: 'Anglais (1re/2e langue)',
+        l1: 'Compréhension & analyse',
+        l2: 'Structure de l’essai & argumentation',
+        l3: 'Oral & présentations'
+      },
+      e2: {
+        t: 'Technologies de l’info / Informatique',
+        l1: 'Fondamentaux web (HTML/CSS/JS), algorithmes',
+        l2: 'Projets pratiques & sujets d’annales',
+        l3: 'Stratégie & gestion du temps'
+      }
+    },
+
+    process: {
+      title: 'Déroulement',
+      s1: { t: 'Entretien parent', d: 'Appel de 15 minutes pour cibler objectifs, niveau et horaires.' },
+      s2: { t: 'Plan personnalisé', d: 'Un plan jalonné sur 4 séances + packs recommandés.' },
+      s3: { t: 'Démarrage & suivi', d: 'Séances hebdo, notes et liens démo pour les parents.' }
+    },
+
+    faq: {
+      title: 'FAQ / Questions fréquentes',
+      q1: 'Où ont lieu les cours ?',
+      a1: 'À domicile à Paris ou en ligne (Google Meet).',
+      q2: 'Quels âges et niveaux ?',
+      a2: '8–18 ans, débutant à avancé ; IGCSE, O-Level, A-Level.',
+      q3: 'Factures & statut ?',
+      a3: 'Factures fournies (micro-entrepreneur).',
+      q4: 'Protection & vie privée',
+      a4: 'Parent bienvenu à proximité ; contenus adaptés ; pas de réseaux sociaux ; conseils sécurité inclus.'
+    },
+
+    lead: {
+      title: 'Réserver un appel parent de 15 minutes',
+      sub: 'Nous discutons objectifs, dispo et le meilleur programme pour votre enfant. En ligne ou à domicile à Paris.',
+      f: { name: 'Nom du parent', child: 'Âge(s) & objectifs', slot: 'Créneau préféré' },
+      cta: { submit: 'Envoyer & préremplir WhatsApp' },
+      calnote: 'Besoin d’échanger d’abord ? WhatsApp — réponse rapide.'
+    },
+
+    sticky: { text: 'Places limitées ce mois-ci', cta: 'Réserver' },
+
+    exit: {
+      title: 'Mini-séquence offerte',
+      desc: 'Laissez votre email — j’envoie un exemple de plan en 4 séances adapté à l’âge.',
+      cta: 'Recevoir le plan'
+    }
+  }
+};
+
+    function setLang(lang){
+      const t = dict[lang] || dict.en;
+      localStorage.setItem('site-lang', lang);
+      // Plain text nodes
+      $$('[data-i18n]').forEach(el=>{
+        const path = el.getAttribute('data-i18n').split('.');
+        let cur = t; for (const k of path){ cur = cur?.[k]; if (!cur) break; }
+        if (typeof cur === 'string') el.textContent = cur;
+      });
+      // HTML-capable nodes
+      $$('[data-i18n-html]').forEach(el=>{
+        const path = el.getAttribute('data-i18n-html').split('.');
+        let cur = t; for (const k of path){ cur = cur?.[k]; if (!cur) break; }
+        if (typeof cur === 'string') el.innerHTML = cur;
+      });
+      // Toggle pressed state
+      const enBtn = $('#lang-en'); const frBtn = $('#lang-fr');
+      if (enBtn) enBtn.setAttribute('aria-pressed', String(lang==='en'));
+      if (frBtn) frBtn.setAttribute('aria-pressed', String(lang==='fr'));
+      document.documentElement.setAttribute('lang', lang);
+      // Update WA prefill according to language
+      updateWhatsAppLinks(lang);
+    }
+
+    function updateWhatsAppLinks(lang){
+      const base = 'https://wa.me/33667135850';
+      const text = lang==='fr'
+        ? 'Bonjour, je viens de voir le programme Anglais + Codage. Je souhaite un appel parent (15 min). Nous sommes disponibles…'
+        : 'Hello! I saw your Kids English + Coding program. I’d like a 15‑min parent consult. We are available…';
+      $$('#whatsapp-hero, #whatsapp-lead').forEach(a=>{
+        try { const u = new URL(base); u.searchParams.set('text', text); a.href = u.toString(); } catch(e){}
+      });
+    }
+
+    // Apply saved or browser language
+    const pref = localStorage.getItem('site-lang') || (navigator.language || 'en').slice(0,2);
+    setLang(pref==='fr' ? 'fr' : 'en');
+
+    // Language button listeners
+    $$('#lang-en, #lang-fr').forEach(btn=>{
+      btn.addEventListener('click', () => setLang(btn.dataset.lang));
+    });
+
+    // ---------- LEAD FORM: build WhatsApp & mailto ----------
+    const leadForm = $('#leadForm');
+    const mailto = $('#mailtoLink');
+    function buildMessage(){
+      const lang = localStorage.getItem('site-lang') || 'en';
+      const name = $('#pname').value.trim();
+      const email = $('#email').value.trim();
+      const child = $('#child').value.trim();
+      const slot = $('#slot').value;
+      const lines = lang==='fr'
+        ? [ `Parent: ${name}`, `Email: ${email}`, `Âge & objectifs: ${child}`, `Créneau: ${slot}` ]
+        : [ `Parent: ${name}`, `Email: ${email}`, `Child & goals: ${child}`, `Preferred time: ${slot}` ];
+      return lines.join(' | ');
+    }
+
+    if (leadForm) {
+      leadForm.addEventListener('submit', (e)=>{
+        e.preventDefault();
+        if (!leadForm.checkValidity()) { leadForm.reportValidity(); return; }
+        const msg = buildMessage();
+        const wa = new URL('https://wa.me/33667135850');
+        wa.searchParams.set('text', msg);
+        const lm = $('#leadMsg'); if (lm) { lm.classList.remove('hidden'); }
+        window.open(wa.toString(), '_blank');
+      });
+    }
+
+    if (mailto) {
+      mailto.addEventListener('click', (e)=>{
+        e.preventDefault();
+        const lang = localStorage.getItem('site-lang') || 'en';
+        const subject = lang==='fr' ? 'Demande: Appel parent (15 min)' : 'Request: Parent consult (15 min)';
+        const body = encodeURIComponent(buildMessage());
+        window.location.href = `mailto:syed-mohammad.shah_mostafa@edu.devinci.fr?subject=${encodeURIComponent(subject)}&body=${body}`;
+      });
+    }
+
+    // Exit intent modal (desktop only, once per session)
+    const exitModal = $('#exitModal');
+    const exitClose = $('#exitClose');
+    const exitForm = $('#exitForm');
+    let exitShown = false;
+    function showExit(){ if (exitModal && !exitShown && window.innerWidth > 768) { exitModal.classList.remove('hidden'); exitModal.classList.add('flex'); exitShown = true; sessionStorage.setItem('exitModalShown','1'); } }
+    document.addEventListener('mouseleave', (e)=>{ if (e.clientY <= 0 && !sessionStorage.getItem('exitModalShown')) showExit(); });
+    if (exitClose) exitClose.addEventListener('click', ()=> exitModal.classList.add('hidden'));
+    if (exitForm) exitForm.addEventListener('submit', (e)=>{ e.preventDefault(); $('#exitThanks').classList.remove('hidden'); setTimeout(()=> exitModal.classList.add('hidden'), 1200); });
+
+    // Year + scroll progress
+    setYear();
+    window.addEventListener('scroll', onScroll, { passive:true });
+  </script>
+
+  <!-- FAQ SCHEMA for SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Where are sessions held?","acceptedAnswer":{"@type":"Answer","text":"Home visits in Paris or online via Google Meet."}},
+      {"@type":"Question","name":"Which ages and levels?","acceptedAnswer":{"@type":"Answer","text":"8–18 years, beginner to advanced; IGCSE, O‑Level, A‑Level supported."}},
+      {"@type":"Question","name":"Invoices & status?","acceptedAnswer":{"@type":"Answer","text":"Invoices provided via micro‑entrepreneur status."}},
+      {"@type":"Question","name":"Safeguarding & privacy","acceptedAnswer":{"@type":"Answer","text":"Parent welcome nearby; age‑appropriate content; device safety guidance included."}}
+    ]
+  }
+  </script>
+</body>
+</html>

@@ -343,30 +343,57 @@
 </section>
 
 
-  <!-- EXAM SUPPORT -->
-  <section id="exam" class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
-      <h2 data-i18n="exam.title" class="text-3xl font-bold fade-up">IGCSE / O‑Level / A‑Level Support</h2>
-      <div class="mt-6 grid md:grid-cols-2 gap-6">
-        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
-          <h3 class="font-semibold" data-i18n="exam.e1.t">English (First/Second Language)</h3>
-          <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
-            <li data-i18n="exam.e1.l1">Reading comprehension & analysis</li>
-            <li data-i18n="exam.e1.l2">Essay structure & argumentation</li>
-            <li data-i18n="exam.e1.l3">Speaking & presentation tasks</li>
-          </ul>
-        </div>
-        <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
-          <h3 class="font-semibold" data-i18n="exam.e2.t">Information & Communication Technology / Computer Science</h3>
-          <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
-            <li data-i18n="exam.e2.l1">Web fundamentals (HTML/CSS/JS), algorithms</li>
-            <li data-i18n="exam.e2.l2">Practical projects & past papers</li>
-            <li data-i18n="exam.e2.l3">Exam strategy & timing</li>
-          </ul>
-        </div>
+<!-- EXAM SUPPORT -->
+<section id="exam" class="border-t border-slate-800">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+    <h2 data-i18n="exam.title" class="text-3xl font-bold fade-up">Exam Support</h2>
+    <p data-i18n="exam.sub" class="mt-2 text-slate-300 max-w-3xl fade-up">
+      Preparation for IGCSE, O-Level, A-Level, TOEIC, and IELTS — with mock exams, writing feedback, and speaking confidence practice.
+    </p>
+
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <!-- English Exams -->
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 class="font-semibold" data-i18n="exam.e1.t">English Exams & Academic Writing</h3>
+        <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
+          <li data-i18n="exam.e1.l1">Reading comprehension & analysis</li>
+          <li data-i18n="exam.e1.l2">Essay structure & writing for IELTS / IGCSE</li>
+          <li data-i18n="exam.e1.l3">Speaking interviews & presentation tasks</li>
+        </ul>
+      </div>
+
+      <!-- ICT / Computer Science -->
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 class="font-semibold" data-i18n="exam.e2.t">ICT / Computer Science</h3>
+        <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
+          <li data-i18n="exam.e2.l1">Web fundamentals (HTML/CSS/JS), logic & algorithms</li>
+          <li data-i18n="exam.e2.l2">Practical projects & past papers</li>
+          <li data-i18n="exam.e2.l3">Exam strategy & timing</li>
+        </ul>
+      </div>
+
+      <!-- Mock Exams -->
+      <div class="rounded-3xl border border-white/10 bg-slate-900/60 backdrop-blur-xl shadow-luxe p-6 fade-up">
+        <h3 class="font-semibold" data-i18n="exam.e3.t">Mock Exams & Progress Tracking</h3>
+        <ul class="mt-2 list-disc pl-5 text-slate-300 text-sm space-y-1">
+          <li data-i18n="exam.e3.l1">Simulated tests for TOEIC, IELTS, and school exams</li>
+          <li data-i18n="exam.e3.l2">Detailed feedback with band scores and next steps</li>
+          <li data-i18n="exam.e3.l3">Confidence building through repetition & reflection</li>
+        </ul>
       </div>
     </div>
-  </section>
+
+    <div class="mt-6 flex flex-wrap gap-2 fade-up text-xs">
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">TOEIC</span>
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">IELTS</span>
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">IGCSE</span>
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">O-Level</span>
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">A-Level</span>
+      <span class="rounded-full border border-white/10 bg-slate-800/60 px-3 py-1">School Assessments</span>
+    </div>
+  </div>
+</section>
+
 
   <!-- PROCESS / STEPS -->
   <section id="process" class="border-t border-white/5">
@@ -650,21 +677,22 @@ pricing: {
 },
 
 
-    exam: {
-      title: 'IGCSE / O-Level / A-Level Support',
-      e1: {
-        t: 'English (First/Second Language)',
-        l1: 'Reading comprehension & analysis',
-        l2: 'Essay structure & argumentation',
-        l3: 'Speaking & presentation tasks'
-      },
-      e2: {
-        t: 'Information & Communication Technology / Computer Science',
-        l1: 'Web fundamentals (HTML/CSS/JS), algorithms',
-        l2: 'Practical projects & past papers',
-        l3: 'Exam strategy & timing'
-      }
-    },
+exam: {
+  title: 'Exam Support',
+  e1: {
+    t: 'English Exams & Academic Writing',
+    l1: 'Preparation for IGCSE, O-Level, A-Level, TOEIC, and IELTS',
+    l2: 'Reading comprehension, essay structure, and speaking confidence',
+    l3: 'Mock exams with detailed feedback and progress tracking'
+  },
+  e2: {
+    t: 'Information & Communication Technology / Computer Science',
+    l1: 'Web fundamentals (HTML/CSS/JS), logic & algorithms',
+    l2: 'Practical projects aligned with syllabus & past papers',
+    l3: 'Exam strategy, timing, and clear problem-solving methods'
+  }
+},
+
 
     process: {
       title: 'How it works',
@@ -827,21 +855,22 @@ pricing: {
 },
 
 
-    exam: {
-      title: 'Soutien IGCSE / O-Level / A-Level',
-      e1: {
-        t: 'Anglais (1re/2e langue)',
-        l1: 'Compréhension & analyse',
-        l2: 'Structure de l’essai & argumentation',
-        l3: 'Oral & présentations'
-      },
-      e2: {
-        t: 'Technologies de l’info / Informatique',
-        l1: 'Fondamentaux web (HTML/CSS/JS), algorithmes',
-        l2: 'Projets pratiques & sujets d’annales',
-        l3: 'Stratégie & gestion du temps'
-      }
-    },
+exam: {
+  title: 'Préparation aux examens',
+  e1: {
+    t: 'Anglais & Rédaction académique',
+    l1: 'Préparation au IGCSE, O-Level, A-Level, TOEIC et IELTS',
+    l2: 'Compréhension, rédaction structurée et expression orale confiante',
+    l3: 'Examens blancs avec corrections détaillées et suivi des progrès'
+  },
+  e2: {
+    t: 'Technologie de l’information / Informatique',
+    l1: 'Fondamentaux web (HTML/CSS/JS), logique et algorithmes',
+    l2: 'Projets pratiques alignés au programme et sujets d’annales',
+    l3: 'Stratégie d’examen, gestion du temps et raisonnement clair'
+  }
+},
+
 
     process: {
       title: 'Déroulement',

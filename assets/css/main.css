@@ -74,11 +74,56 @@
     .media-frame{ border-radius:1rem; overflow:hidden; border:1px solid rgba(255,255,255,.08) }
     img{ max-width:100%; height:auto; }
 
-    @keyframes pulseGlow {
+@keyframes pulseGlow {
   0%, 100% { box-shadow: 0 0 0 0 rgba(255,210,74,0.35); }
   50%      { box-shadow: 0 0 14px 3px rgba(255,210,74,0.25); }
 }
 .playing { animation: pulseGlow 1.6s ease-in-out infinite; }
+
+.nav-luxe{
+  background:rgba(2,6,23,.82);
+  box-shadow:0 30px 60px -40px rgba(2,6,23,.95);
+  border-bottom:1px solid rgba(255,255,255,.05);
+}
+.brand-mark{
+  font-family:"Playfair Display",ui-serif,Georgia,serif;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.hero-client{
+  font-size:.9rem;
+  color:rgba(226,232,240,.78);
+}
+
+.section-shell{
+  position:relative;
+  z-index:0;
+}
+.section-shell::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:radial-gradient(circle at 20% 20%, rgba(255,210,74,.04), transparent 40%);
+  opacity:.7;
+  z-index:0;
+}
+.section-shell > div{
+  position:relative;
+  z-index:1;
+}
+.section-grad{
+  background:linear-gradient(150deg, rgba(15,23,42,.85), rgba(2,6,23,.9));
+  border-top:1px solid rgba(255,255,255,.05);
+}
+.section-tonal{
+  background:rgba(2,6,23,.72);
+  border-top:1px solid rgba(255,255,255,.04);
+}
+.section-luxe{
+  border-top:1px solid rgba(255,255,255,.08);
+  background:radial-gradient(circle at 10% 0%, rgba(255,210,74,.08), transparent 45%), rgba(2,6,23,.85);
+}
 
 /* Luxe background system */
 .page-bg{
@@ -300,6 +345,63 @@
   background:rgba(2,6,23,.65);
   letter-spacing:.05em;
   text-transform:uppercase;
+}
+
+.concierge-grid{
+  display:grid;
+  gap:1.5rem;
+  grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+}
+.concierge-card{
+  position:relative;
+  border-radius:1.5rem;
+  padding:1.75rem;
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(1,3,10,.75);
+  box-shadow:0 30px 65px -45px rgba(0,0,0,.9);
+  overflow:hidden;
+}
+.concierge-card::before{
+  content:"";
+  position:absolute;
+  inset:1px;
+  border-radius:inherit;
+  background:linear-gradient(180deg, rgba(255,210,74,.08), rgba(15,23,42,.95));
+  opacity:.7;
+  z-index:-1;
+}
+.concierge-tag{
+  display:inline-flex;
+  padding:.3rem .9rem;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.2);
+  font-size:.72rem;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:rgba(248,250,252,.7);
+  margin-bottom:.9rem;
+}
+.concierge-card h3{
+  font-size:1.25rem;
+  font-weight:600;
+  color:#fff;
+}
+.concierge-card p{
+  font-size:.92rem;
+  color:rgba(226,232,240,.82);
+}
+.concierge-foot{
+  border-radius:1.25rem;
+  padding:1.25rem 1.75rem;
+  border:1px solid rgba(255,255,255,.1);
+  background:rgba(2,6,23,.7);
+  display:inline-block;
+}
+
+.lead-panel{
+  border:1px solid rgba(255,255,255,.1);
+  background:linear-gradient(135deg, rgba(2,6,23,.9), rgba(15,23,42,.75));
+  backdrop-filter:blur(16px);
 }
 
 @media (max-width:640px){

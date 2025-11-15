@@ -1,19 +1,19 @@
 export const translations = {
       en: {
-        nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Parent Consult' },
+        nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Private Intake' },
         hero:{
-          title:'Empower your child with <span class="text-brand-yellow">fluent English</span>, confidence & future-ready digital skills',
-          sub:'Turn screen time into <em>skill</em> time — project-based English + technology lessons taught by a native English teacher & cybersecurity engineer in Paris.',
-          cta:'Book a Free Parent Consult (15m)', secondary:'See how it works',
-          foot:'Private sessions at home in Paris or online. Micro-entrepreneur Status.',
+          title:'Private English + technology ateliers for Paris families with global ambitions',
+          sub:'A concierge-led journey for discerning parents who expect fluent English, confident communication, and modern digital fluency without leaving their salon.',
+          cta:'Book a private intake call', secondary:'See the Maison path',
+          foot:'We reserve fewer than 12 families at a time for weekly ateliers in Paris or via secure telepresence.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
           signet:'Maison BrightMinds',
           signetLocale:'Paris · Neuilly · Passy',
           clientele:'Families in Paris XVI, Neuilly, Passy, and Bois de Boulogne book discreet in-home ateliers with bilingual dossiers and concierge scheduling.',
-          chip1:'Discreet in-home ateliers',
-          chip2:'Bilingual dossiers & films',
-          chip3:'Concierge scheduling',
-          note:'Boutique coaching that blends Parisian elegance with future-ready English & technology mastery.',
+          chip1:'Residences in 16e · Triangle d’Or · Neuilly',
+          chip2:'Bilingual dossiers, recap films & KPIs',
+          chip3:'Concierge planning & discreet scheduling',
+          note:'From Avenue Foch to Bois de Boulogne, we blend Parisian elegance with future-ready English and technology mastery.',
           p1:'Real projects: Mini Website, AI-Apps, Digital Slides/Poster', p2:'Confidence Coaching: Speaking & Presenting In English',
           p3:'Digital Safety & Balanced Tech Use', p4:'Exam prep: IELTS, TOEIC, IGCSE/A-Level'
         },
@@ -129,10 +129,11 @@ export const translations = {
           e3:{ t:'Mocks, Scores & Reports', l1:'Diagnostic → roadmap & dated milestones', l2:'Error analysis & retakes', l3:'Parent report with next steps' },
           e4:{ t:'Project Boost (Optional)', l1:'Real projects: website, database, algorithms, AI/ML', l2:'Presentation & documentation skills', l3:'Portfolio piece for applications' }
         },
-        process:{ title:'How it works',
-          s1:{t:'Parent consult', d:'15-minute call to understand goals, level, and schedule.'},
-          s2:{t:'Personal plan', d:'A tailored 4-session milestone plan + recommended packs.'},
-          s3:{t:'Start & track progress', d:'Weekly sessions with notes and demo links parents can review.'}
+        process:{ eyebrow:'Sales funnel', title:'Maison funnel',
+          intro:'A curated buyer journey tailored to upper-class Paris families: awareness, fit, bespoke plan, conversion to private ateliers.',
+          s1:{t:'Intake & alignment', d:'15-minute private call to audit goals, schooling context, and availability. Families receive a discovery dossier within 24h.'},
+          s2:{t:'Bespoke atelier plan', d:'We craft a four-session pilot with KPIs, signature projects, and pricing for 1:1 or sibling formats.'},
+          s3:{t:'Ateliers & dossiers', d:'Weekly ateliers with bilingual recap videos, KPI dashboards, and concierge scheduling keep parents informed and students motivated.'}
         },
         faq:{
           title:'FAQ / Questions fréquentes',
@@ -144,11 +145,16 @@ export const translations = {
           q4:'Invoices & payment / Factures et paiement', a4:'Invoices under micro-entrepreneur status. Payment by bank transfer or PayPal/Revolut.'
         },
         lead:{
-          title:'Book a free 15-minute parent consult',
-          sub:'We’ll discuss goals, availability, and the best program for your child. Online or at home in Paris.',
-          f:{ name:'Parent name', child:'Child age(s) & goals', slot:'Preferred time' },
+          title:'Request a private intake call',
+          sub:'We accept fewer than 12 families concurrently. Share your brief so we can hold a confidential 15-minute intake.',
+          f:{ name:'Parent name', child:'Learner age(s) & priorities', slot:'Preferred window' },
           opt1:'Weekday evening', opt2:'Saturday', opt3:'Sunday',
-          cta:{ submit:'Send & prefill WhatsApp' }, email:'Email'
+          cta:{ submit:'Submit & hold intake slot' }, email:'Email',
+          qual:{
+            t1:'Residency & intent', d1:'Primary residences in Paris intra-muros, Neuilly, or western suburbs with defined goals (bilingual schooling, exam prep, study abroad).',
+            t2:'Learner profile', d2:'Students 8–18 who thrive in bilingual households and seek presentation, digital creation, or exam excellence.',
+            t3:'Parent partnership', d3:'Parents commit to weekly 10-minute touchpoints for KPIs, dossiers, and concierge scheduling.'
+          }
         },
         pay:{
           title:'Secure and simple payment options',
@@ -158,25 +164,25 @@ export const translations = {
           l4:' <strong>Invoice provided</strong> for every session or pack', l5:' Payments processed securely', l6:' Refunds for unused sessions per plan terms',
           help:'Prefer to confirm details first? Message me on'
         },
-        sticky:{ text:'Limited slots this month', cta:'Book consult' },
+        sticky:{ text:'Limited atelier slots this month', cta:'Book intake' },
         exit:{ title:'Free mini-lesson outline', desc:'Leave your email — I’ll send a sample 4-session plan tailored to your child’s age.', cta:'Send me the outline' }
       },
 
       fr: {
-        nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Appel parent' },
+        nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Intake privé' },
         hero:{
-          title:'Développez <span class="text-brand-yellow">un anglais fluide</span>, la confiance et des compétences numériques d’avenir',
-          sub:'Transformez le temps d’écran en <em>temps d’apprentissage</em> — cours d’anglais + technologie, par un professeur natif & ingénieur cybersécurité à Paris.',
-          cta:'Réserver un appel parent (15 min)', secondary:'Voir le déroulement',
-          foot:'Cours privés à domicile à Paris ou en ligne. Statut micro-entrepreneur.',
+          title:'Ateliers privés anglais + technologie pour familles parisiennes à ambitions globales',
+          sub:'Un parcours concierge pour des parents exigeants qui veulent anglais fluide, assurance à l’oral et culture numérique sans quitter leur salon.',
+          cta:'Réserver un appel d’intake privé', secondary:'Voir le parcours Maison',
+          foot:'Moins de 12 familles accompagnées simultanément – ateliers hebdomadaires à Paris ou via téléprésence sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
           signet:'Maison BrightMinds',
           signetLocale:'Paris · Neuilly · Passy',
           clientele:'Des familles du 16e, de Neuilly, de Passy et du Bois de Boulogne organisent des ateliers privés et discrets, avec dossiers bilingues et coordination concierge.',
-          chip1:'Ateliers privés à domicile',
-          chip2:'Dossiers bilingues & vidéos',
-          chip3:'Coordination concierge',
-          note:'Accompagnement boutique mêlant élégance parisienne et compétences du futur en anglais et technologie.',
+          chip1:'Résidences 16e · Triangle d’Or · Neuilly',
+          chip2:'Dossiers bilingues, films récap & KPIs',
+          chip3:'Planning concierge & logistique discrète',
+          note:'De l’avenue Foch au Bois de Boulogne, nous allions élégance parisienne et maîtrise des compétences du futur.',
           p1:'Projets concrets : mini site web, applications IA, diaporamas ou affiches numériques', p2:'Coaching en confiance : expression et présentation en anglais',
           p3:'Sécurité numérique et usage équilibré des technologies', p4:'Préparation aux examens : IELTS, TOEIC, IGCSE/A-Level'
         },
@@ -292,10 +298,11 @@ export const translations = {
           e3:{ t:'Blancs, Scores & Rapports', l1:'Diagnostic → feuille de route datée', l2:'Analyse d’erreurs & retakes', l3:'Rapport parent & prochaines étapes' },
           e4:{ t:'Boost Projet (option)', l1:'Vrais projets : site, base de données, algorithmes, IA/ML', l2:'Compétences de présentation & documentation', l3:'Projet de portfolio pour candidatures' }
         },
-        process:{ title:'Déroulement',
-          s1:{t:'Entretien parent', d:'Appel de 15 minutes pour objectifs, niveau et horaires.'},
-          s2:{t:'Plan personnalisé', d:'Plan jalonné sur 4 séances + packs recommandés.'},
-          s3:{t:'Démarrage & suivi', d:'Séances hebdo, notes & liens démo pour les parents.'}
+        process:{ eyebrow:'Funnel maison', title:'Parcours Maison',
+          intro:'Un funnel pensé pour les familles haut de gamme : prise de conscience, qualification, plan sur mesure, conversion en ateliers privés.',
+          s1:{t:'Intake & alignement', d:'Entretien privé de 15 min pour analyser objectifs, contexte scolaire et disponibilités. Dossier découverte sous 24h.'},
+          s2:{t:'Plan d’atelier sur mesure', d:'Pilotage de quatre séances avec KPIs, projets signature et tarification 1:1 ou fratrie.'},
+          s3:{t:'Ateliers & dossiers', d:'Ateliers hebdo avec vidéos récap bilingues, KPIs et coordination concierge pour garder parents & élèves alignés.'}
         },
         faq:{
           title:'FAQ / Questions fréquentes',
@@ -305,11 +312,16 @@ export const translations = {
           q4:'Factures & paiement', a4:'Factures micro-entrepreneur. Paiement par virement ou PayPal/Revolut.'
         },
         lead:{
-          title:'Réserver un appel parent de 15 min',
-          sub:'Objectifs, disponibilités, et meilleur programme pour votre enfant. En ligne ou à domicile à Paris.',
-          f:{ name:'Nom du parent', child:'Âge(s) & objectifs', slot:'Créneau préféré' },
+          title:'Demander un appel d’intake privé',
+          sub:'Nous accompagnons moins de 12 familles en parallèle. Partagez votre brief et nous bloquons un appel confidentiel de 15 minutes.',
+          f:{ name:'Nom du parent', child:'Âge(s) & priorités', slot:'Créneau privilégié' },
           opt1:'Soir en semaine', opt2:'Samedi', opt3:'Dimanche',
-          cta:{ submit:'Envoyer & préremplir WhatsApp' }, email:'Email'
+          cta:{ submit:'Envoyer & bloquer un créneau' }, email:'Email',
+          qual:{
+            t1:'Résidence & intention', d1:'Résidences principales à Paris intra-muros, Neuilly ou ouest parisien avec objectifs clairs (bilingue, examens, études à l’étranger).',
+            t2:'Profil élève', d2:'Élèves 8–18 évoluant dans un foyer bilingue, motivés par la prise de parole, la création digitale ou l’excellence académique.',
+            t3:'Partenariat parent', d3:'Parents disponibles pour 10 min hebdomadaires : revue de KPIs, dossiers et planning concierge.'
+          }
         },
         pay:{
           title:'Options de paiement simples et sécurisées',
@@ -319,7 +331,7 @@ export const translations = {
           l4:' <strong>Facture fournie</strong> pour chaque séance ou pack', l5:' Paiements traités en toute sécurité', l6:' Remboursement des séances non utilisées selon le pack',
           help:'Besoin de confirmer d’abord ? Écrivez-moi sur'
         },
-        sticky:{ text:'Places limitées ce mois-ci', cta:'Réserver' },
+        sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Intake privé' },
         exit:{ title:'Mini-séquence offerte', desc:'Laissez votre email — j’envoie un exemple de plan en 4 séances adapté à l’âge.', cta:'Recevoir le plan' }
       }
     }

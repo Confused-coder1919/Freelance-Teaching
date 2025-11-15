@@ -513,6 +513,28 @@
   background:linear-gradient(135deg, rgba(2,6,23,.9), rgba(15,23,42,.75));
   backdrop-filter:blur(16px);
 }
+.lead-pillars{
+  margin-bottom:2rem;
+}
+.lead-pillar{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:1.25rem;
+  padding:1.25rem;
+  background:rgba(5,8,16,.7);
+  backdrop-filter:blur(12px);
+  box-shadow:0 20px 35px -30px rgba(0,0,0,.8);
+}
+.lead-pillar__title{
+  font-size:.85rem;
+  letter-spacing:.15em;
+  text-transform:uppercase;
+  color:rgba(248,250,252,.75);
+}
+.lead-pillar__copy{
+  margin-top:.35rem;
+  font-size:.9rem;
+  color:rgba(226,232,240,.8);
+}
 
 @media (max-width:640px){
   .hero-press{

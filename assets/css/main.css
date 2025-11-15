@@ -41,7 +41,14 @@
     .section-rule{ height:1px; background-image: var(--rule) }
 
     /* Cards */
-    .card{ position:relative; border-radius:1.25rem; border:1px solid rgba(255,255,255,.08); background: rgba(15,23,42,.55) }
+    .card{
+      position:relative;
+      border-radius:1.35rem;
+      border:1px solid rgba(255,255,255,.12);
+      background:linear-gradient(135deg, rgba(4,6,12,.95), rgba(12,17,30,.75));
+      backdrop-filter:blur(18px);
+      box-shadow:0 25px 45px -30px rgba(0,0,0,.85);
+    }
     .card--soft{ background:rgba(15,23,42,.6); backdrop-filter: blur(6px) saturate(130%) }
     .card--grad{ background-image: radial-gradient(80% 140% at 0% 0%, rgba(255,210,74,.08) 0%, rgba(255,210,74,0) 55%), linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00)) }
     .card::after{ content:""; position:absolute; inset:-1px; border-radius:inherit; pointer-events:none; box-shadow:0 0 0 1px rgba(255,255,255,.02) inset, 0 12px 30px -20px rgba(0,0,0,.6) }
@@ -110,7 +117,7 @@
   inset:0;
   pointer-events:none;
   background:radial-gradient(circle at 20% 20%, rgba(255,210,74,.04), transparent 40%);
-  opacity:.7;
+  opacity:.45;
   z-index:0;
 }
 .section-shell > div{
@@ -118,7 +125,7 @@
   z-index:1;
 }
 .section-grad{
-  background:linear-gradient(150deg, rgba(15,23,42,.85), rgba(2,6,23,.9));
+  background:linear-gradient(140deg, rgba(10,14,24,.92), rgba(4,6,12,.92));
   border-top:1px solid rgba(255,255,255,.05);
 }
 .section-tonal{
@@ -196,6 +203,76 @@
   background-size:120px 120px;
   mask-image:radial-gradient(circle at 50% 30%, rgba(0,0,0,.8), transparent 75%);
   z-index:-1;
+}
+.hero-visual{
+  position:absolute;
+  inset:0;
+  z-index:-2;
+}
+.hero-visual__img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  opacity:.6;
+}
+.hero-visual__veil{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(120deg, rgba(2,6,23,.9), rgba(2,6,23,.6) 40%, rgba(8,12,20,.95));
+}
+.hero-signet{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  margin-bottom:1.5rem;
+}
+.hero-signet__crest{
+  width:56px;
+  height:56px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.4);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:"Playfair Display",ui-serif,serif;
+  font-size:1.25rem;
+  letter-spacing:.2em;
+  color:var(--brand);
+  background:rgba(15,23,42,.65);
+  box-shadow:0 15px 30px -20px rgba(0,0,0,.8);
+}
+.hero-signet__label{
+  font-size:.85rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:rgba(248,250,252,.7);
+}
+.hero-signet__locale{
+  font-size:.9rem;
+  color:rgba(248,250,252,.85);
+}
+.hero-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  margin-top:1.5rem;
+}
+.atelier-chip{
+  padding:.45rem 1rem;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.15);
+  background:rgba(8,12,20,.65);
+  font-size:.8rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:rgba(248,250,252,.78);
+}
+.hero-boutique-note{
+  margin-top:1.5rem;
+  font-size:.95rem;
+  color:rgba(248,250,252,.82);
+  border-left:3px solid rgba(243,217,176,.6);
+  padding-left:1rem;
 }
 
 .btn-luxe{

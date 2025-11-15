@@ -1,0 +1,70 @@
+:root{
+      --brand:#FFD24A;
+      --ring:rgba(255,210,74,.35);
+      --rule: linear-gradient(90deg, rgba(255,210,74,.35), rgba(255,210,74,.05) 35%, rgba(255,210,74,0) 70%);
+    }
+    /* Base typography & focus */
+    a:focus-visible,button:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible{ outline:3px solid var(--brand); outline-offset:2px }
+    body{ font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"; background:#020617 }
+    h1,h2,h3{ font-family:"Playfair Display",ui-serif,Georgia,serif }
+
+    /* Motion prefs */
+    @media (prefers-reduced-motion: reduce){
+      *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important }
+      video[autoplay]{ animation:none !important }
+    }
+
+    /* Glass + fade */
+    .glass{ background:rgba(2,6,23,.6); backdrop-filter:saturate(140%) blur(8px) }
+    .fade-up{ opacity:0; transform:translateY(8px); transition:opacity .6s ease, transform .6s ease }
+    .fade-up.is-inview{ opacity:1; transform:translateY(0) }
+
+    /* Section header */
+    .eyebrow{ letter-spacing:.14em; text-transform:uppercase; font-weight:600; font-size:.72rem; color:rgba(255,255,255,.6) }
+    .section-head{ display:grid; gap:.6rem }
+    .section-rule{ height:1px; background-image: var(--rule) }
+
+    /* Cards */
+    .card{ position:relative; border-radius:1.25rem; border:1px solid rgba(255,255,255,.08); background: rgba(15,23,42,.55) }
+    .card--soft{ background:rgba(15,23,42,.6); backdrop-filter: blur(6px) saturate(130%) }
+    .card--grad{ background-image: radial-gradient(80% 140% at 0% 0%, rgba(255,210,74,.08) 0%, rgba(255,210,74,0) 55%), linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00)) }
+    .card::after{ content:""; position:absolute; inset:-1px; border-radius:inherit; pointer-events:none; box-shadow:0 0 0 1px rgba(255,255,255,.02) inset, 0 12px 30px -20px rgba(0,0,0,.6) }
+    .card:hover{ border-color: rgba(255,210,74,.35); box-shadow:0 10px 35px -15px rgba(255,210,74,.18) }
+    .card-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:.75rem }
+    .badge{ font-size:.72rem; line-height:1; padding:.45rem .6rem; border-radius:999px; border:1px solid rgba(255,255,255,.12); background:rgba(148,163,184,.08); color:rgba(226,232,240,.9) }
+    .muted{ color:rgba(226,232,240,.75) }
+
+    /* Lists */
+    .list-clean{ list-style:none; padding-left:0; margin:0 }
+    .list-clean li{ position:relative; padding-left:1.15rem }
+    .list-clean li::before{ content:"•"; position:absolute; left:.1rem; top:.05rem; font-weight:700; opacity:.65; color:var(--brand) }
+
+    /* Quotes */
+    .quote{ position:relative }
+    .quote::before{ content:"“"; position:absolute; left:-.35rem; top:-.55rem; font-family: "Playfair Display", ui-serif, Georgia, serif; font-size:2.75rem; line-height:1; color:rgba(255,255,255,.10) }
+
+    /* Pricing */
+    .price{ font-size:2rem; font-weight:800; letter-spacing:-.01em }
+    .price small{ font-size:.95rem; font-weight:500; color:rgba(226,232,240,.8) }
+    .tier--featured{ border-color:var(--ring); box-shadow: 0 0 0 3px rgba(255,210,74,.12) }
+
+    /* Process timeline */
+    .timeline{ position:relative }
+    .timeline::before{ content:""; position:absolute; left:1rem; top:.5rem; bottom:.5rem; width:1px; background:linear-gradient(rgba(255,255,255,.08), rgba(255,210,74,.35), rgba(255,255,255,.08)) }
+    .step{ position:relative; padding-left:2.5rem }
+    .step::before{ content:""; position:absolute; left:.5rem; top:.25rem; width:.9rem; height:.9rem; border-radius:999px; background:rgba(255,210,74,.22); outline:1.5px solid rgba(255,210,74,.45) }
+
+    /* details */
+    details[open]{ border-color:rgba(255,210,74,.35) }
+    details summary::-webkit-details-marker{ display:none }
+    details summary{ list-style:none }
+
+    /* Media */
+    .media-frame{ border-radius:1rem; overflow:hidden; border:1px solid rgba(255,255,255,.08) }
+    img{ max-width:100%; height:auto; }
+
+    @keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255,210,74,0.35); }
+  50%      { box-shadow: 0 0 14px 3px rgba(255,210,74,0.25); }
+}
+.playing { animation: pulseGlow 1.6s ease-in-out infinite; }

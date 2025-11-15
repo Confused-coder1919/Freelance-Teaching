@@ -90,26 +90,36 @@ Awareness → Interest → Desire → Action → Retention
 
 ## 🛠 Tech stack & architecture
 
-* **Frontend:** Single HTML file with **Tailwind CDN** + **vanilla JS** (no build step).
-* **Styling:** Tailwind + handcrafted CSS tokens (brand yellow `#FFD24A`, glass cards, gradients, focus states).
-* **State & i18n:** Small **inline dictionary** (`dict.en`, `dict.fr`) + `[data-i18n]`/`[data-i18n-html]` hooks.
-* **Deploy:** **Vercel** static hosting (zero-config).
-* **Assets:** External poster & gallery images; hero video poster with reduced-motion guard.
+* **Frontend:** Static `index.html` entrypoint powered by **Tailwind CDN** + lightweight ES modules (no bundler required).
+* **Styling:** Tailwind utility classes plus handcrafted tokens now living in `assets/css/main.css`.
+* **State & i18n:** `assets/js/translations.js` dictionary consumed by `assets/js/i18n.js`, wiring `[data-i18n]` / `[data-i18n-html]` nodes + lang storage.
+* **Interactive flows:** Feature-scoped modules for scroll effects, lead form, WhatsApp/Email CTAs, exit intent, and the voice intro player, orchestrated via `assets/js/main.js`.
+* **Deploy:** **Vercel** static hosting (zero-config); ES modules run natively in modern browsers.
+* **Assets:** Local audio stored under `assets/media/` + remote imagery; hero video guarded by reduced-motion preference listener.
 
 **Architecture (high level)**
 
 ```
 index.html
- ├─ <head> SEO/OG/Schema
- ├─ Header + Lang Switch (EN/FR)
- ├─ Sections (Hero → Lead)
- ├─ Global JS (i18n, lead flow, exit intent, audio player)
- └─ Minimal CSS tokens (brand, glass, cards, focus)
+assets/
+ ├─ css/main.css                  # brand tokens, glass styles, focus states
+ ├─ js/
+ │   ├─ main.js                   # orchestrates all feature modules
+ │   ├─ dom.js                    # query helpers + year setter
+ │   ├─ scroll-effects.js         # progress bar + fade-ins
+ │   ├─ navigation.js             # sticky header + mobile drawer
+ │   ├─ translations.js + i18n.js # EN/FR dictionary + renderer
+ │   ├─ lead-form.js              # WhatsApp/email prefill + validation
+ │   ├─ contact-links.js          # hero/footer WhatsApp deep links
+ │   ├─ exit-intent.js            # email capture modal logic
+ │   └─ voice-intro.js, motion.js # audio player + reduced-motion hook
+ └─ media/voice-intro.m4a         # instructor audio intro
 ```
 
-**Why this approach?**
+*Why this approach?*
 
-* Ultra-low ops, portable, easy to franchise by city or cohort.
+* Maintains zero-build DX while giving senior-level separation of concerns.
+* Easier for future contributors to extend/replace modules without touching the HTML skeleton.
 * No framework lock-in; instant load; suitable for Vercel/Hostinger static hosting.
 
 ---

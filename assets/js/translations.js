@@ -163,12 +163,19 @@ export const translations = {
           note:'Every detail remains confidential; dossiers are encrypted and shared only with the requesting family.'
         },
         pay:{
-          title:'Secure and simple payment options',
-          sub:'After we confirm your child’s programme and schedule, pay safely using <strong>Revolut</strong> or <strong>PayPal</strong>.',
+          title:'Concierge billing & receipts',
+          sub:'Once the atelier plan is confirmed, settle installments via <strong>Revolut</strong>, <strong>PayPal</strong>, or concierge bank transfer. Each payment generates a bilingual invoice.',
+          badge:'Invoices issued under Maison BrightMinds (micro-entrepreneur).',
           revolut:'Pay via Revolut', paypal:'Pay via PayPal',
-          l1:' Enter the amount and confirm in one step', l2:' Card, Apple Pay, and Google Pay supported', l3:' Bank transfer available on request',
-          l4:' <strong>Invoice provided</strong> for every session or pack', l5:' Payments processed securely', l6:' Refunds for unused sessions per plan terms',
-          help:'Prefer to confirm details first? Message me on'
+          bank:'Request bank transfer',
+          l1:'Revolut & PayPal support card, Apple Pay, and Google Pay.',
+          l2:'Installment schedules aligned with atelier milestones.',
+          l3:'Concierge bank transfer available on request.',
+          l4:'<strong>Bilingual invoices</strong> issued for every session or pack.',
+          l5:'Payments processed securely via PCI-compliant providers.',
+          l6:'Refunds for unused sessions according to your plan.',
+          help:'Prefer to confirm details first?',
+          whatsapp:'Message me on WhatsApp'
         },
         sticky:{ text:'Limited atelier slots this month', cta:'Book intake' },
         exit:{ title:'Free mini-lesson outline', desc:'Leave your email — I’ll send a sample 4-session plan tailored to your child’s age.', cta:'Send me the outline' }
@@ -336,12 +343,19 @@ export const translations = {
           note:'Toutes les informations restent confidentielles ; les dossiers sont chiffrés et partagés uniquement avec la famille concernée.'
         },
         pay:{
-          title:'Options de paiement simples et sécurisées',
-          sub:'Après validation du programme et du planning, réglez via <strong>Revolut</strong> ou <strong>PayPal</strong> en toute sécurité.',
+          title:'Facturation concierge & reçus',
+          sub:'Après validation du plan d’ateliers, réglez par <strong>Revolut</strong>, <strong>PayPal</strong> ou virement concierge. Chaque paiement génère une facture bilingue.',
+          badge:'Factures émises par Maison BrightMinds (micro-entrepreneur).',
           revolut:'Payer avec Revolut', paypal:'Payer avec PayPal',
-          l1:' Saisissez le montant et validez en 1 étape', l2:' Carte, Apple Pay et Google Pay acceptés', l3:' Virement bancaire sur demande',
-          l4:' <strong>Facture fournie</strong> pour chaque séance ou pack', l5:' Paiements traités en toute sécurité', l6:' Remboursement des séances non utilisées selon le pack',
-          help:'Besoin de confirmer d’abord ? Écrivez-moi sur'
+          bank:'Demander un virement',
+          l1:'Revolut & PayPal acceptent carte, Apple Pay et Google Pay.',
+          l2:'Échéancier aligné sur les jalons de l’atelier.',
+          l3:'Virement bancaire concierge sur demande.',
+          l4:'<strong>Facture bilingue</strong> pour chaque séance ou pack.',
+          l5:'Paiements sécurisés via prestataires conformes PCI.',
+          l6:'Remboursements des séances non utilisées selon votre plan.',
+          help:'Besoin de confirmer d’abord ?',
+          whatsapp:'Écrivez-moi sur WhatsApp'
         },
         sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Intake privé' },
         exit:{ title:'Mini-séquence offerte', desc:'Laissez votre email — j’envoie un exemple de plan en 4 séances adapté à l’âge.', cta:'Recevoir le plan' }

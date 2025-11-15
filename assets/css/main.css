@@ -514,6 +514,63 @@
   background:linear-gradient(135deg, rgba(2,6,23,.9), rgba(15,23,42,.75));
   backdrop-filter:blur(16px);
 }
+.pay-panel{
+  display:flex;
+  flex-direction:column;
+  gap:1.25rem;
+}
+.pay-header p{
+  margin-top:.5rem;
+}
+.pay-chip{
+  display:inline-flex;
+  padding:.2rem .85rem;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.2);
+  font-size:.75rem;
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  color:rgba(248,250,252,.7);
+}
+.pay-methods{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:.85rem;
+}
+.pay-method{
+  text-align:center;
+  border-radius:999px;
+  padding:.65rem 1rem;
+  font-weight:600;
+  transition:opacity .2s ease;
+}
+.pay-method:hover{ opacity:.9; }
+.pay-method--primary{
+  background:linear-gradient(120deg, #f3d9b0, #f9e6c9);
+  color:#1f2937;
+  border:1px solid rgba(255,255,255,.4);
+}
+.pay-method--secondary{
+  border:1px solid rgba(255,255,255,.25);
+  background:rgba(8,12,20,.7);
+  color:#f8fafc;
+}
+.pay-method--ghost{
+  border:1px dashed rgba(255,255,255,.3);
+  color:#f8fafc;
+}
+.pay-grid{
+  display:grid;
+  gap:1.25rem;
+}
+.pay-note{
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:1rem;
+  padding:.9rem 1.1rem;
+  font-size:.85rem;
+  color:rgba(248,250,252,.75);
+  background:rgba(5,8,16,.7);
+}
 .lead-pillars{
   margin-bottom:2rem;
 }

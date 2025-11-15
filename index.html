@@ -1516,21 +1516,23 @@
             </p>
           </form>
 
-          <div class="card p-6 shadow-luxe fade-up lead-panel">
-            <h3 data-i18n="pay.title" class="text-lg font-semibold mb-2">
-              Secure and simple payment options
-            </h3>
-            <p data-i18n-html="pay.sub" class="text-sm text-slate-300 mb-4">
-              After we confirm your child’s programme and schedule, pay safely
-              using <strong>Revolut</strong> or <strong>PayPal</strong>.
-            </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+          <div class="card p-6 shadow-luxe fade-up pay-panel">
+            <div class="pay-header">
+              <span class="pay-chip" data-i18n="pay.badge">Concierge billing</span>
+              <h3 data-i18n="pay.title" class="text-lg font-semibold">
+                Concierge billing & receipts
+              </h3>
+              <p data-i18n-html="pay.sub" class="text-sm text-slate-300">
+                Once the atelier plan is confirmed, settle installments via Revolut, PayPal, or a concierge bank transfer. Every payment triggers a bilingual invoice and receipt.
+              </p>
+            </div>
+            <div class="pay-methods mb-5">
               <a
                 href="https://revolut.me/stashfin"
                 target="_blank"
                 rel="noopener"
                 data-i18n="pay.revolut"
-                class="w-full text-center rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95"
+                class="pay-method pay-method--primary"
                 >Pay via Revolut</a
               >
               <a
@@ -1538,43 +1540,48 @@
                 target="_blank"
                 rel="noopener"
                 data-i18n="pay.paypal"
-                class="w-full text-center rounded-2xl border border-slate-700 px-5 py-2 font-medium text-slate-200 hover:border-brand-yellow"
+                class="pay-method pay-method--secondary"
                 >Pay via PayPal</a
               >
+              <a
+                href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr"
+                class="pay-method pay-method--ghost"
+                data-i18n="pay.bank"
+                >Request bank transfer</a
+              >
             </div>
-            <div class="grid sm:grid-cols-2 gap-4 mb-5">
+            <div class="pay-grid mb-5">
               <ul class="text-sm text-slate-300 space-y-2 list-clean">
                 <li data-i18n="pay.l1">
-                  Enter the amount and confirm in one step
+                  Revolut & PayPal support card, Apple Pay, and Google Pay.
                 </li>
                 <li data-i18n="pay.l2">
-                  Card, Apple Pay, and Google Pay supported
+                  Installment schedules aligned with atelier milestones.
                 </li>
-                <li data-i18n="pay.l3">Bank transfer available on request</li>
+                <li data-i18n="pay.l3">Concierge bank transfer available on request.</li>
               </ul>
               <ul class="text-sm text-slate-300 space-y-2 list-clean">
                 <li data-i18n-html="pay.l4">
-                  <strong>Invoice provided</strong> for every session or pack
+                  <strong>Bilingual invoices</strong> issued for every session or pack.
                 </li>
-                <li data-i18n="pay.l5">Payments processed securely</li>
+                <li data-i18n="pay.l5">Payments processed securely.</li>
                 <li data-i18n="pay.l6">
-                  Refunds for unused sessions per plan terms
+                  Refunds for unused sessions according to your plan.
                 </li>
               </ul>
             </div>
-            <div class="rounded-xl border border-white/10 bg-slate-900/50 p-3">
-              <p class="text-xs text-slate-400">
-                <span data-i18n="pay.help"
-                  >Prefer to confirm details first?</span
-                >
-                <a
-                  href="https://wa.me/33667135850"
-                  target="_blank"
-                  rel="noopener"
-                  class="text-brand-yellow hover:underline"
-                  >WhatsApp</a
-                >.
-              </p>
+            <div class="pay-note">
+              <span data-i18n="pay.help"
+                >Prefer to confirm details first?</span
+              >
+              <a
+                href="https://wa.me/33667135850"
+                target="_blank"
+                rel="noopener"
+                class="text-brand-yellow hover:underline ml-2"
+                data-i18n="pay.whatsapp"
+                >Message me on WhatsApp</a
+              >
             </div>
           </div>
         </div>

@@ -1,23 +1,28 @@
 :root{
-      --brand:#FFD24A;
-      --ring:rgba(255,210,74,.35);
-      --rule: linear-gradient(90deg, rgba(255,210,74,.35), rgba(255,210,74,.05) 35%, rgba(255,210,74,0) 70%);
+      --brand:#f3d9b0;
+      --brand-strong:#f0c998;
+      --ring:rgba(243,217,176,.45);
+      --rule: linear-gradient(90deg, rgba(243,217,176,.45), rgba(243,217,176,.08) 35%, rgba(243,217,176,0) 70%);
     }
     /* Base typography & focus */
     a:focus-visible,button:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible{ outline:3px solid var(--brand); outline-offset:2px }
     body{
-      font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
+      font-family:"Plus Jakarta Sans",Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";
       background:#01030a;
-      color:#e2e8f0;
+      color:#f8fafc;
       min-height:100vh;
-      line-height:1.6;
+      line-height:1.65;
       position:relative;
       background-image:
-        radial-gradient(circle at 20% 20%, rgba(255,210,74,.08), transparent 35%),
-        radial-gradient(circle at 80% 0%, rgba(94,234,212,.08), transparent 30%),
-        linear-gradient(180deg, #01030a 0%, #020617 45%, #03050d 100%);
+        radial-gradient(circle at 20% 20%, rgba(243,217,176,.09), transparent 35%),
+        radial-gradient(circle at 80% 0%, rgba(94,234,212,.06), transparent 30%),
+        linear-gradient(180deg, #02040a 0%, #030719 45%, #050714 100%);
+      -webkit-font-smoothing:antialiased;
     }
-    h1,h2,h3{ font-family:"Playfair Display",ui-serif,Georgia,serif }
+    h1,h2,h3{
+      font-family:"Playfair Display",ui-serif,Georgia,serif;
+      letter-spacing:.01em;
+    }
 
     /* Motion prefs */
     @media (prefers-reduced-motion: reduce){
@@ -194,58 +199,58 @@
 }
 
 .btn-luxe{
-  background-image:linear-gradient(120deg, #FFD24A, #FFB347 40%, #FFF6B7 100%);
-  color:#0f172a;
-  box-shadow:0 25px 50px -25px rgba(255,210,74,.8), inset 0 1px 0 rgba(255,255,255,.7);
-  border:none;
+  background-image:linear-gradient(135deg, #f0d8be 0%, #f7ebd6 45%, #fff8ee 100%);
+  color:#1f2937;
+  box-shadow:0 25px 45px -25px rgba(240,216,190,.95), inset 0 1px 0 rgba(255,255,255,.8);
+  border:1px solid rgba(255,255,255,.5);
   transition:transform .25s ease, box-shadow .25s ease;
 }
 .btn-luxe:hover{
-  transform:translateY(-2px) scale(1.01);
-  box-shadow:0 35px 60px -30px rgba(255,210,74,.9);
+  transform:translateY(-2px);
+  box-shadow:0 35px 65px -30px rgba(240,216,190,1);
 }
 .btn-outline-luxe{
-  border:1px solid rgba(255,255,255,.35);
-  background:rgba(15,23,42,.65);
-  color:#e2e8f0;
-  backdrop-filter:blur(12px) saturate(140%);
+  border:1px solid rgba(255,255,255,.45);
+  background:rgba(15,23,42,.5);
+  color:#f8fafc;
+  backdrop-filter:blur(14px) saturate(150%);
   transition:border-color .25s ease, background .25s ease;
 }
 .btn-outline-luxe:hover{
-  border-color:rgba(255,210,74,.65);
-  background:rgba(15,23,42,.85);
+  border-color:rgba(243,217,176,.85);
+  background:rgba(15,23,42,.75);
 }
 
 .hero-stats .stat-card{
-  border:1px solid rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.12);
   border-radius:1.25rem;
-  padding:1.25rem;
-  background:rgba(2,6,23,.6);
-  backdrop-filter:blur(14px);
-  box-shadow:0 20px 35px -25px rgba(15,23,42,.8);
+  padding:1.5rem;
+  background:rgba(10,16,30,.72);
+  backdrop-filter:blur(18px);
+  box-shadow:0 25px 45px -30px rgba(5,8,20,.9);
 }
 .stat-label{
   font-size:.75rem;
   text-transform:uppercase;
   letter-spacing:.15em;
-  color:rgba(226,232,240,.65);
+  color:rgba(226,232,240,.7);
 }
 .stat-value{
-  font-size:2rem;
+  font-size:2.15rem;
   font-weight:700;
-  letter-spacing:-.03em;
-  color:#fff;
+  letter-spacing:-.035em;
+  color:#fefefe;
 }
 .stat-note{
   font-size:.85rem;
-  color:rgba(226,232,240,.75);
+  color:rgba(226,232,240,.8);
 }
 .hero-press{
   border-radius:999px;
   padding:.35rem;
-  border:1px solid rgba(255,255,255,.1);
-  background:rgba(15,23,42,.6);
-  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(10,14,28,.55);
+  backdrop-filter:blur(14px);
 }
 .press-pill{
   padding:.45rem 1rem;

@@ -101,6 +101,11 @@
   <body
     class="bg-slate-950 text-slate-100 selection:bg-brand-yellow selection:text-slate-900 leading-relaxed"
   >
+    <div class="page-bg" aria-hidden="true">
+      <div class="page-glow page-glow--one"></div>
+      <div class="page-glow page-glow--two"></div>
+      <div class="page-noise"></div>
+    </div>
     <!-- TOP BAR / NAV -->
     <header
       class="sticky top-0 z-50 border-b border-white/5 glass supports-[backdrop-filter]:backdrop-blur-md"
@@ -228,7 +233,10 @@
     </header>
 
     <!-- HERO -->
-    <section id="home" class="relative overflow-clip">
+    <section id="home" class="relative overflow-clip luxe-hero">
+      <div class="hero-gradient hero-gradient--one" aria-hidden="true"></div>
+      <div class="hero-gradient hero-gradient--two" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
       <div class="absolute inset-0 -z-10 opacity-40">
         <video
           class="w-full h-full object-cover"
@@ -268,13 +276,13 @@
             <a
               data-i18n="hero.cta"
               href="#lead"
-              class="rounded-2xl bg-brand-yellow px-6 py-3 font-semibold text-slate-900 hover:brightness-95"
+              class="btn-luxe rounded-2xl px-6 py-3 font-semibold text-slate-900"
               >Book a Free Parent Consult (15m)</a
             >
             <a
               data-i18n="hero.secondary"
               href="#process"
-              class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow"
+              class="btn-outline-luxe rounded-2xl px-6 py-3 font-semibold"
               >See how it works</a
             >
             <a
@@ -282,7 +290,7 @@
               href="https://wa.me/33667135850"
               target="_blank"
               rel="noopener"
-              class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow"
+              class="btn-outline-luxe rounded-2xl px-6 py-3 font-semibold"
               >WhatsApp</a
             >
           </div>
@@ -295,10 +303,34 @@
             <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @
             ESILV
           </div>
+          <div class="hero-stats mt-10 grid gap-4 sm:grid-cols-3">
+            <div class="stat-card">
+              <p class="stat-label">Parent satisfaction</p>
+              <p class="stat-value">97%</p>
+              <p class="stat-note">renew for advanced modules</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-label">Studio hours</p>
+              <p class="stat-value">1,200+</p>
+              <p class="stat-note">of private ateliers delivered</p>
+            </div>
+            <div class="stat-card">
+              <p class="stat-label">Portfolio launches</p>
+              <p class="stat-value">18</p>
+              <p class="stat-note">bespoke sites & showcase decks</p>
+            </div>
+          </div>
+          <div class="hero-press mt-10 flex flex-wrap gap-3">
+            <span class="press-pill">Private atelier · Paris XVI</span>
+            <span class="press-pill">Families from UNESCO · OECD · Dior</span>
+            <span class="press-pill">GDPR-ready workflows & parental portals</span>
+          </div>
         </div>
 
         <!-- Offer/Proof -->
-        <div class="relative card card--grad p-5 shadow-luxe fade-up">
+        <div class="relative card card--grad luxe-panel p-5 shadow-luxe fade-up">
+          <div class="floating-pill">Signature Atelier Track</div>
+          <div class="hero-ornament hero-ornament--orb" aria-hidden="true"></div>
           <img
             src="https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1600&auto=format&fit=crop"
             alt="Over-the-shoulder laptop learning"
@@ -347,16 +379,31 @@
             <a
               data-i18n="bannerCta"
               href="#lead"
-              class="rounded-xl bg-brand-yellow/90 px-4 py-2 text-slate-900 font-semibold hover:brightness-95"
+              class="btn-luxe rounded-xl px-4 py-2 text-sm font-semibold text-slate-900"
               >Book Now</a
             >
+          </div>
+          <div class="hero-insights mt-5 grid gap-4 sm:grid-cols-2">
+            <div class="micro-card">
+              <p class="micro-title">IELTS uplift</p>
+              <p class="micro-value">+2 bands</p>
+              <p class="micro-note">Average gain after 8 bespoke sessions</p>
+            </div>
+            <div class="micro-card">
+              <p class="micro-title">Studio capacity</p>
+              <p class="micro-value">12 families</p>
+              <p class="micro-note">kept intentionally limited for focus</p>
+            </div>
+          </div>
+          <div class="hero-seal mt-4">
+            Weekly dossiers include progress films, code repos, safeguarding notes, and centralised invoices.
           </div>
         </div>
       </div>
     </section>
 
     <!-- TRUST BAR -->
-    <section class="border-t border-white/5">
+    <section class="border-t border-white/5 trust-ribbon">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
         <div
           class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 fade-up"
@@ -371,6 +418,11 @@
             >Conducted training sessions within Qualiopi-certified
             programs</span
           >
+        </div>
+        <div class="trust-logos mt-5 flex flex-wrap items-center justify-center gap-3 text-xs text-slate-300">
+          <span class="logo-pill">Station F · Mentor Hours</span>
+          <span class="logo-pill">VivaTech Youth Pavilion</span>
+          <span class="logo-pill">ESCP · EDHEC · ESILV cohorts</span>
         </div>
       </div>
     </section>
@@ -446,7 +498,7 @@
               id="voiceAudio"
               class="hidden"
               preload="none"
-              src="/syed-intro.m4a"
+              src="assets/media/voice-intro.m4a"
             ></audio>
 
             <!-- Progress bar -->

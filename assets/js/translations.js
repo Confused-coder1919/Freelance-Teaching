@@ -154,7 +154,13 @@ export const translations = {
             t1:'Residency & intent', d1:'Primary residences in Paris intra-muros, Neuilly, or western suburbs with defined goals (bilingual schooling, exam prep, study abroad).',
             t2:'Learner profile', d2:'Students 8–18 who thrive in bilingual households and seek presentation, digital creation, or exam excellence.',
             t3:'Parent partnership', d3:'Parents commit to weekly 10-minute touchpoints for KPIs, dossiers, and concierge scheduling.'
-          }
+          },
+          meta:{
+            r:{ t:'Response time', d:'We reply within 24 hours with a discovery dossier and proposed slots.' },
+            l:{ t:'Languages', d:'English / French bilingual support for parents and learners.' },
+            g:{ t:'GDPR & safeguarding', d:'GDPR-compliant handling of student data and in-home protocols.' }
+          },
+          note:'Every detail remains confidential; dossiers are encrypted and shared only with the requesting family.'
         },
         pay:{
           title:'Secure and simple payment options',
@@ -321,7 +327,13 @@ export const translations = {
             t1:'Résidence & intention', d1:'Résidences principales à Paris intra-muros, Neuilly ou ouest parisien avec objectifs clairs (bilingue, examens, études à l’étranger).',
             t2:'Profil élève', d2:'Élèves 8–18 évoluant dans un foyer bilingue, motivés par la prise de parole, la création digitale ou l’excellence académique.',
             t3:'Partenariat parent', d3:'Parents disponibles pour 10 min hebdomadaires : revue de KPIs, dossiers et planning concierge.'
-          }
+          },
+          meta:{
+            r:{ t:'Temps de réponse', d:'Retour sous 24 h avec dossier découverte et créneaux proposés.' },
+            l:{ t:'Langues', d:'Support bilingue anglais / français pour parents et élèves.' },
+            g:{ t:'RGPD & sécurité', d:'Gestion des données et protocoles domicile conformes RGPD.' }
+          },
+          note:'Toutes les informations restent confidentielles ; les dossiers sont chiffrés et partagés uniquement avec la famille concernée.'
         },
         pay:{
           title:'Options de paiement simples et sécurisées',

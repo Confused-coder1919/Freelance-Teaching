@@ -1,753 +1,1562 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>The English & Tech Studio — Paris | Fluent English · Confident Kids · Digital Skills for the Future</title>
-  <meta name="description" content="Private English & technology lessons for kids and teens in Paris. Native English teacher & cybersecurity engineer helping students build fluency, confidence, and real-world digital skills." />
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://brightmindsparis.vercel.app/">
-  <!-- Open Graph -->
-  <meta property="og:url" content="https://brightmindsparis.vercel.app/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Kids English + Coding in Paris — Fluent English, Confidence & Future-Ready Skills" />
-  <meta property="og:description" content="Native English teacher & cybersecurity engineer in Paris. Personalized English + Coding lessons that build confidence, creativity, and exam success for kids & teens." />
-  <!-- Use an absolute URL to avoid 'Invalid URL' warning -->
-  <meta property="og:image" content="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center" />
-  <meta property="og:image:alt" content="Student website mockup" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
+    <title>
+      The English & Tech Studio — Paris | Fluent English · Confident Kids ·
+      Digital Skills for the Future
+    </title>
+    <meta
+      name="description"
+      content="Private English & technology lessons for kids and teens in Paris. Native English teacher & cybersecurity engineer helping students build fluency, confidence, and real-world digital skills."
+    />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://brightmindsparis.vercel.app/" />
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://brightmindsparis.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Kids English + Coding in Paris — Fluent English, Confidence & Future-Ready Skills"
+    />
+    <meta
+      property="og:description"
+      content="Native English teacher & cybersecurity engineer in Paris. Personalized English + Coding lessons that build confidence, creativity, and exam success for kids & teens."
+    />
+    <!-- Use an absolute URL to avoid 'Invalid URL' warning -->
+    <meta
+      property="og:image"
+      content="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center"
+    />
+    <meta property="og:image:alt" content="Student website mockup" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kids English + Coding in Paris — Fluent English, Confidence & Future-Ready Skills" />
-  <meta name="twitter:description" content="Native English teacher & cybersecurity engineer in Paris. Personalized English + Coding lessons that build confidence, creativity, and exam success for kids & teens." />
-  <meta name="twitter:image" content="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Kids English + Coding in Paris — Fluent English, Confidence & Future-Ready Skills"
+    />
+    <meta
+      name="twitter:description"
+      content="Native English teacher & cybersecurity engineer in Paris. Personalized English + Coding lessons that build confidence, creativity, and exam success for kids & teens."
+    />
+    <meta
+      name="twitter:image"
+      content="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center"
+    />
 
-  <meta name="theme-color" content="#0b1220" />
-  <link rel="icon" href="https://lh3.googleusercontent.com/a/ACg8ocLo53FHkC-V4eZnBKT_6FTCWpbLwF2vEz5pV0UaTTER5YhH4srutw=s576-c-no" />
+    <meta name="theme-color" content="#0b1220" />
+    <link
+      rel="icon"
+      href="https://lh3.googleusercontent.com/a/ACg8ocLo53FHkC-V4eZnBKT_6FTCWpbLwF2vEz5pV0UaTTER5YhH4srutw=s576-c-no"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: { brand: { yellow: '#FFD24A', dark: '#0b1220' } },
-          boxShadow: {
-            luxe: '0 10px 30px -10px rgba(255,210,74,.2), inset 0 1px 0 0 rgba(255,255,255,.04)'
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: { brand: { yellow: "#FFD24A", dark: "#0b1220" } },
+            boxShadow: {
+              luxe: "0 10px 30px -10px rgba(255,210,74,.2), inset 0 1px 0 0 rgba(255,255,255,.04)",
+            },
+            backgroundImage: {
+              "card-grad":
+                "radial-gradient(100% 140% at 0% 0%, rgba(255,210,74,.10) 0%, rgba(255,210,74,0) 45%), linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00))",
+            },
           },
-          backgroundImage: {
-            'card-grad': 'radial-gradient(100% 140% at 0% 0%, rgba(255,210,74,.10) 0%, rgba(255,210,74,0) 45%), linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.00))'
-          }
-        }
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- LOCAL BUSINESS SCHEMA -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Kids English + Coding Paris",
+        "description": "Premium English, coding, and exam prep for kids and teens in Paris.",
+        "areaServed": "Paris, Île-de-France",
+        "telephone": "+33667135850",
+        "url": "https://brightmindsparis.vercel.app/",
+        "sameAs": [
+          "https://www.linkedin.com/in/syed-mostafa/",
+          "https://syedtashfin.vercel.app/"
+        ]
       }
-    }
-  </script>
-  <link rel="stylesheet" href="assets/css/main.css" />
-
-  <!-- LOCAL BUSINESS SCHEMA -->
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"LocalBusiness",
-    "name":"Kids English + Coding Paris",
-    "description":"Premium English, coding, and exam prep for kids and teens in Paris.",
-    "areaServed":"Paris, Île-de-France",
-    "telephone":"+33667135850",
-    "url":"https://brightmindsparis.vercel.app/",
-    "sameAs":["https://www.linkedin.com/in/syed-mostafa/","https://syedtashfin.vercel.app/"]
-  }
-  </script>
-
-
-</head>
-<body class="bg-slate-950 text-slate-100 selection:bg-brand-yellow selection:text-slate-900 leading-relaxed">
-
-  <!-- TOP BAR / NAV -->
-  <header class="sticky top-0 z-50 border-b border-white/5 glass supports-[backdrop-filter]:backdrop-blur-md">
-    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Primary">
-      <div class="flex h-16 items-center justify-between">
-        <a href="#home" class="text-lg sm:text-xl font-semibold hover:text-brand-yellow">BrightMinds</a>
-        <div class="hidden md:flex items-center gap-8 text-sm">
-          <a data-i18n="nav.programs" href="#programs" class="hover:text-brand-yellow">Programs</a>
-          <a data-i18n="nav.benefits" href="#benefits" class="hover:text-brand-yellow">Benefits</a>
-          <a data-i18n="nav.projects" href="#projects" class="hover:text-brand-yellow">Projects</a>
-          <a data-i18n="nav.pricing" href="#pricing" class="hover:text-brand-yellow">Pricing</a>
-          <a data-i18n="nav.exam" href="#exam" class="hover:text-brand-yellow">Exam Prep</a>
-          <a data-i18n="nav.faq" href="#faq" class="hover:text-brand-yellow">FAQ</a>
-        </div>
-        <div class="flex items-center gap-3">
-          <div class="flex items-center gap-1 rounded-xl border border-slate-700 px-2 py-1" role="group" aria-label="Language">
-            <button id="lang-en" class="text-xs px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700" aria-pressed="true" data-lang="en">EN</button>
-            <button id="lang-fr" class="text-xs px-2 py-1 rounded-lg hover:bg-slate-700" data-lang="fr" aria-pressed="false">FR</button>
+    </script>
+  </head>
+  <body
+    class="bg-slate-950 text-slate-100 selection:bg-brand-yellow selection:text-slate-900 leading-relaxed"
+  >
+    <!-- TOP BAR / NAV -->
+    <header
+      class="sticky top-0 z-50 border-b border-white/5 glass supports-[backdrop-filter]:backdrop-blur-md"
+    >
+      <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Primary">
+        <div class="flex h-16 items-center justify-between">
+          <a
+            href="#home"
+            class="text-lg sm:text-xl font-semibold hover:text-brand-yellow"
+            >BrightMinds</a
+          >
+          <div class="hidden md:flex items-center gap-8 text-sm">
+            <a
+              data-i18n="nav.programs"
+              href="#programs"
+              class="hover:text-brand-yellow"
+              >Programs</a
+            >
+            <a
+              data-i18n="nav.benefits"
+              href="#benefits"
+              class="hover:text-brand-yellow"
+              >Benefits</a
+            >
+            <a
+              data-i18n="nav.projects"
+              href="#projects"
+              class="hover:text-brand-yellow"
+              >Projects</a
+            >
+            <a
+              data-i18n="nav.pricing"
+              href="#pricing"
+              class="hover:text-brand-yellow"
+              >Pricing</a
+            >
+            <a data-i18n="nav.exam" href="#exam" class="hover:text-brand-yellow"
+              >Exam Prep</a
+            >
+            <a data-i18n="nav.faq" href="#faq" class="hover:text-brand-yellow"
+              >FAQ</a
+            >
           </div>
-          <a data-i18n="nav.cta" href="#lead" class="rounded-2xl bg-brand-yellow px-4 py-2 font-medium text-slate-900 hover:brightness-95">Parent Consult</a>
-          <button id="menuBtn" class="md:hidden" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu">☰</button>
+          <div class="flex items-center gap-3">
+            <div
+              class="flex items-center gap-1 rounded-xl border border-slate-700 px-2 py-1"
+              role="group"
+              aria-label="Language"
+            >
+              <button
+                id="lang-en"
+                class="text-xs px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700"
+                aria-pressed="true"
+                data-lang="en"
+              >
+                EN
+              </button>
+              <button
+                id="lang-fr"
+                class="text-xs px-2 py-1 rounded-lg hover:bg-slate-700"
+                data-lang="fr"
+                aria-pressed="false"
+              >
+                FR
+              </button>
+            </div>
+            <a
+              data-i18n="nav.cta"
+              href="#lead"
+              class="rounded-2xl bg-brand-yellow px-4 py-2 font-medium text-slate-900 hover:brightness-95"
+              >Parent Consult</a
+            >
+            <button
+              id="menuBtn"
+              class="md:hidden"
+              aria-controls="mobileMenu"
+              aria-expanded="false"
+              aria-label="Open menu"
+            >
+              ☰
+            </button>
+          </div>
         </div>
-      </div>
-      <div id="mobileMenu" class="md:hidden hidden pb-4">
-        <div class="flex flex-col gap-2">
-          <a data-i18n="nav.programs" href="#programs" class="hover:text-brand-yellow mobile-link">Programs</a>
-          <a data-i18n="nav.benefits" href="#benefits" class="hover:text-brand-yellow mobile-link">Benefits</a>
-          <a data-i18n="nav.projects" href="#projects" class="hover:text-brand-yellow mobile-link">Projects</a>
-          <a data-i18n="nav.pricing" href="#pricing" class="hover:text-brand-yellow mobile-link">Pricing</a>
-          <a data-i18n="nav.exam" href="#exam" class="hover:text-brand-yellow mobile-link">Exam Prep</a>
-          <a data-i18n="nav.faq" href="#faq" class="hover:text-brand-yellow mobile-link">FAQ</a>
+        <div id="mobileMenu" class="md:hidden hidden pb-4">
+          <div class="flex flex-col gap-2">
+            <a
+              data-i18n="nav.programs"
+              href="#programs"
+              class="hover:text-brand-yellow mobile-link"
+              >Programs</a
+            >
+            <a
+              data-i18n="nav.benefits"
+              href="#benefits"
+              class="hover:text-brand-yellow mobile-link"
+              >Benefits</a
+            >
+            <a
+              data-i18n="nav.projects"
+              href="#projects"
+              class="hover:text-brand-yellow mobile-link"
+              >Projects</a
+            >
+            <a
+              data-i18n="nav.pricing"
+              href="#pricing"
+              class="hover:text-brand-yellow mobile-link"
+              >Pricing</a
+            >
+            <a
+              data-i18n="nav.exam"
+              href="#exam"
+              class="hover:text-brand-yellow mobile-link"
+              >Exam Prep</a
+            >
+            <a
+              data-i18n="nav.faq"
+              href="#faq"
+              class="hover:text-brand-yellow mobile-link"
+              >FAQ</a
+            >
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-  <!-- HERO -->
-  <section id="home" class="relative overflow-clip">
-    <div class="absolute inset-0 -z-10 opacity-40">
-      <video class="w-full h-full object-cover" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1600&auto=format&fit=crop">
-        <source src="/hero.mp4" type="video/mp4" />
-      </video>
-      <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/60 to-slate-950"></div>
-    </div>
-
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-10 items-center">
-      <div class="fade-up">
-        <p class="eyebrow">English · Technology · Confidence</p>
-        <h1 data-i18n-html="hero.title" class="text-4xl sm:text-5xl font-bold leading-tight">
-          Empower your child with <span class="text-brand-yellow">fluent English</span>, confidence & future-ready digital skills
-        </h1>
-        <p data-i18n-html="hero.sub" class="mt-4 text-lg text-slate-300">
-          Turn screen time into <em>skill</em> time — project-based English + technology lessons taught by a native English teacher & cybersecurity engineer in Paris.
-        </p>
-        
-        <div class="mt-8 flex flex-wrap gap-4">
-          <a data-i18n="hero.cta" href="#lead" class="rounded-2xl bg-brand-yellow px-6 py-3 font-semibold text-slate-900 hover:brightness-95">Book a Free Parent Consult (15m)</a>
-          <a data-i18n="hero.secondary" href="#process" class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow">See how it works</a>
-          <a id="whatsapp-hero" href="https://wa.me/33667135850" target="_blank" rel="noopener"
-             class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow">WhatsApp</a>
-        </div>
-        <p data-i18n="hero.foot" class="mt-4 text-sm text-slate-400">Private sessions at home in Paris or online. Micro-entrepreneur Status.</p>
-        <div class="mt-6 text-sm opacity-80" data-i18n-html="hero.badge">
-          Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV
-        </div>
+    <!-- HERO -->
+    <section id="home" class="relative overflow-clip">
+      <div class="absolute inset-0 -z-10 opacity-40">
+        <video
+          class="w-full h-full object-cover"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=1600&auto=format&fit=crop"
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+        </video>
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/60 to-slate-950"
+        ></div>
       </div>
 
-      <!-- Offer/Proof -->
-      <div class="relative card card--grad p-5 shadow-luxe fade-up">
-        <img
-          src="https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1600&auto=format&fit=crop"
-          alt="Over-the-shoulder laptop learning"
-          class="rounded-2xl object-cover w-full h-80 media-frame"
-          width="1600" height="640" decoding="async" fetchpriority="high"
-        />
-        <div class="mt-4 grid grid-cols-2 gap-3 text-xs text-slate-300">
-          <div data-i18n="hero.p1" class="rounded-xl border border-white/10 bg-slate-800/40 p-3">Real projects: Mini Website, AI-Apps, Digital Slides/Poster</div>
-          <div data-i18n="hero.p2" class="rounded-xl border border-white/10 bg-slate-800/40 p-3">Confidence Coaching: Speaking & Presenting In English</div>
-          <div data-i18n="hero.p3" class="rounded-xl border border-white/10 bg-slate-800/40 p-3">Digital Safety & Balanced Tech Use</div>
-          <div data-i18n="hero.p4" class="rounded-xl border border-white/10 bg-slate-800/40 p-3">Exam prep: IELTS, TOEIC, IGCSE/A-Level</div>
-        </div>
-        <div class="mt-5 flex justify-between items-center rounded-xl glass p-4 text-emerald-100 text-sm">
-          <div><strong data-i18n="banner">Now enrolling</strong>: <span data-i18n="bannerTail">limited private slots this month (priority to siblings & referrals).</span></div>
-          <a data-i18n="bannerCta" href="#lead" class="rounded-xl bg-brand-yellow/90 px-4 py-2 text-slate-900 font-semibold hover:brightness-95">Book Now</a>
-        </div>
-      </div>
-    </div>
-  </section>
+      <div
+        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 grid lg:grid-cols-2 gap-10 items-center"
+      >
+        <div class="fade-up">
+          <p class="eyebrow">English · Technology · Confidence</p>
+          <h1
+            data-i18n-html="hero.title"
+            class="text-4xl sm:text-5xl font-bold leading-tight"
+          >
+            Empower your child with
+            <span class="text-brand-yellow">fluent English</span>, confidence &
+            future-ready digital skills
+          </h1>
+          <p data-i18n-html="hero.sub" class="mt-4 text-lg text-slate-300">
+            Turn screen time into <em>skill</em> time — project-based English +
+            technology lessons taught by a native English teacher &
+            cybersecurity engineer in Paris.
+          </p>
 
-  <!-- TRUST BAR -->
-  <section class="border-t border-white/5">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
-      <div class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 fade-up">
-        <span data-i18n="trust.areas">Trusted by parents in 16e · Neuilly · Levallois</span><span class="hidden sm:inline">•</span>
-        <span data-i18n="trust.dbsc">Led English-only learning environments</span><span class="hidden sm:inline">•</span>
-        <span data-i18n="trust.invoice">Conducted training sessions within Qualiopi-certified programs</span>
-      </div>
-    </div>
-  </section>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a
+              data-i18n="hero.cta"
+              href="#lead"
+              class="rounded-2xl bg-brand-yellow px-6 py-3 font-semibold text-slate-900 hover:brightness-95"
+              >Book a Free Parent Consult (15m)</a
+            >
+            <a
+              data-i18n="hero.secondary"
+              href="#process"
+              class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow"
+              >See how it works</a
+            >
+            <a
+              id="whatsapp-hero"
+              href="https://wa.me/33667135850"
+              target="_blank"
+              rel="noopener"
+              class="rounded-2xl border border-slate-700 px-6 py-3 font-semibold hover:border-brand-yellow"
+              >WhatsApp</a
+            >
+          </div>
+          <p data-i18n="hero.foot" class="mt-4 text-sm text-slate-400">
+            Private sessions at home in Paris or online. Micro-entrepreneur
+            Status.
+          </p>
+          <div class="mt-6 text-sm opacity-80" data-i18n-html="hero.badge">
+            Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> ·
+            <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @
+            ESILV
+          </div>
+        </div>
 
-  <!-- MEET THE INSTRUCTOR -->
-  <section id="instructor" class="border-t border-slate-800 bg-slate-900/40">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid md:grid-cols-[1fr,2fr] gap-8 items-center">
-      <div class="fade-up">
-        <img src="https://lh3.googleusercontent.com/a/ACg8ocLo53FHkC-V4eZnBKT_6FTCWpbLwF2vEz5pV0UaTTER5YhH4srutw=s576-c-no" alt="Syed — English & Technology Instructor" class="w-full aspect-square object-cover rounded-3xl border border-white/10 shadow-luxe" loading="lazy" />
+        <!-- Offer/Proof -->
+        <div class="relative card card--grad p-5 shadow-luxe fade-up">
+          <img
+            src="https://images.unsplash.com/photo-1558021211-6d1403321394?q=80&w=1600&auto=format&fit=crop"
+            alt="Over-the-shoulder laptop learning"
+            class="rounded-2xl object-cover w-full h-80 media-frame"
+            width="1600"
+            height="640"
+            decoding="async"
+            fetchpriority="high"
+          />
+          <div class="mt-4 grid grid-cols-2 gap-3 text-xs text-slate-300">
+            <div
+              data-i18n="hero.p1"
+              class="rounded-xl border border-white/10 bg-slate-800/40 p-3"
+            >
+              Real projects: Mini Website, AI-Apps, Digital Slides/Poster
+            </div>
+            <div
+              data-i18n="hero.p2"
+              class="rounded-xl border border-white/10 bg-slate-800/40 p-3"
+            >
+              Confidence Coaching: Speaking & Presenting In English
+            </div>
+            <div
+              data-i18n="hero.p3"
+              class="rounded-xl border border-white/10 bg-slate-800/40 p-3"
+            >
+              Digital Safety & Balanced Tech Use
+            </div>
+            <div
+              data-i18n="hero.p4"
+              class="rounded-xl border border-white/10 bg-slate-800/40 p-3"
+            >
+              Exam prep: IELTS, TOEIC, IGCSE/A-Level
+            </div>
+          </div>
+          <div
+            class="mt-5 flex justify-between items-center rounded-xl glass p-4 text-emerald-100 text-sm"
+          >
+            <div>
+              <strong data-i18n="banner">Now enrolling</strong>:
+              <span data-i18n="bannerTail"
+                >limited private slots this month (priority to siblings &
+                referrals).</span
+              >
+            </div>
+            <a
+              data-i18n="bannerCta"
+              href="#lead"
+              class="rounded-xl bg-brand-yellow/90 px-4 py-2 text-slate-900 font-semibold hover:brightness-95"
+              >Book Now</a
+            >
+          </div>
+        </div>
       </div>
-      <div class="fade-up">
-        <div class="section-head">
-          <p class="eyebrow">About</p>
-          <h2 data-i18n="instructor.title" class="text-3xl font-bold">Meet the Instructor</h2>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="border-t border-white/5">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
+        <div
+          class="flex flex-wrap items-center justify-center gap-4 text-xs text-slate-400 fade-up"
+        >
+          <span data-i18n="trust.areas"
+            >Trusted by parents in 16e · Neuilly · Levallois</span
+          ><span class="hidden sm:inline">•</span>
+          <span data-i18n="trust.dbsc"
+            >Led English-only learning environments</span
+          ><span class="hidden sm:inline">•</span>
+          <span data-i18n="trust.invoice"
+            >Conducted training sessions within Qualiopi-certified
+            programs</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- MEET THE INSTRUCTOR -->
+    <section id="instructor" class="border-t border-slate-800 bg-slate-900/40">
+      <div
+        class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 grid md:grid-cols-[1fr,2fr] gap-8 items-center"
+      >
+        <div class="fade-up">
+          <img
+            src="https://lh3.googleusercontent.com/a/ACg8ocLo53FHkC-V4eZnBKT_6FTCWpbLwF2vEz5pV0UaTTER5YhH4srutw=s576-c-no"
+            alt="Syed — English & Technology Instructor"
+            class="w-full aspect-square object-cover rounded-3xl border border-white/10 shadow-luxe"
+            loading="lazy"
+          />
+        </div>
+        <div class="fade-up">
+          <div class="section-head">
+            <p class="eyebrow">About</p>
+            <h2 data-i18n="instructor.title" class="text-3xl font-bold">
+              Meet the Instructor
+            </h2>
+            <div class="section-rule"></div>
+          </div>
+          <p data-i18n="instructor.copy" class="mt-4 text-slate-300">
+            Hi, I’m Syed — an English and technology instructor based in Paris.
+            I teach at the American Business School of Paris and other
+            institutions, helping students communicate clearly and think
+            creatively in English. My sessions combine strong language skills
+            with practical digital learning — from building simple websites to
+            understanding coding and modern tools — so every child grows
+            confident in both English and technology.
+          </p>
+          <!-- Voice Intro (mobile-friendly, single EN file) -->
+          <div
+            class="mt-6 rounded-2xl border border-white/10 bg-slate-800/50 shadow-luxe p-5"
+          >
+            <div
+              class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4"
+            >
+              <!-- Left side: Play + text -->
+              <div class="flex items-center gap-3">
+                <div
+                  id="voiceGlow"
+                  class="relative flex items-center justify-center w-12 h-12 rounded-full bg-brand-yellow/10 border border-brand-yellow/40 shrink-0"
+                >
+                  <button
+                    id="voicePlayBtn"
+                    type="button"
+                    aria-label="Play introduction"
+                    class="text-brand-yellow text-lg font-semibold hover:scale-110 active:scale-95 transition-transform"
+                  >
+                    ▶︎
+                  </button>
+                </div>
+                <div class="min-w-0">
+                  <h3 class="font-semibold text-slate-100 leading-tight">
+                    Hear from Syed
+                  </h3>
+                  <p class="text-sm text-slate-400 leading-snug">
+                    A short welcome — how I help students grow confident in
+                    English and technology.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Right side: Download (moves below on mobile) -->
+            </div>
+
+            <!-- Hidden audio element -->
+            <audio
+              id="voiceAudio"
+              class="hidden"
+              preload="none"
+              src="/syed-intro.m4a"
+            ></audio>
+
+            <!-- Progress bar -->
+            <div class="mt-4">
+              <div
+                class="flex items-center justify-between text-[11px] text-slate-400 mb-1"
+              >
+                <span id="voiceCurrent">0:00</span>
+                <span id="voiceDuration">0:00</span>
+              </div>
+              <div
+                id="voiceTrack"
+                class="h-2 w-full rounded-full bg-white/10 cursor-pointer relative overflow-hidden"
+              >
+                <div
+                  id="voiceBar"
+                  class="absolute inset-y-0 left-0 w-0 rounded-full bg-brand-yellow transition-[width] duration-200 ease-linear"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <!-- /Voice Intro -->
+
+          <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm list-clean">
+            <li data-i18n="instructor.i1">Native English instruction</li>
+            <li data-i18n="instructor.i2">
+              Project-based learning (web, coding, and communication)
+            </li>
+            <li data-i18n="instructor.i3">
+              Presentation and interview coaching
+            </li>
+            <li data-i18n="instructor.i4">Confidence for the digital future</li>
+          </ul>
+          <div class="mt-6 flex gap-3">
+            <a
+              data-i18n="instructor.cta1"
+              href="https://syedtashfin.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95"
+              >Portfolio</a
+            >
+            <a
+              data-i18n="instructor.cta2"
+              href="#projects"
+              class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
+              >See example projects</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section id="programs" class="border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Curriculum</p>
+          <h2 data-i18n="programs.title" class="text-3xl font-bold">
+            Programs by Age
+          </h2>
+          <p data-i18n="programs.sub" class="text-slate-300">
+            Project-based learning with measurable outcomes — English +
+            technology.
+          </p>
           <div class="section-rule"></div>
         </div>
-        <p data-i18n="instructor.copy" class="mt-4 text-slate-300">
-          Hi, I’m Syed — an English and technology instructor based in Paris.
-I teach at the American Business School of Paris and other institutions, helping students communicate clearly and think creatively in English.
-My sessions combine strong language skills with practical digital learning — from building simple websites to understanding coding and modern tools — so every child grows confident in both English and technology.
-        </p>
-<!-- Voice Intro (mobile-friendly, single EN file) -->
-<div class="mt-6 rounded-2xl border border-white/10 bg-slate-800/50 shadow-luxe p-5">
-  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-    <!-- Left side: Play + text -->
-    <div class="flex items-center gap-3">
-      <div id="voiceGlow"
-           class="relative flex items-center justify-center w-12 h-12 rounded-full bg-brand-yellow/10 border border-brand-yellow/40 shrink-0">
-        <button id="voicePlayBtn" type="button" aria-label="Play introduction"
-                class="text-brand-yellow text-lg font-semibold hover:scale-110 active:scale-95 transition-transform">
-          ▶︎
-        </button>
-      </div>
-      <div class="min-w-0">
-        <h3 class="font-semibold text-slate-100 leading-tight">Hear from Syed</h3>
-        <p class="text-sm text-slate-400 leading-snug">A short welcome — how I help students grow confident in English and technology.</p>
-      </div>
-    </div>
 
-    <!-- Right side: Download (moves below on mobile) -->
-
-  </div>
-
-  <!-- Hidden audio element -->
-  <audio id="voiceAudio" class="hidden" preload="none" src="assets/media/voice-intro.m4a"></audio>
-
-  <!-- Progress bar -->
-  <div class="mt-4">
-    <div class="flex items-center justify-between text-[11px] text-slate-400 mb-1">
-      <span id="voiceCurrent">0:00</span>
-      <span id="voiceDuration">0:00</span>
-    </div>
-    <div id="voiceTrack" class="h-2 w-full rounded-full bg-white/10 cursor-pointer relative overflow-hidden">
-      <div id="voiceBar" class="absolute inset-y-0 left-0 w-0 rounded-full bg-brand-yellow transition-[width] duration-200 ease-linear"></div>
-    </div>
-  </div>
-</div>
-<!-- /Voice Intro -->
-
-
-        <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm list-clean">
-          <li data-i18n="instructor.i1">Native English instruction</li>
-          <li data-i18n="instructor.i2">Project-based learning (web, coding, and communication)</li>
-          <li data-i18n="instructor.i3">Presentation and interview coaching</li>
-          <li data-i18n="instructor.i4">Confidence for the digital future</li>
-        </ul>
-        <div class="mt-6 flex gap-3">
-          <a data-i18n="instructor.cta1" href="https://syedtashfin.vercel.app/" target="_blank"   rel="noopener noreferrer" class="rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95">Portfolio</a>
-          <a data-i18n="instructor.cta2" href="#projects" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">See example projects</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROGRAMS -->
-  <section id="programs" class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Curriculum</p>
-        <h2 data-i18n="programs.title" class="text-3xl font-bold">Programs by Age</h2>
-        <p data-i18n="programs.sub" class="text-slate-300">Project-based learning with measurable outcomes — English + technology.</p>
-        <div class="section-rule"></div>
-      </div>
-
-      <div class="mt-10 grid lg:grid-cols-3 gap-8">
-        <!-- P1 -->
-        <article class="card card--grad p-6 fade-up">
-          <div class="card-head">
-            <span class="badge" data-i18n="programs.p1.badge">Ages 8–10</span>
-            <span class="text-xs muted">4–8 weeks · weekly</span>
-          </div>
-          <h3 data-i18n="programs.p1.title" class="mt-4 text-xl font-semibold">English & Digital Discovery</h3>
-          <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="programs.p1.l1">Build confidence through fun English conversation, games, and storytelling</li>
-            <li data-i18n="programs.p1.l2">Practice clear communication and presentation skills in a supportive environment</li>
-            <li data-i18n="programs.p1.l3">Create small digital projects — a personal webpage, interactive story, or online poster</li>
-            <li data-i18n="programs.p1.l4">Learn responsible and balanced technology use while exploring creativity</li>
-            <li data-i18n="programs.p1.l5">Grow curiosity, creativity, and self-expression — entirely in English</li>
-          </ul>
-        </article>
-
-        <!-- P2 -->
-        <article class="card card--grad p-6 fade-up">
-          <div class="card-head">
-            <span class="badge" data-i18n="programs.p2.badge">Ages 11–14</span>
-            <span class="text-xs muted">4–8 weeks · weekly</span>
-          </div>
-          <h3 data-i18n="programs.p2.title" class="mt-4 text-xl font-semibold">English, IT & Business Basics</h3>
-          <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="programs.p2.l1">Strengthen English for schoolwork, writing, and confident speaking</li>
-            <li data-i18n="programs.p2.l2">Learn key IT concepts: hardware, software, and how computers work</li>
-            <li data-i18n="programs.p2.l3">Create small website projects using HTML, CSS, and simple interactivity</li>
-            <li data-i18n="programs.p2.l4">Discover the basics of business, money, and smart digital finance</li>
-            <li data-i18n="programs.p2.l5">Build early exam readiness — practice skills for IGCSE, TOEIC, or IELTS foundations</li>
-          </ul>
-        </article>
-
-        <!-- P3 -->
-        <article class="card card--grad p-6 fade-up">
-          <div class="card-head">
-            <span class="badge" data-i18n="programs.p3.badge">Ages 15–18</span>
-            <span class="text-xs muted">6–10 weeks · weekly</span>
-          </div>
-          <h3 data-i18n="programs.p3.title" class="mt-4 text-xl font-semibold">Academic English, Coding & AI Readiness</h3>
-          <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="programs.p3.l1">Master academic and professional English through comprehension, writing exercises, and presentations</li>
-            <li data-i18n="programs.p3.l2">Develop full website projects using HTML, CSS, JavaScript, and modern tools</li>
-            <li data-i18n="programs.p3.l3">Explore coding logic and new technologies including AI and prompt engineering</li>
-            <li data-i18n="programs.p3.l4">Prepare for international exams: TOEIC, IELTS, and IGCSE/A-Level English & IT</li>
-            <li data-i18n="programs.p3.l5">Build confidence for university interviews, presentations, and future digital careers</li>
-          </ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-<!-- BENEFITS -->
-<section id="benefits" class="border-t border-slate-800 bg-slate-900/40">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-    <div class="section-head fade-up text-center">
-      <p class="eyebrow">Why this works</p>
-      <h2 data-i18n="benefits.title" class="text-3xl font-bold">Why parents choose this program</h2>
-      <div class="section-rule mx-auto"></div>
-    </div>
-
-    <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b1.t" class="font-semibold">Experienced English & Technology Instructor</h3>
-        <p data-i18n="benefits.b1.d" class="mt-2 text-sm muted">
-          Currently teaching at business and engineering schools in Paris — bringing real-world expertise into engaging, age-appropriate lessons for your child.
-        </p>
-      </div>
-
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b2.t" class="font-semibold">Visible Progress & Confidence</h3>
-        <p data-i18n="benefits.b2.d" class="mt-2 text-sm muted">
-          Parents receive regular updates and can see clear growth every few sessions — in English fluency, self-expression, and digital skills.
-        </p>
-      </div>
-
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b3.t" class="font-semibold">Learning with Purpose</h3>
-        <p data-i18n="benefits.b3.d" class="mt-2 text-sm muted">
-          English is taught through meaningful, modern topics — from technology and website design to AI — so students stay curious and motivated.
-        </p>
-      </div>
-
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b4.t" class="font-semibold">Academic & Exam Preparation</h3>
-        <p data-i18n="benefits.b4.d" class="mt-2 text-sm muted">
-          Structured, step-by-step guidance for school English, IGCSE, or international exams like TOEIC and IELTS — always focused on real understanding and confident communication.
-        </p>
-      </div>
-
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b5.t" class="font-semibold">Flexible & Personalised Format</h3>
-        <p data-i18n="benefits.b5.d" class="mt-2 text-sm muted">
-          Home lessons in Paris or online sessions. Flexible scheduling, with sibling or friend groups encouraged.
-        </p>
-      </div>
-
-      <div class="card card--soft p-6 shadow-luxe fade-up">
-        <h3 data-i18n="benefits.b6.t" class="font-semibold">Confidence that Lasts</h3>
-        <p data-i18n="benefits.b6.d" class="mt-2 text-sm muted">
-          Your child learns to speak clearly, think critically, and express ideas naturally — building true confidence that goes beyond grammar.
-        </p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-  <!-- OUTCOMES -->
-  <section id="success" class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Outcomes</p>
-        <h2 data-i18n="success.title" class="text-3xl font-bold">What success looks like</h2>
-        <div class="section-rule"></div>
-      </div>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <div class="card p-6 fade-up">
-          <div class="eyebrow" data-i18n="success.before">Before</div>
-          <p data-i18n="success.b1" class="mt-2">“Avoids speaking English, low confidence.”</p>
-          <div class="eyebrow mt-4" data-i18n="success.after">After</div>
-          <p data-i18n="success.a1" class="mt-2 text-emerald-200">Presents a short project clearly in English — proud & motivated.</p>
-        </div>
-        <div class="card p-6 fade-up">
-          <div class="eyebrow" data-i18n="success.before">Before</div>
-          <p data-i18n="success.b2" class="mt-2">“Unstructured practice, no real outcomes.”</p>
-          <div class="eyebrow mt-4" data-i18n="success.after">After</div>
-          <p data-i18n="success.a2" class="mt-2 text-emerald-200">Builds a mini website & explains it in English.</p>
-        </div>
-        <div class="card p-6 fade-up">
-          <div class="eyebrow" data-i18n="success.before">Before</div>
-          <p data-i18n="success.b3" class="mt-2">“Anxious about exams; unclear targets.”</p>
-          <div class="eyebrow mt-4" data-i18n="success.after">After</div>
-          <p data-i18n="success.a3" class="mt-2 text-emerald-200">Weekly micro-goals, timed mocks, clear plan to target band/grade.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECT GALLERY -->
-  <section id="projects" class="border-t border-slate-800 bg-slate-900/40">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Work samples</p>
-        <h2 data-i18n="projects.title" class="text-3xl font-bold">Example mini-projects</h2>
-        <p data-i18n="projects.sub" class="text-slate-300">No student photos needed — outcomes speak for themselves.</p>
-        <div class="section-rule"></div>
-      </div>
-      <div class="mt-8 grid md:grid-cols-3 gap-6">
-        <figure class="card p-4 shadow-luxe fade-up">
-          <img src="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center" alt="Student website mockup" class="rounded-xl w-full h-52 object-cover media-frame" loading="lazy" />
-          <figcaption data-i18n="projects.c1" class="mt-3 text-sm muted">Personal website — hobbies page (HTML/CSS)</figcaption>
-        </figure>
-        <figure class="card p-4 shadow-luxe fade-up">
-          <img src="https://teacherizediaries.wordpress.com/wp-content/uploads/2023/09/modern-minimalist-geometric-blank-document-border.png?w=1024" alt="Digital poster" class="rounded-xl w-full h-52 object-cover media-frame" loading="lazy" />
-          <figcaption data-i18n="projects.c2" class="mt-3 text-sm muted">Digital poster — “My week in English”</figcaption>
-        </figure>
-        <figure class="card p-4 shadow-luxe fade-up">
-          <img src="https://www.slideteam.net/media/catalog/product/cache/1280x720/C/o/Comprehensive_Training_Curriculum_on_Artificial_Intelligence_Training_PPT_Slide3.jpg" alt="Presentation slides" class="rounded-xl w-full h-52 object-cover media-frame" loading="lazy" />
-          <figcaption data-i18n="projects.c3" class="mt-3 text-sm muted">Short presentation — “AI for teens (in English)”</figcaption>
-        </figure>
-      </div>
-      <div class="mt-6">
-        <a data-i18n="projects.cta" href="#lead" class="inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95">Get a sample 4-session plan</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- TESTIMONIALS -->
-  <section id="testimonials" class="border-t border-white/5">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">From parents</p>
-        <h2 data-i18n="testimonials.title" class="text-3xl font-bold">Parent feedback</h2>
-        <p data-i18n="testimonials.sub" class="text-slate-300 max-w-2xl">Real progress parents can see — confidence, creativity, and clear communication in English.</p>
-        <div class="section-rule"></div>
-      </div>
-
-      <div class="mt-10 grid md:grid-cols-3 gap-8">
-        <figure class="card p-6 shadow-luxe fade-up">
-          <blockquote class="quote text-slate-100" data-i18n="testimonials.q1">“Our daughter used to doubt her English… now she presents short projects confidently.”</blockquote>
-          <figcaption data-i18n="testimonials.a1" class="mt-3 text-xs text-slate-400">— Parent, Neuilly (12-year-old)</figcaption>
-        </figure>
-        <figure class="card p-6 shadow-luxe fade-up">
-          <blockquote class="quote text-slate-100" data-i18n="testimonials.q2">“He built a small booking website and explained it in English — we were so proud.”</blockquote>
-          <figcaption data-i18n="testimonials.a2" class="mt-3 text-xs text-slate-400">— Parent, Paris 16ᵉ (14-year-old)</figcaption>
-        </figure>
-        <figure class="card p-6 shadow-luxe fade-up">
-          <blockquote class="quote text-slate-100" data-i18n="testimonials.q3">
-            “Our daughter now speaks with real confidence — she presents her ideas clearly and even enjoys creating projects in English.”
-          </blockquote>
-          <figcaption data-i18n="testimonials.a3" class="mt-3 text-xs text-slate-400">
-            — Parent, Levallois (15-year-old)
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRICING -->
-  <section id="pricing" class="border-t border-slate-800 bg-slate-900/40">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Pricing</p>
-        <h2 data-i18n="pricing.title" class="text-3xl font-bold">Pricing</h2>
-        <p data-i18n-html="pricing.sub2" class="text-slate-300">Transparent and flexible. Choose private sessions or a small group. <span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span></p>
-        <div class="section-rule"></div>
-      </div>
-
-      <div class="mt-10 grid md:grid-cols-3 gap-6">
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="pricing.p1.t" class="text-lg font-semibold">Private Progress Plan</h3>
-          <p class="mt-1 price"><span class="text-brand-yellow">€25</span> <small data-i18n="pricing.perHour">/h</small></p>
-          <p data-i18n="pricing.p1.d" class="mt-2 text-sm muted">1:1 tailored English + tech. Fast, visible results in 4 weeks.</p>
-          <a data-i18n="pricing.cta" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Book Free Consult</a>
-          <p data-i18n="pricing.p1.note" class="mt-3 text-xs text-slate-400">Suggested starter: 4×1h (€100)</p>
-        </div>
-
-        <div class="card p-6 shadow-luxe tier--featured fade-up border border-brand-yellow/70">
-          <h3 data-i18n="pricing.p2.t" class="text-lg font-semibold">Siblings/Friends Accelerator</h3>
-          <p class="mt-1 price"><span class="text-brand-yellow">€40</span> <small data-i18n="pricing.perHour">/h</small></p>
-          <p data-i18n="pricing.p2.d" class="mt-2 text-sm muted">2–4 learners: teamwork, communication, and creative projects.</p>
-          <a data-i18n="pricing.cta" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Book Free Consult</a>
-          <p data-i18n="pricing.p2.note" class="mt-3 text-xs text-slate-400">Great value for siblings</p>
-        </div>
-
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="pricing.p3.t" class="text-lg font-semibold">Exam & Confidence Mastery</h3>
-          <p class="mt-1 price"><span class="text-brand-yellow">€50</span> <small data-i18n="pricing.perHour">/h</small></p>
-          <p data-i18n="pricing.p3.d" class="mt-2 text-sm muted">TOEIC, IELTS, IGCSE/A-Level — with speaking & presentation coaching.</p>
-          <a data-i18n="pricing.cta" href="#lead" class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Book Free Consult</a>
-          <p data-i18n="pricing.p3.note" class="mt-3 text-xs text-slate-400">Suggested focus: 6–8 weeks to target band/grade</p>
-        </div>
-      </div>
-
-      <p data-i18n="pricing.note" class="mt-4 text-xs text-slate-400 fade-up">In-person sessions may include a small transport supplement depending on location.</p>
-    </div>
-  </section>
-
-  <!-- EXAM PACKS -->
-  <section id="exam" class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Focused tracks</p>
-        <h2 data-i18n="exam.title" class="text-3xl font-bold">Exam Packs</h2>
-        <p data-i18n="exam.sub" class="text-slate-300 max-w-3xl">IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Past papers, timed mocks, score tracking — plus an optional real-project track.</p>
-        <div class="section-rule"></div>
-      </div>
-
-      <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="exam.e1.t" class="font-semibold">IGCSE / O-Level / IAL / A-Level Pack</h3>
-          <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="exam.e1.l1">Chapter-wise notes & mastery</li>
-            <li data-i18n="exam.e1.l2">Past papers & examiner-style marking</li>
-            <li data-i18n="exam.e1.l3">Timed mocks & weekly micro-goals</li>
-          </ul>
-        </div>
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="exam.e2.t" class="font-semibold">IELTS / TOEIC English Pack</h3>
-          <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="exam.e2.l1">Full mock tests with band/score estimates</li>
-            <li data-i18n="exam.e2.l2">Speaking interviews & writing feedback</li>
-            <li data-i18n="exam.e2.l3">Personal plan to reach target score</li>
-          </ul>
-        </div>
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="exam.e3.t" class="font-semibold">Mocks, Scores & Reports</h3>
-          <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="exam.e3.l1">Diagnostic → roadmap & dated milestones</li>
-            <li data-i18n="exam.e3.l2">Error analysis & retakes</li>
-            <li data-i18n="exam.e3.l3">Parent report with next steps</li>
-          </ul>
-        </div>
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="exam.e4.t" class="font-semibold">Project Boost (Optional)</h3>
-          <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
-            <li data-i18n="exam.e4.l1">Real projects: website, database, algorithms, AI/ML</li>
-            <li data-i18n="exam.e4.l2">Presentation & documentation skills</li>
-            <li data-i18n="exam.e4.l3">Portfolio piece for applications</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HOW IT WORKS (TIMELINE) -->
-  <section id="process" class="border-t border-white/5 bg-slate-900/40">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <h2 data-i18n="process.title" class="text-3xl font-bold fade-up">How it works</h2>
-
-      <!-- Vertical timeline (mobile) -->
-      <ol class="mt-10 relative border-l border-white/10 md:hidden fade-up">
-        <li class="mb-10 ml-6">
-          <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60">1</span>
-          <h3 data-i18n="process.s1.t" class="font-semibold">Parent consult</h3>
-          <p data-i18n="process.s1.d" class="mt-2 text-sm text-slate-300">15-minute call to understand goals, level, and schedule.</p>
-        </li>
-        <li class="mb-10 ml-6">
-          <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60">2</span>
-          <h3 data-i18n="process.s2.t" class="font-semibold">Personal plan</h3>
-          <p data-i18n="process.s2.d" class="mt-2 text-sm text-slate-300">A tailored 4-session milestone plan + recommended packs.</p>
-        </li>
-        <li class="ml-6">
-          <span class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60">3</span>
-          <h3 data-i18n="process.s3.t" class="font-semibold">Start & track progress</h3>
-          <p data-i18n="process.s3.d" class="mt-2 text-sm text-slate-300">Weekly sessions with notes and demo links parents can review.</p>
-        </li>
-      </ol>
-
-      <!-- Horizontal timeline (md+) -->
-      <div class="mt-12 hidden md:block fade-up">
-        <div class="relative">
-          <div class="absolute left-0 right-0 top-8 h-px bg-gradient-to-r from-white/0 via-white/15 to-white/0"></div>
-          <div class="grid grid-cols-3 gap-8">
-            <div class="relative">
-              <div class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60">1</div>
-              <div class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe">
-                <h3 data-i18n="process.s1.t" class="font-semibold">Parent consult</h3>
-                <p data-i18n="process.s1.d" class="mt-2 text-sm text-slate-300">15-minute call to understand goals, level, and schedule.</p>
-              </div>
+        <div class="mt-10 grid lg:grid-cols-3 gap-8">
+          <!-- P1 -->
+          <article class="card card--grad p-6 fade-up">
+            <div class="card-head">
+              <span class="badge" data-i18n="programs.p1.badge">Ages 8–10</span>
+              <span class="text-xs muted">4–8 weeks · weekly</span>
             </div>
-            <div class="relative">
-              <div class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60">2</div>
-              <div class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe">
-                <h3 data-i18n="process.s2.t" class="font-semibold">Personal plan</h3>
-                <p data-i18n="process.s2.d" class="mt-2 text-sm text-slate-300">A tailored 4-session milestone plan + recommended packs.</p>
-              </div>
-            </div>
-            <div class="relative">
-              <div class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60">3</div>
-              <div class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe">
-                <h3 data-i18n="process.s3.t" class="font-semibold">Start & track progress</h3>
-                <p data-i18n="process.s3.d" class="mt-2 text-sm text-slate-300">Weekly sessions with notes and demo links parents can review.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /Horizontal timeline -->
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Answers</p>
-        <h2 data-i18n="faq.title" class="text-3xl font-bold">FAQ / Questions fréquentes</h2>
-        <div class="section-rule"></div>
-      </div>
-      <div class="mt-8 grid md:grid-cols-2 gap-6">
-        <details class="card p-6 shadow-luxe fade-up">
-          <summary data-i18n="faq.q1" class="cursor-pointer font-semibold select-none">Where are sessions held? / Où ont lieu les cours ?</summary>
-          <p data-i18n="faq.a1" class="mt-3 text-sm muted">At home anywhere in Paris/Île-de-France or online via Google Meet. Parents are welcome nearby for first sessions.</p>
-        </details>
-        <details class="card p-6 shadow-luxe fade-up">
-          <summary data-i18n="faq.q2" class="cursor-pointer font-semibold select-none">Which ages and levels? / Quels âges et niveaux ?</summary>
-          <p data-i18n="faq.a2" class="mt-3 text-sm muted">Ages 8–18, beginner to advanced. IGCSE, O-Level, IAL, A-Level, IELTS, TOEIC supported. University writing/presentations on request.</p>
-        </details>
-        <details class="card p-6 shadow-luxe fade-up">
-          <summary data-i18n="faq.q3" class="cursor-pointer font-semibold select-none">Scheduling / Planification</summary>
-          <p data-i18n="faq.a3" class="mt-3 text-sm muted">Weekly or twice-weekly recommended. Rescheduling with 24h notice.</p>
-        </details>
-        <details class="card p-6 shadow-luxe fade-up">
-          <summary data-i18n="faq.q4" class="cursor-pointer font-semibold select-none">Invoices & payment / Factures et paiement</summary>
-          <p data-i18n="faq.a4" class="mt-3 text-sm muted">Invoices under micro-entrepreneur status. Payment by bank transfer or PayPal/Revolut.</p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- LEAD / CONTACT -->
-  <section id="lead" class="border-t border-slate-800 bg-slate-900/40">
-    <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-20">
-      <div class="section-head fade-up">
-        <p class="eyebrow">Get in touch</p>
-        <h2 data-i18n="lead.title" class="text-3xl font-bold">Book a free 15-minute parent consult</h2>
-        <p data-i18n="lead.sub" class="text-slate-300">We’ll discuss goals, availability, and the best program for your child. Online or at home in Paris.</p>
-        <div class="section-rule"></div>
-      </div>
-
-      <div class="mt-8 grid md:grid-cols-2 gap-6 items-stretch">
-        <form id="leadForm" class="card p-6 shadow-luxe space-y-4 fade-up" novalidate>
-          <div>
-            <label for="pname" data-i18n="lead.f.name" class="block text-sm text-slate-300">Parent name</label>
-            <input id="pname" name="pname" type="text" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" required />
-          </div>
-          <div>
-            <label for="email" class="block text-sm text-slate-300">Email</label>
-            <input id="email" name="email" type="email" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" required />
-          </div>
-          <div>
-            <label for="child" data-i18n="lead.f.child" class="block text-sm text-slate-300">Child age(s) & goals</label>
-            <textarea id="child" name="child" rows="3" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" placeholder="11 — build a website; 15 — IGCSE English B2" required></textarea>
-          </div>
-          <div>
-            <label for="slot" data-i18n="lead.f.slot" class="block text-sm text-slate-300">Preferred time</label>
-            <select id="slot" name="slot" class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2">
-              <option value="Weekday evening" data-i18n="lead.opt1">Weekday evening</option>
-              <option value="Saturday" data-i18n="lead.opt2">Saturday</option>
-              <option value="Sunday" data-i18n="lead.opt3">Sunday</option>
-            </select>
-          </div>
-          <div class="flex flex-wrap gap-3 pt-2">
-            <button type="submit" data-i18n="lead.cta.submit" class="rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95">Send & prefill WhatsApp</button>
-            <a id="mailtoLink" href="#" data-i18n="lead.email" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">Email</a>
-          </div>
-          <p id="leadMsg" class="text-xs text-emerald-300 hidden" role="status" aria-live="polite">✅ Thanks! Opening WhatsApp with your details…</p>
-        </form>
-
-        <div class="card p-6 shadow-luxe fade-up">
-          <h3 data-i18n="pay.title" class="text-lg font-semibold mb-2">Secure and simple payment options</h3>
-          <p data-i18n-html="pay.sub" class="text-sm text-slate-300 mb-4">After we confirm your child’s programme and schedule, pay safely using <strong>Revolut</strong> or <strong>PayPal</strong>.</p>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
-            <a href="https://revolut.me/stashfin" target="_blank" rel="noopener" data-i18n="pay.revolut" class="w-full text-center rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95">Pay via Revolut</a>
-            <a href="https://paypal.me/SyedTashfin?locale.x=en_US&country.x=FR" target="_blank" rel="noopener" data-i18n="pay.paypal" class="w-full text-center rounded-2xl border border-slate-700 px-5 py-2 font-medium text-slate-200 hover:border-brand-yellow">Pay via PayPal</a>
-          </div>
-          <div class="grid sm:grid-cols-2 gap-4 mb-5">
-            <ul class="text-sm text-slate-300 space-y-2 list-clean">
-              <li data-i18n="pay.l1"> Enter the amount and confirm in one step</li>
-              <li data-i18n="pay.l2"> Card, Apple Pay, and Google Pay supported</li>
-              <li data-i18n="pay.l3"> Bank transfer available on request</li>
+            <h3
+              data-i18n="programs.p1.title"
+              class="mt-4 text-xl font-semibold"
+            >
+              English & Digital Discovery
+            </h3>
+            <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="programs.p1.l1">
+                Build confidence through fun English conversation, games, and
+                storytelling
+              </li>
+              <li data-i18n="programs.p1.l2">
+                Practice clear communication and presentation skills in a
+                supportive environment
+              </li>
+              <li data-i18n="programs.p1.l3">
+                Create small digital projects — a personal webpage, interactive
+                story, or online poster
+              </li>
+              <li data-i18n="programs.p1.l4">
+                Learn responsible and balanced technology use while exploring
+                creativity
+              </li>
+              <li data-i18n="programs.p1.l5">
+                Grow curiosity, creativity, and self-expression — entirely in
+                English
+              </li>
             </ul>
-            <ul class="text-sm text-slate-300 space-y-2 list-clean">
-              <li data-i18n-html="pay.l4"> <strong>Invoice provided</strong> for every session or pack</li>
-              <li data-i18n="pay.l5"> Payments processed securely</li>
-              <li data-i18n="pay.l6"> Refunds for unused sessions per plan terms</li>
+          </article>
+
+          <!-- P2 -->
+          <article class="card card--grad p-6 fade-up">
+            <div class="card-head">
+              <span class="badge" data-i18n="programs.p2.badge"
+                >Ages 11–14</span
+              >
+              <span class="text-xs muted">4–8 weeks · weekly</span>
+            </div>
+            <h3
+              data-i18n="programs.p2.title"
+              class="mt-4 text-xl font-semibold"
+            >
+              English, IT & Business Basics
+            </h3>
+            <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="programs.p2.l1">
+                Strengthen English for schoolwork, writing, and confident
+                speaking
+              </li>
+              <li data-i18n="programs.p2.l2">
+                Learn key IT concepts: hardware, software, and how computers
+                work
+              </li>
+              <li data-i18n="programs.p2.l3">
+                Create small website projects using HTML, CSS, and simple
+                interactivity
+              </li>
+              <li data-i18n="programs.p2.l4">
+                Discover the basics of business, money, and smart digital
+                finance
+              </li>
+              <li data-i18n="programs.p2.l5">
+                Build early exam readiness — practice skills for IGCSE, TOEIC,
+                or IELTS foundations
+              </li>
             </ul>
+          </article>
+
+          <!-- P3 -->
+          <article class="card card--grad p-6 fade-up">
+            <div class="card-head">
+              <span class="badge" data-i18n="programs.p3.badge"
+                >Ages 15–18</span
+              >
+              <span class="text-xs muted">6–10 weeks · weekly</span>
+            </div>
+            <h3
+              data-i18n="programs.p3.title"
+              class="mt-4 text-xl font-semibold"
+            >
+              Academic English, Coding & AI Readiness
+            </h3>
+            <ul class="mt-3 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="programs.p3.l1">
+                Master academic and professional English through comprehension,
+                writing exercises, and presentations
+              </li>
+              <li data-i18n="programs.p3.l2">
+                Develop full website projects using HTML, CSS, JavaScript, and
+                modern tools
+              </li>
+              <li data-i18n="programs.p3.l3">
+                Explore coding logic and new technologies including AI and
+                prompt engineering
+              </li>
+              <li data-i18n="programs.p3.l4">
+                Prepare for international exams: TOEIC, IELTS, and IGCSE/A-Level
+                English & IT
+              </li>
+              <li data-i18n="programs.p3.l5">
+                Build confidence for university interviews, presentations, and
+                future digital careers
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section id="benefits" class="border-t border-slate-800 bg-slate-900/40">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up text-center">
+          <p class="eyebrow">Why this works</p>
+          <h2 data-i18n="benefits.title" class="text-3xl font-bold">
+            Why parents choose this program
+          </h2>
+          <div class="section-rule mx-auto"></div>
+        </div>
+
+        <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b1.t" class="font-semibold">
+              Experienced English & Technology Instructor
+            </h3>
+            <p data-i18n="benefits.b1.d" class="mt-2 text-sm muted">
+              Currently teaching at business and engineering schools in Paris —
+              bringing real-world expertise into engaging, age-appropriate
+              lessons for your child.
+            </p>
           </div>
-          <div class="rounded-xl border border-white/10 bg-slate-900/50 p-3">
-            <p class="text-xs text-slate-400">
-              <span data-i18n="pay.help">Prefer to confirm details first?</span>
-              <a href="https://wa.me/33667135850" target="_blank" rel="noopener" class="text-brand-yellow hover:underline">WhatsApp</a>.
+
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b2.t" class="font-semibold">
+              Visible Progress & Confidence
+            </h3>
+            <p data-i18n="benefits.b2.d" class="mt-2 text-sm muted">
+              Parents receive regular updates and can see clear growth every few
+              sessions — in English fluency, self-expression, and digital
+              skills.
+            </p>
+          </div>
+
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b3.t" class="font-semibold">
+              Learning with Purpose
+            </h3>
+            <p data-i18n="benefits.b3.d" class="mt-2 text-sm muted">
+              English is taught through meaningful, modern topics — from
+              technology and website design to AI — so students stay curious and
+              motivated.
+            </p>
+          </div>
+
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b4.t" class="font-semibold">
+              Academic & Exam Preparation
+            </h3>
+            <p data-i18n="benefits.b4.d" class="mt-2 text-sm muted">
+              Structured, step-by-step guidance for school English, IGCSE, or
+              international exams like TOEIC and IELTS — always focused on real
+              understanding and confident communication.
+            </p>
+          </div>
+
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b5.t" class="font-semibold">
+              Flexible & Personalised Format
+            </h3>
+            <p data-i18n="benefits.b5.d" class="mt-2 text-sm muted">
+              Home lessons in Paris or online sessions. Flexible scheduling,
+              with sibling or friend groups encouraged.
+            </p>
+          </div>
+
+          <div class="card card--soft p-6 shadow-luxe fade-up">
+            <h3 data-i18n="benefits.b6.t" class="font-semibold">
+              Confidence that Lasts
+            </h3>
+            <p data-i18n="benefits.b6.d" class="mt-2 text-sm muted">
+              Your child learns to speak clearly, think critically, and express
+              ideas naturally — building true confidence that goes beyond
+              grammar.
             </p>
           </div>
         </div>
       </div>
-      <div class="mt-6 flex flex-wrap gap-3 fade-up">
-        <a id="whatsapp-lead" href="https://wa.me/33667135850" target="_blank" rel="noopener" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">WhatsApp</a>
-        <a id="email-lead" href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr" class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow">Email</a>
+    </section>
+
+    <!-- OUTCOMES -->
+    <section id="success" class="border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Outcomes</p>
+          <h2 data-i18n="success.title" class="text-3xl font-bold">
+            What success looks like
+          </h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <div class="card p-6 fade-up">
+            <div class="eyebrow" data-i18n="success.before">Before</div>
+            <p data-i18n="success.b1" class="mt-2">
+              “Avoids speaking English, low confidence.”
+            </p>
+            <div class="eyebrow mt-4" data-i18n="success.after">After</div>
+            <p data-i18n="success.a1" class="mt-2 text-emerald-200">
+              Presents a short project clearly in English — proud & motivated.
+            </p>
+          </div>
+          <div class="card p-6 fade-up">
+            <div class="eyebrow" data-i18n="success.before">Before</div>
+            <p data-i18n="success.b2" class="mt-2">
+              “Unstructured practice, no real outcomes.”
+            </p>
+            <div class="eyebrow mt-4" data-i18n="success.after">After</div>
+            <p data-i18n="success.a2" class="mt-2 text-emerald-200">
+              Builds a mini website & explains it in English.
+            </p>
+          </div>
+          <div class="card p-6 fade-up">
+            <div class="eyebrow" data-i18n="success.before">Before</div>
+            <p data-i18n="success.b3" class="mt-2">
+              “Anxious about exams; unclear targets.”
+            </p>
+            <div class="eyebrow mt-4" data-i18n="success.after">After</div>
+            <p data-i18n="success.a3" class="mt-2 text-emerald-200">
+              Weekly micro-goals, timed mocks, clear plan to target band/grade.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT GALLERY -->
+    <section id="projects" class="border-t border-slate-800 bg-slate-900/40">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Work samples</p>
+          <h2 data-i18n="projects.title" class="text-3xl font-bold">
+            Example mini-projects
+          </h2>
+          <p data-i18n="projects.sub" class="text-slate-300">
+            No student photos needed — outcomes speak for themselves.
+          </p>
+          <div class="section-rule"></div>
+        </div>
+        <div class="mt-8 grid md:grid-cols-3 gap-6">
+          <figure class="card p-4 shadow-luxe fade-up">
+            <img
+              src="https://cdn.dribbble.com/users/702789/screenshots/8166696/media/ac390c486f34dc82394efded86a40115.png?format=webp&resize=1440x&vertical=center"
+              alt="Student website mockup"
+              class="rounded-xl w-full h-52 object-cover media-frame"
+              loading="lazy"
+            />
+            <figcaption data-i18n="projects.c1" class="mt-3 text-sm muted">
+              Personal website — hobbies page (HTML/CSS)
+            </figcaption>
+          </figure>
+          <figure class="card p-4 shadow-luxe fade-up">
+            <img
+              src="https://teacherizediaries.wordpress.com/wp-content/uploads/2023/09/modern-minimalist-geometric-blank-document-border.png?w=1024"
+              alt="Digital poster"
+              class="rounded-xl w-full h-52 object-cover media-frame"
+              loading="lazy"
+            />
+            <figcaption data-i18n="projects.c2" class="mt-3 text-sm muted">
+              Digital poster — “My week in English”
+            </figcaption>
+          </figure>
+          <figure class="card p-4 shadow-luxe fade-up">
+            <img
+              src="https://www.slideteam.net/media/catalog/product/cache/1280x720/C/o/Comprehensive_Training_Curriculum_on_Artificial_Intelligence_Training_PPT_Slide3.jpg"
+              alt="Presentation slides"
+              class="rounded-xl w-full h-52 object-cover media-frame"
+              loading="lazy"
+            />
+            <figcaption data-i18n="projects.c3" class="mt-3 text-sm muted">
+              Short presentation — “AI for teens (in English)”
+            </figcaption>
+          </figure>
+        </div>
+        <div class="mt-6">
+          <a
+            data-i18n="projects.cta"
+            href="#lead"
+            class="inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95"
+            >Get a sample 4-session plan</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="border-t border-white/5">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">From parents</p>
+          <h2 data-i18n="testimonials.title" class="text-3xl font-bold">
+            Parent feedback
+          </h2>
+          <p data-i18n="testimonials.sub" class="text-slate-300 max-w-2xl">
+            Real progress parents can see — confidence, creativity, and clear
+            communication in English.
+          </p>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="mt-10 grid md:grid-cols-3 gap-8">
+          <figure class="card p-6 shadow-luxe fade-up">
+            <blockquote
+              class="quote text-slate-100"
+              data-i18n="testimonials.q1"
+            >
+              “Our daughter used to doubt her English… now she presents short
+              projects confidently.”
+            </blockquote>
+            <figcaption
+              data-i18n="testimonials.a1"
+              class="mt-3 text-xs text-slate-400"
+            >
+              — Parent, Neuilly (12-year-old)
+            </figcaption>
+          </figure>
+          <figure class="card p-6 shadow-luxe fade-up">
+            <blockquote
+              class="quote text-slate-100"
+              data-i18n="testimonials.q2"
+            >
+              “He built a small booking website and explained it in English — we
+              were so proud.”
+            </blockquote>
+            <figcaption
+              data-i18n="testimonials.a2"
+              class="mt-3 text-xs text-slate-400"
+            >
+              — Parent, Paris 16ᵉ (14-year-old)
+            </figcaption>
+          </figure>
+          <figure class="card p-6 shadow-luxe fade-up">
+            <blockquote
+              class="quote text-slate-100"
+              data-i18n="testimonials.q3"
+            >
+              “Our daughter now speaks with real confidence — she presents her
+              ideas clearly and even enjoys creating projects in English.”
+            </blockquote>
+            <figcaption
+              data-i18n="testimonials.a3"
+              class="mt-3 text-xs text-slate-400"
+            >
+              — Parent, Levallois (15-year-old)
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="border-t border-slate-800 bg-slate-900/40">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Pricing</p>
+          <h2 data-i18n="pricing.title" class="text-3xl font-bold">Pricing</h2>
+          <p data-i18n-html="pricing.sub2" class="text-slate-300">
+            Transparent and flexible. Choose private sessions or a small group.
+            <span
+              class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2"
+              >Introductory launch rates</span
+            >
+          </p>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="mt-10 grid md:grid-cols-3 gap-6">
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="pricing.p1.t" class="text-lg font-semibold">
+              Private Progress Plan
+            </h3>
+            <p class="mt-1 price">
+              <span class="text-brand-yellow">€25</span>
+              <small data-i18n="pricing.perHour">/h</small>
+            </p>
+            <p data-i18n="pricing.p1.d" class="mt-2 text-sm muted">
+              1:1 tailored English + tech. Fast, visible results in 4 weeks.
+            </p>
+            <a
+              data-i18n="pricing.cta"
+              href="#lead"
+              class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95"
+              >Book Free Consult</a
+            >
+            <p data-i18n="pricing.p1.note" class="mt-3 text-xs text-slate-400">
+              Suggested starter: 4×1h (€100)
+            </p>
+          </div>
+
+          <div
+            class="card p-6 shadow-luxe tier--featured fade-up border border-brand-yellow/70"
+          >
+            <h3 data-i18n="pricing.p2.t" class="text-lg font-semibold">
+              Siblings/Friends Accelerator
+            </h3>
+            <p class="mt-1 price">
+              <span class="text-brand-yellow">€40</span>
+              <small data-i18n="pricing.perHour">/h</small>
+            </p>
+            <p data-i18n="pricing.p2.d" class="mt-2 text-sm muted">
+              2–4 learners: teamwork, communication, and creative projects.
+            </p>
+            <a
+              data-i18n="pricing.cta"
+              href="#lead"
+              class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95"
+              >Book Free Consult</a
+            >
+            <p data-i18n="pricing.p2.note" class="mt-3 text-xs text-slate-400">
+              Great value for siblings
+            </p>
+          </div>
+
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="pricing.p3.t" class="text-lg font-semibold">
+              Exam & Confidence Mastery
+            </h3>
+            <p class="mt-1 price">
+              <span class="text-brand-yellow">€50</span>
+              <small data-i18n="pricing.perHour">/h</small>
+            </p>
+            <p data-i18n="pricing.p3.d" class="mt-2 text-sm muted">
+              TOEIC, IELTS, IGCSE/A-Level — with speaking & presentation
+              coaching.
+            </p>
+            <a
+              data-i18n="pricing.cta"
+              href="#lead"
+              class="mt-6 inline-block rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95"
+              >Book Free Consult</a
+            >
+            <p data-i18n="pricing.p3.note" class="mt-3 text-xs text-slate-400">
+              Suggested focus: 6–8 weeks to target band/grade
+            </p>
+          </div>
+        </div>
+
+        <p data-i18n="pricing.note" class="mt-4 text-xs text-slate-400 fade-up">
+          In-person sessions may include a small transport supplement depending
+          on location.
+        </p>
+      </div>
+    </section>
+
+    <!-- EXAM PACKS -->
+    <section id="exam" class="border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Focused tracks</p>
+          <h2 data-i18n="exam.title" class="text-3xl font-bold">Exam Packs</h2>
+          <p data-i18n="exam.sub" class="text-slate-300 max-w-3xl">
+            IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Past papers, timed
+            mocks, score tracking — plus an optional real-project track.
+          </p>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="mt-8 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="exam.e1.t" class="font-semibold">
+              IGCSE / O-Level / IAL / A-Level Pack
+            </h3>
+            <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="exam.e1.l1">Chapter-wise notes & mastery</li>
+              <li data-i18n="exam.e1.l2">
+                Past papers & examiner-style marking
+              </li>
+              <li data-i18n="exam.e1.l3">Timed mocks & weekly micro-goals</li>
+            </ul>
+          </div>
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="exam.e2.t" class="font-semibold">
+              IELTS / TOEIC English Pack
+            </h3>
+            <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="exam.e2.l1">
+                Full mock tests with band/score estimates
+              </li>
+              <li data-i18n="exam.e2.l2">
+                Speaking interviews & writing feedback
+              </li>
+              <li data-i18n="exam.e2.l3">
+                Personal plan to reach target score
+              </li>
+            </ul>
+          </div>
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="exam.e3.t" class="font-semibold">
+              Mocks, Scores & Reports
+            </h3>
+            <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="exam.e3.l1">
+                Diagnostic → roadmap & dated milestones
+              </li>
+              <li data-i18n="exam.e3.l2">Error analysis & retakes</li>
+              <li data-i18n="exam.e3.l3">Parent report with next steps</li>
+            </ul>
+          </div>
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="exam.e4.t" class="font-semibold">
+              Project Boost (Optional)
+            </h3>
+            <ul class="mt-2 text-slate-300 text-sm space-y-2 list-clean">
+              <li data-i18n="exam.e4.l1">
+                Real projects: website, database, algorithms, AI/ML
+              </li>
+              <li data-i18n="exam.e4.l2">
+                Presentation & documentation skills
+              </li>
+              <li data-i18n="exam.e4.l3">Portfolio piece for applications</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS (TIMELINE) -->
+    <section id="process" class="border-t border-white/5 bg-slate-900/40">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <h2 data-i18n="process.title" class="text-3xl font-bold fade-up">
+          How it works
+        </h2>
+
+        <!-- Vertical timeline (mobile) -->
+        <ol class="mt-10 relative border-l border-white/10 md:hidden fade-up">
+          <li class="mb-10 ml-6">
+            <span
+              class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60"
+              >1</span
+            >
+            <h3 data-i18n="process.s1.t" class="font-semibold">
+              Parent consult
+            </h3>
+            <p data-i18n="process.s1.d" class="mt-2 text-sm text-slate-300">
+              15-minute call to understand goals, level, and schedule.
+            </p>
+          </li>
+          <li class="mb-10 ml-6">
+            <span
+              class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60"
+              >2</span
+            >
+            <h3 data-i18n="process.s2.t" class="font-semibold">
+              Personal plan
+            </h3>
+            <p data-i18n="process.s2.d" class="mt-2 text-sm text-slate-300">
+              A tailored 4-session milestone plan + recommended packs.
+            </p>
+          </li>
+          <li class="ml-6">
+            <span
+              class="absolute -left-3 flex h-6 w-6 items-center justify-center rounded-full bg-brand-yellow text-slate-900 text-xs font-bold ring-4 ring-slate-900/60"
+              >3</span
+            >
+            <h3 data-i18n="process.s3.t" class="font-semibold">
+              Start & track progress
+            </h3>
+            <p data-i18n="process.s3.d" class="mt-2 text-sm text-slate-300">
+              Weekly sessions with notes and demo links parents can review.
+            </p>
+          </li>
+        </ol>
+
+        <!-- Horizontal timeline (md+) -->
+        <div class="mt-12 hidden md:block fade-up">
+          <div class="relative">
+            <div
+              class="absolute left-0 right-0 top-8 h-px bg-gradient-to-r from-white/0 via-white/15 to-white/0"
+            ></div>
+            <div class="grid grid-cols-3 gap-8">
+              <div class="relative">
+                <div
+                  class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60"
+                >
+                  1
+                </div>
+                <div
+                  class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe"
+                >
+                  <h3 data-i18n="process.s1.t" class="font-semibold">
+                    Parent consult
+                  </h3>
+                  <p
+                    data-i18n="process.s1.d"
+                    class="mt-2 text-sm text-slate-300"
+                  >
+                    15-minute call to understand goals, level, and schedule.
+                  </p>
+                </div>
+              </div>
+              <div class="relative">
+                <div
+                  class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60"
+                >
+                  2
+                </div>
+                <div
+                  class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe"
+                >
+                  <h3 data-i18n="process.s2.t" class="font-semibold">
+                    Personal plan
+                  </h3>
+                  <p
+                    data-i18n="process.s2.d"
+                    class="mt-2 text-sm text-slate-300"
+                  >
+                    A tailored 4-session milestone plan + recommended packs.
+                  </p>
+                </div>
+              </div>
+              <div class="relative">
+                <div
+                  class="mx-auto w-10 h-10 rounded-full bg-brand-yellow text-slate-900 font-bold flex items-center justify-center ring-4 ring-slate-900/60"
+                >
+                  3
+                </div>
+                <div
+                  class="mt-6 rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-luxe"
+                >
+                  <h3 data-i18n="process.s3.t" class="font-semibold">
+                    Start & track progress
+                  </h3>
+                  <p
+                    data-i18n="process.s3.d"
+                    class="mt-2 text-sm text-slate-300"
+                  >
+                    Weekly sessions with notes and demo links parents can
+                    review.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Horizontal timeline -->
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Answers</p>
+          <h2 data-i18n="faq.title" class="text-3xl font-bold">
+            FAQ / Questions fréquentes
+          </h2>
+          <div class="section-rule"></div>
+        </div>
+        <div class="mt-8 grid md:grid-cols-2 gap-6">
+          <details class="card p-6 shadow-luxe fade-up">
+            <summary
+              data-i18n="faq.q1"
+              class="cursor-pointer font-semibold select-none"
+            >
+              Where are sessions held? / Où ont lieu les cours ?
+            </summary>
+            <p data-i18n="faq.a1" class="mt-3 text-sm muted">
+              At home anywhere in Paris/Île-de-France or online via Google Meet.
+              Parents are welcome nearby for first sessions.
+            </p>
+          </details>
+          <details class="card p-6 shadow-luxe fade-up">
+            <summary
+              data-i18n="faq.q2"
+              class="cursor-pointer font-semibold select-none"
+            >
+              Which ages and levels? / Quels âges et niveaux ?
+            </summary>
+            <p data-i18n="faq.a2" class="mt-3 text-sm muted">
+              Ages 8–18, beginner to advanced. IGCSE, O-Level, IAL, A-Level,
+              IELTS, TOEIC supported. University writing/presentations on
+              request.
+            </p>
+          </details>
+          <details class="card p-6 shadow-luxe fade-up">
+            <summary
+              data-i18n="faq.q3"
+              class="cursor-pointer font-semibold select-none"
+            >
+              Scheduling / Planification
+            </summary>
+            <p data-i18n="faq.a3" class="mt-3 text-sm muted">
+              Weekly or twice-weekly recommended. Rescheduling with 24h notice.
+            </p>
+          </details>
+          <details class="card p-6 shadow-luxe fade-up">
+            <summary
+              data-i18n="faq.q4"
+              class="cursor-pointer font-semibold select-none"
+            >
+              Invoices & payment / Factures et paiement
+            </summary>
+            <p data-i18n="faq.a4" class="mt-3 text-sm muted">
+              Invoices under micro-entrepreneur status. Payment by bank transfer
+              or PayPal/Revolut.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEAD / CONTACT -->
+    <section id="lead" class="border-t border-slate-800 bg-slate-900/40">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-20">
+        <div class="section-head fade-up">
+          <p class="eyebrow">Get in touch</p>
+          <h2 data-i18n="lead.title" class="text-3xl font-bold">
+            Book a free 15-minute parent consult
+          </h2>
+          <p data-i18n="lead.sub" class="text-slate-300">
+            We’ll discuss goals, availability, and the best program for your
+            child. Online or at home in Paris.
+          </p>
+          <div class="section-rule"></div>
+        </div>
+
+        <div class="mt-8 grid md:grid-cols-2 gap-6 items-stretch">
+          <form
+            id="leadForm"
+            class="card p-6 shadow-luxe space-y-4 fade-up"
+            novalidate
+          >
+            <div>
+              <label
+                for="pname"
+                data-i18n="lead.f.name"
+                class="block text-sm text-slate-300"
+                >Parent name</label
+              >
+              <input
+                id="pname"
+                name="pname"
+                type="text"
+                class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm text-slate-300"
+                >Email</label
+              >
+              <input
+                id="email"
+                name="email"
+                type="email"
+                class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="child"
+                data-i18n="lead.f.child"
+                class="block text-sm text-slate-300"
+                >Child age(s) & goals</label
+              >
+              <textarea
+                id="child"
+                name="child"
+                rows="3"
+                class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2"
+                placeholder="11 — build a website; 15 — IGCSE English B2"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <label
+                for="slot"
+                data-i18n="lead.f.slot"
+                class="block text-sm text-slate-300"
+                >Preferred time</label
+              >
+              <select
+                id="slot"
+                name="slot"
+                class="mt-1 w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2"
+              >
+                <option value="Weekday evening" data-i18n="lead.opt1">
+                  Weekday evening
+                </option>
+                <option value="Saturday" data-i18n="lead.opt2">Saturday</option>
+                <option value="Sunday" data-i18n="lead.opt3">Sunday</option>
+              </select>
+            </div>
+            <div class="flex flex-wrap gap-3 pt-2">
+              <button
+                type="submit"
+                data-i18n="lead.cta.submit"
+                class="rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95"
+              >
+                Send & prefill WhatsApp
+              </button>
+              <a
+                id="mailtoLink"
+                href="#"
+                data-i18n="lead.email"
+                class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
+                >Email</a
+              >
+            </div>
+            <p
+              id="leadMsg"
+              class="text-xs text-emerald-300 hidden"
+              role="status"
+              aria-live="polite"
+            >
+              ✅ Thanks! Opening WhatsApp with your details…
+            </p>
+          </form>
+
+          <div class="card p-6 shadow-luxe fade-up">
+            <h3 data-i18n="pay.title" class="text-lg font-semibold mb-2">
+              Secure and simple payment options
+            </h3>
+            <p data-i18n-html="pay.sub" class="text-sm text-slate-300 mb-4">
+              After we confirm your child’s programme and schedule, pay safely
+              using <strong>Revolut</strong> or <strong>PayPal</strong>.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-5">
+              <a
+                href="https://revolut.me/stashfin"
+                target="_blank"
+                rel="noopener"
+                data-i18n="pay.revolut"
+                class="w-full text-center rounded-2xl bg-brand-yellow px-5 py-2 font-medium text-slate-900 hover:brightness-95"
+                >Pay via Revolut</a
+              >
+              <a
+                href="https://paypal.me/SyedTashfin?locale.x=en_US&country.x=FR"
+                target="_blank"
+                rel="noopener"
+                data-i18n="pay.paypal"
+                class="w-full text-center rounded-2xl border border-slate-700 px-5 py-2 font-medium text-slate-200 hover:border-brand-yellow"
+                >Pay via PayPal</a
+              >
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4 mb-5">
+              <ul class="text-sm text-slate-300 space-y-2 list-clean">
+                <li data-i18n="pay.l1">
+                  Enter the amount and confirm in one step
+                </li>
+                <li data-i18n="pay.l2">
+                  Card, Apple Pay, and Google Pay supported
+                </li>
+                <li data-i18n="pay.l3">Bank transfer available on request</li>
+              </ul>
+              <ul class="text-sm text-slate-300 space-y-2 list-clean">
+                <li data-i18n-html="pay.l4">
+                  <strong>Invoice provided</strong> for every session or pack
+                </li>
+                <li data-i18n="pay.l5">Payments processed securely</li>
+                <li data-i18n="pay.l6">
+                  Refunds for unused sessions per plan terms
+                </li>
+              </ul>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-slate-900/50 p-3">
+              <p class="text-xs text-slate-400">
+                <span data-i18n="pay.help"
+                  >Prefer to confirm details first?</span
+                >
+                <a
+                  href="https://wa.me/33667135850"
+                  target="_blank"
+                  rel="noopener"
+                  class="text-brand-yellow hover:underline"
+                  >WhatsApp</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-3 fade-up">
+          <a
+            id="whatsapp-lead"
+            href="https://wa.me/33667135850"
+            target="_blank"
+            rel="noopener"
+            class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
+            >WhatsApp</a
+          >
+          <a
+            id="email-lead"
+            href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr"
+            class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
+            >Email</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-slate-800">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between gap-4"
+        >
+          <p class="text-sm text-slate-400">
+            © <span id="year"></span> Kids English + Coding Paris
+          </p>
+          <div class="text-sm text-slate-400">
+            SIRET: <span class="opacity-60">93901648100011</span> ·
+            <a href="#" class="hover:text-brand-yellow">Mentions légales</a> ·
+            <a href="#" class="hover:text-brand-yellow">RGPD</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky mobile CTA -->
+    <div
+      class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 md:hidden rounded-2xl border border-white/10 glass p-3 shadow-xl"
+    >
+      <div class="mx-auto max-w-7xl flex items-center justify-between gap-3">
+        <div data-i18n="sticky.text" class="text-xs text-slate-300">
+          Limited slots this month
+        </div>
+        <a
+          data-i18n="sticky.cta"
+          href="#lead"
+          class="rounded-xl bg-brand-yellow px-3 py-2 text-sm font-semibold text-slate-900"
+          >Book consult</a
+        >
       </div>
     </div>
-  </section>
 
-  <!-- FOOTER -->
-  <footer class="border-t border-slate-800">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-        <p class="text-sm text-slate-400">© <span id="year"></span> Kids English + Coding Paris</p>
-        <div class="text-sm text-slate-400">SIRET: <span class="opacity-60">93901648100011</span> · <a href="#" class="hover:text-brand-yellow">Mentions légales</a> · <a href="#" class="hover:text-brand-yellow">RGPD</a></div>
+    <!-- Exit Intent Modal -->
+    <div
+      id="exitModal"
+      class="hidden fixed inset-0 z-[60] items-center justify-center p-4"
+    >
+      <div class="absolute inset-0 bg-black/60" aria-hidden="true"></div>
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="exitTitle"
+        class="relative max-w-md w-full rounded-2xl border border-white/10 glass p-6 shadow-luxe"
+      >
+        <h3 id="exitTitle" class="text-xl font-semibold">
+          <span data-i18n="exit.title">Free mini-lesson outline</span>
+        </h3>
+        <p data-i18n="exit.desc" class="mt-2 text-sm text-slate-300">
+          Leave your email — I’ll send a sample 4-session plan tailored to your
+          child’s age.
+        </p>
+        <form id="exitForm" class="mt-4 space-y-3">
+          <label class="sr-only" for="exitEmail">Email</label>
+          <input
+            type="email"
+            id="exitEmail"
+            class="w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2"
+            placeholder="you@email.com"
+            required
+          />
+          <button
+            data-i18n="exit.cta"
+            class="w-full rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95"
+          >
+            Send me the outline
+          </button>
+          <p
+            id="exitThanks"
+            class="hidden text-emerald-300 text-xs"
+            role="status"
+            aria-live="polite"
+          >
+            ✅ Thanks! I’ll follow up shortly.
+          </p>
+        </form>
+        <button
+          id="exitClose"
+          class="absolute top-2 right-3 text-slate-400 hover:text-white"
+          aria-label="Close"
+        >
+          ✕
+        </button>
       </div>
     </div>
-  </footer>
 
-  <!-- Sticky mobile CTA -->
-  <div class="fixed bottom-4 left-1/2 -translate-x-1/2 z-50 md:hidden rounded-2xl border border-white/10 glass p-3 shadow-xl">
-    <div class="mx-auto max-w-7xl flex items-center justify-between gap-3">
-      <div data-i18n="sticky.text" class="text-xs text-slate-300">Limited slots this month</div>
-      <a data-i18n="sticky.cta" href="#lead" class="rounded-xl bg-brand-yellow px-3 py-2 text-sm font-semibold text-slate-900">Book consult</a>
-    </div>
-  </div>
+    <!-- Progress bar -->
+    <div
+      id="progress"
+      class="fixed top-0 left-0 h-1 bg-brand-yellow w-0 z-[70]"
+    ></div>
 
-  <!-- Exit Intent Modal -->
-  <div id="exitModal" class="hidden fixed inset-0 z-[60] items-center justify-center p-4">
-    <div class="absolute inset-0 bg-black/60" aria-hidden="true"></div>
-    <div role="dialog" aria-modal="true" aria-labelledby="exitTitle" class="relative max-w-md w-full rounded-2xl border border-white/10 glass p-6 shadow-luxe">
-      <h3 id="exitTitle" class="text-xl font-semibold"><span data-i18n="exit.title">Free mini-lesson outline</span></h3>
-      <p data-i18n="exit.desc" class="mt-2 text-sm text-slate-300">Leave your email — I’ll send a sample 4-session plan tailored to your child’s age.</p>
-      <form id="exitForm" class="mt-4 space-y-3">
-        <label class="sr-only" for="exitEmail">Email</label>
-        <input type="email" id="exitEmail" class="w-full rounded-xl border border-slate-700 bg-slate-950/70 px-3 py-2" placeholder="you@email.com" required />
-        <button data-i18n="exit.cta" class="w-full rounded-2xl bg-brand-yellow px-5 py-2 font-semibold text-slate-900 hover:brightness-95">Send me the outline</button>
-        <p id="exitThanks" class="hidden text-emerald-300 text-xs" role="status" aria-live="polite">✅ Thanks! I’ll follow up shortly.</p>
-      </form>
-      <button id="exitClose" class="absolute top-2 right-3 text-slate-400 hover:text-white" aria-label="Close">✕</button>
-    </div>
-  </div>
+    <!-- FAQ SCHEMA -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where are sessions held?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Home visits in Paris or online via Google Meet."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which ages and levels?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "8–18 years, beginner to advanced; IGCSE, O-Level, A-Level, IELTS/TOEIC supported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Invoices & payment",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Invoices provided under micro-entrepreneur status. Payment via bank transfer, PayPal or Revolut."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Safeguarding & privacy",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Parent welcome nearby; age-appropriate content; device safety guidance included."
+            }
+          }
+        ]
+      }
+    </script>
 
-  <!-- Progress bar -->
-  <div id="progress" class="fixed top-0 left-0 h-1 bg-brand-yellow w-0 z-[70]"></div>
-
-  <!-- FAQ SCHEMA -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {"@type":"Question","name":"Where are sessions held?","acceptedAnswer":{"@type":"Answer","text":"Home visits in Paris or online via Google Meet."}},
-      {"@type":"Question","name":"Which ages and levels?","acceptedAnswer":{"@type":"Answer","text":"8–18 years, beginner to advanced; IGCSE, O-Level, A-Level, IELTS/TOEIC supported."}},
-      {"@type":"Question","name":"Invoices & payment","acceptedAnswer":{"@type":"Answer","text":"Invoices provided under micro-entrepreneur status. Payment via bank transfer, PayPal or Revolut."}},
-      {"@type":"Question","name":"Safeguarding & privacy","acceptedAnswer":{"@type":"Answer","text":"Parent welcome nearby; age-appropriate content; device safety guidance included."}}
-    ]
-  }
-  </script>
-
-
-  <script type="module" src="assets/js/main.js"></script>
-
-</body>
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
 </html>

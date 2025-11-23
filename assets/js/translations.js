@@ -2,8 +2,8 @@ export const translations = {
       en: {
         nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Private Intake' },
         hero:{
-          title:'Private English + technology ateliers for Paris families with global ambitions',
-          sub:'A concierge-led journey for discerning parents who expect fluent English, confident communication, and modern digital fluency without leaving their salon.',
+          title:'English & coding lessons for kids in Paris and Île-de-France',
+          sub:'A concierge-led journey for discerning parents seeking a <a href="#programs" class="text-brand-yellow hover:underline">private English tutor for children in Paris</a> with modern tech projects, IELTS/TOEIC milestones, and calm in-home ateliers.',
           cta:'Book a private intake call', secondary:'See the Maison path',
           foot:'We reserve fewer than 12 families at a time for weekly ateliers in Paris or via secure telepresence.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
@@ -32,7 +32,8 @@ export const translations = {
           cta1:'Portfolio', cta2:'See example projects'
         },
         programs:{
-          title:'Programs by Age', sub:'Project-based learning with measurable outcomes — English + technology.',
+          title:'Programs by age: English + coding courses in Paris',
+          sub:'Project-based learning with measurable outcomes — English tutor for kids across Paris and Île-de-France.',
           p1: {
             badge: "Ages 8–10",
             title: "English & Digital Discovery",
@@ -65,35 +66,35 @@ export const translations = {
 
         },
         benefits: {
-          title: "Why parents choose this program",
+          title: "Why parents choose this English tutor in Paris",
           b1: {
             t: "Experienced English & Technology Instructor",
-            d: "Currently teaching at business and engineering schools in Paris — bringing real-world expertise into engaging, age-appropriate lessons for your child."
+            d: "Currently teaching at business and engineering schools in Paris — bringing real-world expertise into premium in-home English tutoring for your child."
           },
           b2: {
             t: "Visible Progress & Confidence",
-            d: "Parents receive regular updates and can see clear growth every few sessions — in English fluency, self-expression, and digital skills."
+            d: "Parents across Paris receive couture recaps that show growth in English fluency, public speaking, and digital creation every few sessions."
           },
           b3: {
             t: "Learning with Purpose",
-            d: "English is taught through meaningful, modern topics — from technology and website design to AI — so students stay curious and motivated."
+            d: "English is taught through coding, design, entrepreneurship, and AI briefs so ambitious learners stay inspired and build bilingual portfolios."
           },
           b4: {
             t: "Academic & Exam Preparation",
-            d: "Structured, step-by-step guidance for school English, IGCSE, or international exams like TOEIC and IELTS — always focused on real understanding and confident communication."
+            d: "Structured guidance for IGCSE, IELTS, TOEIC, and A-Level English with examiner-style feedback, timed mocks, and confident presenting."
           },
           b5: {
             t: "Flexible & Personalised Format",
-            d: "Home lessons in Paris or online sessions. Flexible scheduling, with sibling or friend groups encouraged."
+            d: "Private English lessons at home in Paris or secure online sessions with concierge scheduling, chauffeur coordination, and sibling ateliers."
           },
           b6: {
             t: "Confidence that Lasts",
-            d: "Your child learns to speak clearly, think critically, and express ideas naturally — building true confidence that goes beyond grammar."
+            d: "Learners 8–18 speak with poise in interviews, defend ideas during coding demos, and carry English confidence into lycée and university."
           },
         },
         concierge:{
           eyebrow:'Maison services',
-          title:'Concierge-level experience',
+          title:'Concierge-level English tutoring experience',
           sub:'Each family receives couture-level communication: English-only notes, weekly dossiers, and rapid WhatsApp access.',
           c1:{ tag:'Atelier privé', t:'Discreet in-home ateliers', d:'Tailored sessions anywhere in Paris or surrounding Île-de-France neighborhoods (16e, Neuilly, Passy, Levallois, and beyond) with curated materials, studio-grade devices, and quiet focus.' },
           c2:{ tag:'English dossier', t:'English progress dossiers', d:'Parents receive cinematic summaries, short video clips, and data-driven checkpoints after every atelier—all delivered in English for seamless family communication.' },
@@ -101,13 +102,13 @@ export const translations = {
           foot:'Families also enjoy priority booking for sibling ateliers, curated study retreats, and English documentation for international schools.'
         },
 
-        success:{ title:'What success looks like', before:'Before', after:'After',
+        success:{ title:'What English tutoring success looks like', before:'Before', after:'After',
           b1:'“Avoids speaking English, low confidence.”', a1:'Presents a short project clearly in English — proud & motivated.',
           b2:'“Unstructured practice, no real outcomes.”', a2:'Builds a mini website & explains it in English.',
           b3:'“Anxious about exams; unclear targets.”', a3:'Weekly micro-goals, timed mocks, clear plan to target band/grade.'
         },
-        projects:{ title:'Example mini-projects', sub:'No student photos needed — outcomes speak for themselves.',
-          c1:'Personal website — hobbies page (HTML/CSS)', c2:'Digital poster — “My week in English”', c3:'Short presentation — “AI for teens (in English)”', cta:'Get a sample 4-session plan'
+        projects:{ title:'Example English + coding projects for kids', sub:'No student photos needed — outcomes from English + coding lessons in Paris that build IELTS & TOEIC confidence.',
+          c1:'Personal website — hobbies page (HTML/CSS)', c2:'Digital poster — “My week in English”', c3:'Short presentation — “AI for teens (in English)”', cta:'Get a sample 4-session plan for your child in Paris'
         },
         testimonials:{
           title:'Parent feedback', sub:'Real progress parents can see — confidence, creativity, and clear communication in English.',
@@ -117,7 +118,7 @@ export const translations = {
           a3: "— Parent, Levallois (15-year-old)"
         },
         pricing:{
-          title:'Pricing',
+          title:'Pricing for private English tutoring in Paris',
           sub2:'Transparent and flexible. Choose private sessions or a small group.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
           perHour:'/h', cta:'Book Free Consult',
           p1:{ t:'Private Progress Plan', d:'1:1 tailored English + tech. Fast, visible results in 4 weeks.', note:'Suggested starter: 4×1h (€100)' },
@@ -126,7 +127,7 @@ export const translations = {
           note:'In-person sessions may include a small transport supplement depending on location.'
         },
         exam:{
-          title:'Exam Packs',
+          title:'IELTS, TOEIC, IGCSE & A-Level tutoring in Paris',
           sub:'IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Past papers, timed mocks, score tracking — plus an optional real-project track.',
           e1:{ t:'IGCSE / O-Level / IAL / A-Level Pack', l1:'Chapter-wise notes & mastery', l2:'Past papers & examiner-style marking', l3:'Timed mocks & weekly micro-goals' },
           e2:{ t:'IELTS / TOEIC English Pack', l1:'Full mock tests with band/score estimates', l2:'Speaking interviews & writing feedback', l3:'Personal plan to reach target score' },
@@ -140,7 +141,7 @@ export const translations = {
           s3:{t:'Ateliers & dossiers', d:'Weekly ateliers with English recap videos, KPI dashboards, and concierge scheduling keep parents informed and students motivated.'}
         },
         faq:{
-          title:'FAQ',
+          title:'FAQ: English tutor for kids in Paris',
           q1:'Where are sessions held?',
           a1:'At home anywhere in Paris/Île-de-France or online via Google Meet. Parents are welcome nearby for first sessions.',
           q2:'Which ages and levels?',
@@ -150,7 +151,7 @@ export const translations = {
         },
         lead:{
           title:'Request a private intake call',
-          sub:'We accept fewer than 12 families concurrently. Share your brief so we can hold a confidential 15-minute intake.',
+          sub:'We accept fewer than 12 Paris and Île-de-France families concurrently. Share your brief so we can hold a confidential 15-minute intake.',
           f:{ name:'Parent name', child:'Learner age(s) & priorities', slot:'Preferred window' },
           opt1:'Weekday evening', opt2:'Saturday', opt3:'Sunday',
           cta:{ submit:'Submit & hold intake slot' }, email:'Send via email',
@@ -188,8 +189,8 @@ export const translations = {
       fr: {
         nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Intake privé' },
         hero:{
-          title:'Ateliers privés anglais + technologie pour familles parisiennes à ambitions globales',
-          sub:'Un parcours concierge pour des parents exigeants qui veulent anglais fluide, assurance à l’oral et culture numérique sans quitter leur salon.',
+          title:'Cours d’anglais et technologie pour enfants à Paris et en Île-de-France',
+          sub:'Parcours concierge pour des parents exigeants à la recherche d’un <a href="#programs" class="text-brand-yellow hover:underline">professeur d’anglais pour enfants à domicile à Paris</a> avec projets numériques, IELTS/TOEIC, et ateliers calmes.',
           cta:'Réserver un appel d’intake privé', secondary:'Voir le parcours Maison',
           foot:'Moins de 12 familles accompagnées simultanément – ateliers hebdomadaires à Paris ou via téléprésence sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
@@ -218,7 +219,8 @@ export const translations = {
           cta1:'Voir le portfolio', cta2:'Explorer des projets exemples'
         },
         programs:{
-          title:'Programmes par âge', sub:'Apprentissage par projets avec résultats mesurables — anglais + technologie.',
+          title:'Programmes par âge : cours d’anglais + coding à Paris',
+          sub:'Apprentissage par projets avec résultats mesurables pour enfants et ados à Paris et en Île-de-France.',
           p1: {
             badge: "Âges 8–10",
             title: "Découverte de l’anglais et du numérique",
@@ -251,30 +253,30 @@ export const translations = {
 
         },
           benefits: {
-            title: "Pourquoi les parents choisissent ce programme",
+            title: "Pourquoi choisir ce professeur d’anglais à Paris",
             b1: {
               t: "Enseignant expérimenté en anglais & technologie",
-              d: "Intervient dans des écoles de commerce et d’ingénierie parisiennes et transpose ces exigences dans des cours sur mesure, adaptés à chaque âge."
+              d: "Intervient dans des écoles de commerce et d’ingénierie parisiennes et transpose ces exigences dans un accompagnement premium à domicile."
             },
             b2: {
               t: "Progrès visibles & confiance",
-              d: "Les parents reçoivent des mises à jour régulières et observent des progrès tangibles : aisance en anglais, expression et compétences numériques."
+              d: "Parents parisiens reçoivent des dossiers couture montrant les progrès en anglais, prise de parole et création numérique."
             },
             b3: {
               t: "Apprendre avec du sens",
-              d: "L’anglais s’appuie sur des sujets modernes — technologie, design web, IA — pour maintenir la curiosité et la motivation."
+              d: "L’anglais s’appuie sur le coding, le design, l’entrepreneuriat et l’IA pour stimuler des profils ambitieux."
             },
             b4: {
               t: "Préparation scolaire & examens",
-              d: "Accompagnement structuré pour l’anglais scolaire, l’IGCSE ou les examens internationaux comme le TOEIC et l’IELTS, avec un objectif de compréhension réelle."
+              d: "Accompagnement structuré pour IGCSE, IELTS, TOEIC ou A-Level avec retours façon examinateur et oraux blancs."
             },
             b5: {
               t: "Format flexible & personnalisé",
-              d: "Cours à domicile dans Paris ou en ligne, avec des créneaux flexibles et des formats fratrie ou amis encouragés."
+              d: "Cours d’anglais privé à domicile dans Paris ou en ligne, avec conciergerie planning, chauffeur et formats fratrie."
             },
             b6: {
               t: "Une confiance qui dure",
-              d: "L’élève apprend à s’exprimer clairement, à argumenter et à penser de manière autonome — au-delà de la grammaire."
+              d: "Collégiens et lycéens apprennent à présenter, argumenter et défendre leurs projets en anglais au-delà de la grammaire."
             },
           },
           concierge:{
@@ -292,8 +294,8 @@ export const translations = {
           b2:'« Pratique non structurée, peu de résultats. »', a2:'Crée un mini-site et l’explique en anglais.',
           b3:'« Stress d’examen ; objectifs flous. »', a3:'Micro-objectifs hebdo, examens blancs, plan clair vers la note visée.'
         },
-        projects:{ title:'Exemples de mini-projets', sub:'Pas besoin de photo d’élève — les résultats parlent d’eux-mêmes.',
-          c1:'Site personnel — page “passions” (HTML/CSS)', c2:'Affiche numérique — « Ma semaine en anglais »', c3:'Courte présentation — « L’IA pour les ados (en anglais) »', cta:'Recevoir un plan en 4 séances'
+        projects:{ title:'Exemples de projets anglais + coding pour enfants', sub:'Résultats concrets des cours d’anglais et de coding à Paris — parfaits pour IELTS et TOEIC.',
+          c1:'Site personnel — page “passions” (HTML/CSS)', c2:'Affiche numérique — « Ma semaine en anglais »', c3:'Courte présentation — « L’IA pour les ados (en anglais) »', cta:'Recevoir un plan en 4 séances pour votre enfant'
         },
         testimonials:{
           title:'Avis de parents', sub:'Des progrès visibles — confiance, créativité et communication claire en anglais.',
@@ -303,7 +305,7 @@ export const translations = {
           a3: "— Parent, Levallois (15 ans)"
         },
         pricing:{
-          title:'Tarifs',
+          title:'Tarifs des cours d’anglais privé à Paris',
           sub2:'Transparents et flexibles. Choisissez un suivi individuel ou un petit groupe.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
           perHour:'/h', cta:'Réserver un appel',
           p1:{ t:'Plan Progrès Privé', d:'Coaching 1:1 anglais + tech. Résultats visibles en 4 semaines.', note:'Format recommandé : 4×1h (100 €)' },
@@ -312,7 +314,7 @@ export const translations = {
           note:'Les déplacements peuvent inclure un léger supplément selon la localisation.'
         },
         exam:{
-          title:'Packs Examens',
+          title:'Préparation IELTS, TOEIC, IGCSE & A-Level à Paris',
           sub:'IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Annales, examens blancs chronométrés, suivi des scores — avec un module projet en option.',
           e1:{ t:'Pack IGCSE / O-Level / IAL / A-Level', l1:'Fiches & maîtrise chapitre par chapitre', l2:'Corrections façon examinateur', l3:'Examens blancs & micro-objectifs hebdo' },
           e2:{ t:'Pack Anglais IELTS / TOEIC', l1:'Vrais examens blancs avec estimation de score', l2:'Entretiens oraux & retours écrits', l3:'Plan personnel vers la note visée' },
@@ -326,7 +328,7 @@ export const translations = {
           s3:{t:'Ateliers & dossiers', d:'Ateliers hebdo avec vidéos récap en anglais, KPIs et coordination concierge pour garder parents & élèves alignés.'}
         },
         faq:{
-          title:'FAQ / Questions fréquentes',
+          title:'FAQ — cours d’anglais pour enfants à Paris',
           q1:'Où ont lieu les cours ?', a1:'À domicile dans tout Paris/IDF ou en ligne (Google Meet). Les parents sont bienvenus à proximité au début.',
           q2:'Quels âges et niveaux ?', a2:'De 8 à 18 ans, de débutant à avancé. IGCSE, O-Level, IAL, A-Level, IELTS, TOEIC. Aide universitaire sur demande.',
           q3:'Planification', a3:'Hebdomadaire ou bi-hebdo recommandé. Report possible avec 24h de préavis.',
@@ -334,7 +336,7 @@ export const translations = {
         },
         lead:{
           title:'Demander un appel d’intake privé',
-          sub:'Nous accompagnons moins de 12 familles en parallèle. Partagez votre brief et nous bloquons un appel confidentiel de 15 minutes.',
+          sub:'Nous accompagnons moins de 12 familles parisiennes en parallèle. Partagez votre brief et nous bloquons un appel confidentiel de 15 minutes.',
           f:{ name:'Nom du parent', child:'Âge(s) & priorités', slot:'Créneau privilégié' },
           opt1:'Soir en semaine', opt2:'Samedi', opt3:'Dimanche',
           cta:{ submit:'Envoyer & bloquer un créneau' }, email:'Envoyer par email',

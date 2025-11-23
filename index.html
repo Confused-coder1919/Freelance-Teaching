@@ -1503,9 +1503,12 @@
                 href="#"
                 data-i18n="lead.email"
                 class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
-                >Email</a
+                >Send via email</a
               >
             </div>
+            <p class="text-xs text-slate-400">
+              WhatsApp opens with your intake summary; prefer email? Use the secondary option to draft the same brief.
+            </p>
             <p
               id="leadMsg"
               class="text-xs text-emerald-300 hidden"
@@ -1570,36 +1573,36 @@
                 </li>
               </ul>
             </div>
-            <div class="pay-note">
-              <span data-i18n="pay.help"
-                >Prefer to confirm details first?</span
-              >
-              <a
-                href="https://wa.me/33667135850"
-                target="_blank"
-                rel="noopener"
-                class="text-brand-yellow hover:underline ml-2"
-                data-i18n="pay.whatsapp"
-                >Message me on WhatsApp</a
-              >
+            <div
+              class="pay-note mt-6 flex flex-col gap-3 rounded-2xl border border-white/5 bg-slate-950/40 p-4 fade-up sm:flex-row sm:items-center sm:justify-between"
+            >
+              <div>
+                <span data-i18n="pay.help"
+                  >Prefer to confirm details first?</span
+                >
+                <p class="text-xs text-slate-400 mt-1">
+                  Reach out directly and I'll respond with a proposed intake window within 24 hours.
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <a
+                  id="whatsapp-lead"
+                  href="https://wa.me/33667135850"
+                  target="_blank"
+                  rel="noopener"
+                  class="rounded-2xl border border-slate-700 px-4 py-2 text-sm font-medium hover:border-brand-yellow"
+                  data-i18n="pay.whatsapp"
+                  >Message me on WhatsApp</a
+                >
+                <a
+                  id="email-lead"
+                  href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr"
+                  class="rounded-2xl border border-slate-700 px-4 py-2 text-sm font-medium hover:border-brand-yellow"
+                  >Email me</a
+                >
+              </div>
             </div>
           </div>
-        </div>
-        <div class="mt-6 flex flex-wrap gap-3 fade-up">
-          <a
-            id="whatsapp-lead"
-            href="https://wa.me/33667135850"
-            target="_blank"
-            rel="noopener"
-            class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
-            >WhatsApp</a
-          >
-          <a
-            id="email-lead"
-            href="mailto:syed-mohammad.shah_mostafa@edu.devinci.fr"
-            class="rounded-2xl border border-slate-700 px-5 py-2 font-medium hover:border-brand-yellow"
-            >Email</a
-          >
         </div>
       </div>
     </section>

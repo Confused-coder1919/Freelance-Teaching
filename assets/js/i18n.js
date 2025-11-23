@@ -1,4 +1,4 @@
-import { $, $$ } from './dom.js';
+import { $$ } from './dom.js';
 import { translations } from './translations.js';
 
 const STORAGE_KEY = 'site-lang';
@@ -14,6 +14,14 @@ export const initI18n = () => {
   let currentLang = 'en';
 
   const notify = (lang) => listeners.forEach((fn) => fn(lang));
+  const langButtons = $$('[data-lang]');
+
+  const updateLangButtons = (lang) => {
+    langButtons.forEach((btn) => {
+      const isActive = btn.dataset.lang === lang;
+      btn.setAttribute('aria-pressed', String(isActive));
+    });
+  };
 
   const applyLang = (lang) => {
     const dict = translations[lang] || translations.en;
@@ -33,10 +41,7 @@ export const initI18n = () => {
       if (typeof value === 'string') el.innerHTML = value;
     });
 
-    const enBtn = $('#lang-en');
-    const frBtn = $('#lang-fr');
-    if (enBtn) enBtn.setAttribute('aria-pressed', String(lang === 'en'));
-    if (frBtn) frBtn.setAttribute('aria-pressed', String(lang === 'fr'));
+    updateLangButtons(lang);
 
     notify(lang);
   };
@@ -56,8 +61,11 @@ export const initI18n = () => {
   const initial = translations[saved] ? saved : translations[browserPref] ? browserPref : 'en';
   applyLang(initial);
 
-  $$('#lang-en, #lang-fr').forEach((btn) => {
-    btn.addEventListener('click', () => setLang(btn.dataset.lang));
+  langButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const targetLang = btn.dataset.lang;
+      if (targetLang) setLang(targetLang);
+    });
   });
 
   return {

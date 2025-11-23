@@ -111,7 +111,7 @@
       class="sticky top-0 z-50 border-b border-white/5 glass nav-luxe supports-[backdrop-filter]:backdrop-blur-md"
     >
       <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="Primary">
-        <div class="flex h-16 items-center justify-between">
+        <div class="flex h-16 items-center justify-between gap-3">
         <a href="#home" class="brand-mark hover:text-brand-yellow">
           <span class="brand-initials monogram" aria-hidden="true">MB</span>
           <span class="brand-mark__text">
@@ -153,12 +153,11 @@
           </div>
           <div class="flex items-center gap-3">
             <div
-              class="flex items-center gap-1 rounded-xl border border-slate-700 px-2 py-1"
+              class="hidden md:flex items-center gap-1 rounded-xl border border-slate-700 px-2 py-1 nav-lang"
               role="group"
               aria-label="Language"
             >
               <button
-                id="lang-en"
                 class="text-xs px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700"
                 aria-pressed="true"
                 data-lang="en"
@@ -166,7 +165,6 @@
                 EN
               </button>
               <button
-                id="lang-fr"
                 class="text-xs px-2 py-1 rounded-lg hover:bg-slate-700"
                 data-lang="fr"
                 aria-pressed="false"
@@ -177,12 +175,12 @@
           <a
             data-i18n="nav.cta"
             href="#lead"
-            class="btn-luxe inline-flex items-center justify-center rounded-2xl px-4 py-2 font-medium text-slate-900"
+            class="hidden md:inline-flex btn-luxe rounded-2xl px-4 py-2 font-medium text-slate-900"
             >Private Intake</a
           >
             <button
               id="menuBtn"
-              class="md:hidden"
+              class="menu-toggle md:hidden"
               aria-controls="mobileMenu"
               aria-expanded="false"
               aria-label="Open menu"
@@ -191,8 +189,8 @@
             </button>
           </div>
         </div>
-        <div id="mobileMenu" class="md:hidden hidden pb-4">
-          <div class="flex flex-col gap-2">
+        <div id="mobileMenu" class="md:hidden hidden pb-4 mobile-menu">
+          <div class="flex flex-col gap-2 mobile-links">
             <a
               data-i18n="nav.programs"
               href="#programs"
@@ -228,6 +226,34 @@
               href="#faq"
               class="hover:text-brand-yellow mobile-link"
               >FAQ</a
+            >
+          </div>
+          <div class="mobile-quick mt-4 space-y-3 border-t border-white/5 pt-4">
+            <div
+              class="flex items-center gap-2 rounded-xl border border-slate-700 px-3 py-2"
+              role="group"
+              aria-label="Language"
+            >
+              <button
+                class="flex-1 rounded-lg bg-slate-800 px-3 py-2 text-xs font-semibold hover:bg-slate-700"
+                data-lang="en"
+                aria-pressed="true"
+              >
+                EN
+              </button>
+              <button
+                class="flex-1 rounded-lg px-3 py-2 text-xs font-semibold hover:bg-slate-700"
+                data-lang="fr"
+                aria-pressed="false"
+              >
+                FR
+              </button>
+            </div>
+            <a
+              data-i18n="nav.cta"
+              href="#lead"
+              class="mobile-intake mobile-link"
+              >Private Intake</a
             >
           </div>
         </div>

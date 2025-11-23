@@ -215,7 +215,7 @@ export const translations = {
           i2: "Apprentissage par projets (web, code et communication)",
           i3: "Préparation aux présentations et entretiens",
           i4: "Confiance pour l’avenir numérique",
-          cta1:'Portfolio', cta2:'Voir des exemples de projets'
+          cta1:'Voir le portfolio', cta2:'Explorer des projets exemples'
         },
         programs:{
           title:'Programmes par âge', sub:'Apprentissage par projets avec résultats mesurables — anglais + technologie.',

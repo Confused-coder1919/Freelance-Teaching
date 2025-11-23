@@ -571,6 +571,44 @@
   color:rgba(248,250,252,.75);
   background:rgba(5,8,16,.7);
 }
+
+@media (max-width:768px){
+  .hero-cta{
+    width:100%;
+    flex-direction:column;
+  }
+  .hero-cta a{
+    width:100%;
+    text-align:center;
+  }
+  .hero-stats .stat-card{
+    text-align:center;
+  }
+  .hero-press{
+    flex-direction:column;
+    gap:.6rem;
+  }
+  .press-pill{
+    width:100%;
+    text-align:center;
+  }
+  .lead-actions{
+    flex-direction:column;
+    width:100%;
+  }
+  .lead-actions > *{
+    width:100%;
+    text-align:center;
+  }
+  .contact-actions{
+    width:100%;
+    flex-direction:column;
+  }
+  .contact-actions a{
+    width:100%;
+    text-align:center;
+  }
+}
 .lead-pillars{
   margin-bottom:2rem;
 }
@@ -625,8 +663,16 @@
 @media (max-width:640px){
   .hero-press{
     border-radius:1rem;
+    padding:.75rem;
   }
   .hero-stats{
     grid-template-columns:repeat(1,minmax(0,1fr));
+  }
+  .hero-chips{
+    flex-direction:column;
+  }
+  .atelier-chip{
+    width:100%;
+    text-align:center;
   }
 }

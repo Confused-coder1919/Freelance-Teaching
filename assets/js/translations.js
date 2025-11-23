@@ -8,17 +8,20 @@ export const translations = {
           foot:'We reserve fewer than 12 families at a time for weekly ateliers in Paris or via secure telepresence.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
           signet:'Maison BrightMinds',
-          signetLocale:'Paris · Neuilly · Passy',
-          clientele:'Families in Paris XVI, Neuilly, Passy, and Bois de Boulogne book discreet in-home ateliers with bilingual dossiers and concierge scheduling.',
-          chip1:'Residences in 16e · Triangle d’Or · Neuilly',
-          chip2:'Bilingual dossiers, recap films & KPIs',
+          signetLocale:'Paris · Île-de-France',
+          clientele:'Families across every Paris arrondissement and the wider Île-de-France—from the 1ᵉʳ to Neuilly and Boulogne—trust us for discreet in-home ateliers, detailed English progress dossiers, and concierge scheduling.',
+          chip1:'Residences across Paris & Île-de-France',
+          chip2:'English-only dossiers, recap films & KPIs',
           chip3:'Concierge planning & discreet scheduling',
-          note:'From Avenue Foch to Bois de Boulogne, we blend Parisian elegance with future-ready English and technology mastery.',
+          press1:'Paris & Île-de-France residences',
+          press2:'Diplomatic, founder & executive families',
+          press3:'Signature English dossiers & recap films',
+          note:'From central Paris to the western suburbs, we blend Parisian elegance with future-ready English and technology mastery.',
           p1:'Real projects: Mini Website, AI-Apps, Digital Slides/Poster', p2:'Confidence Coaching: Speaking & Presenting In English',
           p3:'Digital Safety & Balanced Tech Use', p4:'Exam prep: IELTS, TOEIC, IGCSE/A-Level'
         },
         banner:'Now enrolling', bannerTail:'limited private slots this month (priority to siblings & referrals).', bannerCta:'Book Now',
-        trust:{ areas:'Trusted by families along Avenue Foch · Faubourg Saint-Honoré · Neuilly', dbsc:'Led English-only learning environments', invoice:'Conducted training sessions within Qualiopi-certified programs' },
+        trust:{ areas:'Trusted by families across Paris & Île-de-France', dbsc:'Led English-only learning environments', invoice:'Conducted training sessions within Qualiopi-certified programs' },
         instructor:{
           title:'Meet the Instructor',
           copy:'Hi, I’m Syed — an English and technology instructor based in Paris. I teach at the American Business School of Paris and other top institutions, helping students communicate clearly and think creatively in English. My sessions combine strong language skills with practical digital learning — from building simple websites to understanding coding and modern tools — so every child grows confident in both English and technology.',
@@ -65,37 +68,37 @@ export const translations = {
           title: "Why parents choose this program",
           b1: {
             t: "Experienced English & Technology Instructor",
-            d: "Teaching within Parisian business & engineering grandes écoles and recreating that studio rigor at home with bespoke etiquette and safeguarding."
+            d: "Currently teaching at business and engineering schools in Paris — bringing real-world expertise into engaging, age-appropriate lessons for your child."
           },
           b2: {
             t: "Visible Progress & Confidence",
-            d: "Families receive couture-level recaps — bilingual notes, short clips, and micro-goals that showcase real growth."
+            d: "Parents receive regular updates and can see clear growth every few sessions — in English fluency, self-expression, and digital skills."
           },
           b3: {
             t: "Learning with Purpose",
-            d: "English is linked to meaningful modern briefs — art direction, entrepreneurship, AI — so ambitious learners stay inspired."
+            d: "English is taught through meaningful, modern topics — from technology and website design to AI — so students stay curious and motivated."
           },
           b4: {
             t: "Academic & Exam Preparation",
-            d: "Step-by-step preparation for IGCSE, IELTS, and bilingual programmes with examiner-style feedback and polished presentations."
+            d: "Structured, step-by-step guidance for school English, IGCSE, or international exams like TOEIC and IELTS — always focused on real understanding and confident communication."
           },
           b5: {
             t: "Flexible & Personalised Format",
-            d: "Ateliers at home, online, or between residences with concierge scheduling, chauffeur coordination, and sibling pair formats."
+            d: "Home lessons in Paris or online sessions. Flexible scheduling, with sibling or friend groups encouraged."
           },
           b6: {
             t: "Confidence that Lasts",
-            d: "Students learn to communicate with poise in interviews, presentations, and creative reviews — not just pass exams."
+            d: "Your child learns to speak clearly, think critically, and express ideas naturally — building true confidence that goes beyond grammar."
           },
         },
         concierge:{
           eyebrow:'Maison services',
           title:'Concierge-level experience',
-          sub:'Private ateliers for international families — bilingual documentation, rapid scheduling, and curated study environments.',
-          c1:{ tag:'Private atelier', t:'Discreet in-home ateliers', d:'Tailored sessions across Paris XVI, Neuilly, Passy, and Levallois with curated materials, pro audio, and calm focus.' },
-          c2:{ tag:'Bilingual dossiers', t:'Bespoke progress recaps', d:'Parents receive cinematic summaries, miniature video clips, and EN/FR reports after every atelier.' },
-          c3:{ tag:'Concierge care', t:'Dedicated concierge channel', d:'Priority WhatsApp access for scheduling, chauffeur coordination, and invitations to private mock exams or retreats.' },
-          foot:'Priority families enjoy sibling scheduling, immersive study weekends, and multilingual documentation for admissions abroad.'
+          sub:'Each family receives couture-level communication: English-only notes, weekly dossiers, and rapid WhatsApp access.',
+          c1:{ tag:'Atelier privé', t:'Discreet in-home ateliers', d:'Tailored sessions anywhere in Paris or surrounding Île-de-France neighborhoods (16e, Neuilly, Passy, Levallois, and beyond) with curated materials, studio-grade devices, and quiet focus.' },
+          c2:{ tag:'English dossier', t:'English progress dossiers', d:'Parents receive cinematic summaries, short video clips, and data-driven checkpoints after every atelier—all delivered in English for seamless family communication.' },
+          c3:{ tag:'Concierge care', t:'Concierge scheduling & care', d:'Priority WhatsApp access for scheduling, chauffeur coordination, and invitations to private mock exams or immersive study weekends.' },
+          foot:'Families also enjoy priority booking for sibling ateliers, curated study retreats, and English documentation for international schools.'
         },
 
         success:{ title:'What success looks like', before:'Before', after:'After',
@@ -114,12 +117,13 @@ export const translations = {
           a3: "— Parent, Levallois (15-year-old)"
         },
         pricing:{
-          title:'Membership tiers', sub2:'Couture ateliers for private families. Investment shown per hour.',
+          title:'Pricing',
+          sub2:'Transparent and flexible. Choose private sessions or a small group.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
           perHour:'/h', cta:'Book Free Consult',
-          p1:{ t:'Atelier Classique (1:1)', d:'Private English + technology coaching with bilingual recaps and studio-grade resources.', note:'Ideal for international schools & bilingual families' },
-          p2:{ t:'Salon Duo / Fratrie', d:'2–3 learners share ateliers with collaborative builds, shared dashboards, and sibling discounts.', note:'Perfect for siblings or close friends in the same quartier' },
-          p3:{ t:'Concierge Exam Conservatory', d:'IELTS, TOEFL, IGCSE/A-Level with mock boards, presentation polish, and admissions coaching.', note:'Recommended 6–8 weeks to reach the targeted band/grade' },
-          note:'Travel within Paris intramuros included; outer arrondissements may include a bespoke transport supplement.'
+          p1:{ t:'Private Progress Plan', d:'1:1 tailored English + tech. Fast, visible results in 4 weeks.', note:'Suggested starter: 4×1h (€100)' },
+          p2:{ t:'Siblings/Friends Accelerator', d:'2–4 learners: teamwork, communication, and creative projects.', note:'Great value for siblings' },
+          p3:{ t:'Exam & Confidence Mastery', d:'TOEIC, IELTS, IGCSE/A-Level — with speaking & presentation coaching.', note:'Suggested focus: 6–8 weeks to target band/grade' },
+          note:'In-person sessions may include a small transport supplement depending on location.'
         },
         exam:{
           title:'Exam Packs',
@@ -133,45 +137,45 @@ export const translations = {
           intro:'A curated buyer journey tailored to upper-class Paris families: awareness, fit, bespoke plan, conversion to private ateliers.',
           s1:{t:'Intake & alignment', d:'15-minute private call to audit goals, schooling context, and availability. Families receive a discovery dossier within 24h.'},
           s2:{t:'Bespoke atelier plan', d:'We craft a four-session pilot with KPIs, signature projects, and pricing for 1:1 or sibling formats.'},
-          s3:{t:'Ateliers & dossiers', d:'Weekly ateliers with bilingual recap videos, KPI dashboards, and concierge scheduling keep parents informed and students motivated.'}
+          s3:{t:'Ateliers & dossiers', d:'Weekly ateliers with English recap videos, KPI dashboards, and concierge scheduling keep parents informed and students motivated.'}
         },
         faq:{
-          title:'FAQ / Questions fréquentes',
-          q1:'Where are sessions held? / Où ont lieu les cours ?',
+          title:'FAQ',
+          q1:'Where are sessions held?',
           a1:'At home anywhere in Paris/Île-de-France or online via Google Meet. Parents are welcome nearby for first sessions.',
-          q2:'Which ages and levels? / Quels âges et niveaux ?',
+          q2:'Which ages and levels?',
           a2:'Ages 8–18, beginner to advanced. IGCSE, O-Level, IAL, A-Level, IELTS, TOEIC supported. University writing/presentations on request.',
-          q3:'Scheduling / Planification', a3:'Weekly or twice-weekly recommended. Rescheduling with 24h notice.',
-          q4:'Invoices & payment / Factures et paiement', a4:'Invoices under micro-entrepreneur status. Payment by bank transfer or PayPal/Revolut.'
+          q3:'Scheduling', a3:'Weekly or twice-weekly recommended. Rescheduling with 24h notice.',
+          q4:'Invoices & payment', a4:'Invoices under micro-entrepreneur status. Payment by bank transfer or PayPal/Revolut.'
         },
         lead:{
           title:'Request a private intake call',
           sub:'We accept fewer than 12 families concurrently. Share your brief so we can hold a confidential 15-minute intake.',
           f:{ name:'Parent name', child:'Learner age(s) & priorities', slot:'Preferred window' },
           opt1:'Weekday evening', opt2:'Saturday', opt3:'Sunday',
-          cta:{ submit:'Submit & hold intake slot' }, email:'Email',
+          cta:{ submit:'Submit & hold intake slot' }, email:'Send via email',
           qual:{
-            t1:'Residency & intent', d1:'Primary residences in Paris intra-muros, Neuilly, or western suburbs with defined goals (bilingual schooling, exam prep, study abroad).',
-            t2:'Learner profile', d2:'Students 8–18 who thrive in bilingual households and seek presentation, digital creation, or exam excellence.',
+            t1:'Residency & intent', d1:'Primary residences anywhere in Paris intra-muros or the wider Île-de-France region with defined goals.',
+            t2:'Learner profile', d2:'Students 8–18 seeking confident English poise, digital creation, or exam excellence.',
             t3:'Parent partnership', d3:'Parents commit to weekly 10-minute touchpoints for KPIs, dossiers, and concierge scheduling.'
           },
           meta:{
             r:{ t:'Response time', d:'We reply within 24 hours with a discovery dossier and proposed slots.' },
-            l:{ t:'Languages', d:'English / French bilingual support for parents and learners.' },
+            l:{ t:'Languages', d:'English-only communication and support for parents and learners.' },
             g:{ t:'GDPR & safeguarding', d:'GDPR-compliant handling of student data and in-home protocols.' }
           },
           note:'Every detail remains confidential; dossiers are encrypted and shared only with the requesting family.'
         },
         pay:{
           title:'Concierge billing & receipts',
-          sub:'Once the atelier plan is confirmed, settle installments via <strong>Revolut</strong>, <strong>PayPal</strong>, or concierge bank transfer. Each payment generates a bilingual invoice.',
+          sub:'Once the atelier plan is confirmed, settle installments via <strong>Revolut</strong>, <strong>PayPal</strong>, or concierge bank transfer. Every payment triggers an English invoice and receipt.',
           badge:'Invoices issued under Maison BrightMinds (micro-entrepreneur).',
           revolut:'Pay via Revolut', paypal:'Pay via PayPal',
           bank:'Request bank transfer',
           l1:'Revolut & PayPal support card, Apple Pay, and Google Pay.',
           l2:'Installment schedules aligned with atelier milestones.',
           l3:'Concierge bank transfer available on request.',
-          l4:'<strong>Bilingual invoices</strong> issued for every session or pack.',
+          l4:'<strong>English-only invoices</strong> issued for every session or pack.',
           l5:'Payments processed securely via PCI-compliant providers.',
           l6:'Refunds for unused sessions according to your plan.',
           help:'Prefer to confirm details first?',
@@ -190,17 +194,20 @@ export const translations = {
           foot:'Moins de 12 familles accompagnées simultanément – ateliers hebdomadaires à Paris ou via téléprésence sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
           signet:'Maison BrightMinds',
-          signetLocale:'Paris · Neuilly · Passy',
-          clientele:'Des familles du 16e, de Neuilly, de Passy et du Bois de Boulogne organisent des ateliers privés et discrets, avec dossiers bilingues et coordination concierge.',
-          chip1:'Résidences 16e · Triangle d’Or · Neuilly',
-          chip2:'Dossiers bilingues, films récap & KPIs',
-          chip3:'Planning concierge & logistique discrète',
-          note:'De l’avenue Foch au Bois de Boulogne, nous allions élégance parisienne et maîtrise des compétences du futur.',
+          signetLocale:'Paris · Île-de-France',
+          clientele:'Des familles dans tous les arrondissements parisiens et en Île-de-France — du 1er à Neuilly et Boulogne — réservent des ateliers privés à domicile, des dossiers détaillés en anglais et un suivi concierge.',
+          chip1:'Résidences à Paris & en Île-de-France',
+          chip2:'Dossiers et films récap 100 % en anglais',
+          chip3:'Planification concierge & suivi discret',
+          press1:'Résidences à Paris & en Île-de-France',
+          press2:'Familles diplomatiques, fondateurs & dirigeants',
+          press3:'Dossiers et vidéos de suivi 100 % en anglais',
+          note:'De Paris centre aux communes de l’ouest, nous allions élégance parisienne et maîtrise de l’anglais et des technologies.',
           p1:'Projets concrets : mini site web, applications IA, diaporamas ou affiches numériques', p2:'Coaching en confiance : expression et présentation en anglais',
           p3:'Sécurité numérique et usage équilibré des technologies', p4:'Préparation aux examens : IELTS, TOEIC, IGCSE/A-Level'
         },
         banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci (priorité aux fratries & parrainages).', bannerCta:'Réserver',
-        trust:{ areas:'Recommandé par des familles avenue Foch · Faubourg Saint-Honoré · Neuilly', dbsc:'Encadré des formations dispensées exclusivement en anglais', invoice:'Dispensé des formations dans le cadre de programmes certifiés Qualiopi' },
+        trust:{ areas:'Recommandé par des familles dans tout Paris & en Île-de-France', dbsc:'Encadré des formations dispensées exclusivement en anglais', invoice:'Dispensé des formations dans le cadre de programmes certifiés Qualiopi' },
         instructor:{
           title:'Rencontrez l’enseignant',
           copy:'Bonjour, je m’appelle Syed — enseignant en anglais et en technologies basé à Paris. J’enseigne à l’American Business School of Paris et dans d’autres établissements réputés, en aidant les élèves à communiquer clairement et à penser de manière créative en anglais. Mes cours associent une solide maîtrise linguistique à un apprentissage numérique pratique — de la création de petits sites web à la compréhension du code et des outils modernes — afin que chaque élève gagne en confiance, à la fois en anglais et en technologie.',
@@ -247,37 +254,37 @@ export const translations = {
             title: "Pourquoi les parents choisissent ce programme",
             b1: {
               t: "Enseignant expérimenté en anglais & technologie",
-              d: "Intervient dans des grandes écoles parisiennes et reproduit ce niveau d’exigence à domicile, avec projets sur mesure, étiquette et cadre sécurisé."
+              d: "Intervient dans des écoles de commerce et d’ingénierie parisiennes et transpose ces exigences dans des cours sur mesure, adaptés à chaque âge."
             },
             b2: {
               t: "Progrès visibles & confiance",
-              d: "Les familles reçoivent des dossiers bilingues — notes, vidéos courtes et micro-objectifs — reflétant des progrès concrets."
+              d: "Les parents reçoivent des mises à jour régulières et observent des progrès tangibles : aisance en anglais, expression et compétences numériques."
             },
             b3: {
               t: "Apprendre avec du sens",
-              d: "L’anglais est relié à des thèmes actuels : direction artistique, entrepreneuriat, IA… Idéal pour stimuler des profils ambitieux."
+              d: "L’anglais s’appuie sur des sujets modernes — technologie, design web, IA — pour maintenir la curiosité et la motivation."
             },
             b4: {
               t: "Préparation scolaire & examens",
-              d: "Préparation structurée pour IGCSE, IELTS ou programmes bilingues, avec retours façon examinateur et présentations préparées."
+              d: "Accompagnement structuré pour l’anglais scolaire, l’IGCSE ou les examens internationaux comme le TOEIC et l’IELTS, avec un objectif de compréhension réelle."
             },
             b5: {
               t: "Format flexible & personnalisé",
-              d: "Ateliers à domicile, en ligne ou entre deux résidences, avec conciergerie planning, coordination chauffeur et formats fratrie."
+              d: "Cours à domicile dans Paris ou en ligne, avec des créneaux flexibles et des formats fratrie ou amis encouragés."
             },
             b6: {
               t: "Une confiance qui dure",
-              d: "Les élèves apprennent à présenter, raconter et défendre leurs idées avec assurance — bien au-delà des examens."
+              d: "L’élève apprend à s’exprimer clairement, à argumenter et à penser de manière autonome — au-delà de la grammaire."
             },
           },
           concierge:{
             eyebrow:'Services maison',
             title:'Expérience concierge',
-            sub:'Ateliers privés pour familles internationales — dossiers bilingues, coordination rapide et environnements d’étude soignés.',
-            c1:{ tag:'Atelier privé', t:'Ateliers discrets à domicile', d:'Séances sur mesure à Paris 16e, Neuilly, Passy ou Levallois avec matériel sélectionné et ambiance calme.' },
-            c2:{ tag:'Dossiers bilingues', t:'Comptes-rendus sur mesure', d:'Les parents reçoivent des résumés cinématiques, mini vidéos et rapports EN/FR après chaque atelier.' },
-            c3:{ tag:'Conciergerie', t:'Canal dédié', d:'Accès WhatsApp prioritaire pour le planning, la coordination chauffeur et des invitations à des examens blancs privés.' },
-            foot:'Les familles prioritaires bénéficient aussi de créneaux pour la fratrie, de retraites d’étude immersives et de documents multilingues pour les admissions à l’étranger.'
+            sub:'Chaque famille reçoit des comptes rendus raffinés : notes en anglais, dossiers hebdomadaires et accès WhatsApp réactif.',
+            c1:{ tag:'Atelier privé', t:'Ateliers discrets à domicile', d:'Séances sur mesure dans tout Paris ou en Île-de-France (16e, Neuilly, Passy, Levallois, etc.) avec matériel sélectionné et ambiance calme.' },
+            c2:{ tag:'Dossier en anglais', t:'Comptes rendus en anglais', d:'Résumés cinématiques, mini vidéos et indicateurs transmis après chaque atelier — intégralement en anglais pour faciliter les échanges.' },
+            c3:{ tag:'Conciergerie', t:'Canal dédié', d:'Accès WhatsApp prioritaire pour le planning, la coordination chauffeur et des invitations à des examens blancs ou retraites immersives.' },
+            foot:'Les familles bénéficient aussi de créneaux prioritaires pour la fratrie, de séjours d’étude sur mesure et de documents en anglais pour les écoles internationales.'
           },
 
         success:{ title:'À quoi ressemble la réussite', before:'Avant', after:'Après',
@@ -296,12 +303,13 @@ export const translations = {
           a3: "— Parent, Levallois (15 ans)"
         },
         pricing:{
-          title:'Formules d’atelier', sub2:'Ateliers sur mesure pour familles privées. Tarif horaire indiqué.',
+          title:'Tarifs',
+          sub2:'Transparents et flexibles. Choisissez un suivi individuel ou un petit groupe.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
           perHour:'/h', cta:'Réserver un appel',
-          p1:{ t:'Atelier Classique (1:1)', d:'Coaching anglais + technologie avec dossiers bilingues et matériel premium.', note:'Idéal pour familles bilingues & écoles internationales' },
-          p2:{ t:'Salon Duo / Fratrie', d:'2–3 élèves, créations partagées, tableaux collaboratifs et avantage fratrie.', note:'Parfait pour frères/sœurs ou amis du même quartier' },
-          p3:{ t:'Conservatoire Examens', d:'IELTS, TOEFL, IGCSE/A-Level avec oraux blancs et accompagnement admissions.', note:'Prévoir 6–8 semaines vers la note visée' },
-          note:'Déplacements inclus dans Paris intramuros ; supplément adapté hors périmètre.'
+          p1:{ t:'Plan Progrès Privé', d:'Coaching 1:1 anglais + tech. Résultats visibles en 4 semaines.', note:'Format recommandé : 4×1h (100 €)' },
+          p2:{ t:'Accélérateur Fratrie / Amis', d:'2 à 4 élèves : travail d’équipe, communication et projets créatifs.', note:'Excellent pour frères/sœurs' },
+          p3:{ t:'Maîtrise Examens & Confiance', d:'TOEIC, IELTS, IGCSE/A-Level avec coaching oral et présentation.', note:'Prévoir 6–8 semaines pour viser la note cible' },
+          note:'Les déplacements peuvent inclure un léger supplément selon la localisation.'
         },
         exam:{
           title:'Packs Examens',
@@ -315,7 +323,7 @@ export const translations = {
           intro:'Un funnel pensé pour les familles haut de gamme : prise de conscience, qualification, plan sur mesure, conversion en ateliers privés.',
           s1:{t:'Intake & alignement', d:'Entretien privé de 15 min pour analyser objectifs, contexte scolaire et disponibilités. Dossier découverte sous 24h.'},
           s2:{t:'Plan d’atelier sur mesure', d:'Pilotage de quatre séances avec KPIs, projets signature et tarification 1:1 ou fratrie.'},
-          s3:{t:'Ateliers & dossiers', d:'Ateliers hebdo avec vidéos récap bilingues, KPIs et coordination concierge pour garder parents & élèves alignés.'}
+          s3:{t:'Ateliers & dossiers', d:'Ateliers hebdo avec vidéos récap en anglais, KPIs et coordination concierge pour garder parents & élèves alignés.'}
         },
         faq:{
           title:'FAQ / Questions fréquentes',
@@ -329,29 +337,29 @@ export const translations = {
           sub:'Nous accompagnons moins de 12 familles en parallèle. Partagez votre brief et nous bloquons un appel confidentiel de 15 minutes.',
           f:{ name:'Nom du parent', child:'Âge(s) & priorités', slot:'Créneau privilégié' },
           opt1:'Soir en semaine', opt2:'Samedi', opt3:'Dimanche',
-          cta:{ submit:'Envoyer & bloquer un créneau' }, email:'Email',
+          cta:{ submit:'Envoyer & bloquer un créneau' }, email:'Envoyer par email',
           qual:{
-            t1:'Résidence & intention', d1:'Résidences principales à Paris intra-muros, Neuilly ou ouest parisien avec objectifs clairs (bilingue, examens, études à l’étranger).',
-            t2:'Profil élève', d2:'Élèves 8–18 évoluant dans un foyer bilingue, motivés par la prise de parole, la création digitale ou l’excellence académique.',
+            t1:'Résidence & intention', d1:'Résidences principales partout dans Paris intra-muros ou en Île-de-France avec objectifs clairs.',
+            t2:'Profil élève', d2:'Élèves 8–18 visant aisance en anglais, création digitale ou excellence aux examens.',
             t3:'Partenariat parent', d3:'Parents disponibles pour 10 min hebdomadaires : revue de KPIs, dossiers et planning concierge.'
           },
           meta:{
             r:{ t:'Temps de réponse', d:'Retour sous 24 h avec dossier découverte et créneaux proposés.' },
-            l:{ t:'Langues', d:'Support bilingue anglais / français pour parents et élèves.' },
+            l:{ t:'Langues', d:'Communication et suivi uniquement en anglais.' },
             g:{ t:'RGPD & sécurité', d:'Gestion des données et protocoles domicile conformes RGPD.' }
           },
           note:'Toutes les informations restent confidentielles ; les dossiers sont chiffrés et partagés uniquement avec la famille concernée.'
         },
         pay:{
           title:'Facturation concierge & reçus',
-          sub:'Après validation du plan d’ateliers, réglez par <strong>Revolut</strong>, <strong>PayPal</strong> ou virement concierge. Chaque paiement génère une facture bilingue.',
+          sub:'Après validation du plan d’ateliers, réglez par <strong>Revolut</strong>, <strong>PayPal</strong> ou virement concierge. Chaque paiement déclenche une facture en anglais.',
           badge:'Factures émises par Maison BrightMinds (micro-entrepreneur).',
           revolut:'Payer avec Revolut', paypal:'Payer avec PayPal',
           bank:'Demander un virement',
           l1:'Revolut & PayPal acceptent carte, Apple Pay et Google Pay.',
           l2:'Échéancier aligné sur les jalons de l’atelier.',
           l3:'Virement bancaire concierge sur demande.',
-          l4:'<strong>Facture bilingue</strong> pour chaque séance ou pack.',
+          l4:'<strong>Facture uniquement en anglais</strong> pour chaque séance ou pack.',
           l5:'Paiements sécurisés via prestataires conformes PCI.',
           l6:'Remboursements des séances non utilisées selon votre plan.',
           help:'Besoin de confirmer d’abord ?',

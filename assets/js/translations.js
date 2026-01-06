@@ -4,9 +4,10 @@ export const translations = {
         cta:{ book:'Book a quick chat', whatsappSyed:'WhatsApp Syed', callSyed:'Call Syed', replyTime:'Reply time: under 2 hours (Paris)' },
         hero:{
           title:'Academic confidence in English for international & bilingual students in Paris',
-          sub:'From foundations to international and exam readiness, coaching for clear academic expression in English.',
+          sub:'Private coaching in English for IB, IGCSE & A-Levels in Paris (in-home or online). Clarity for essays, orals, and exams.',
           painline:'For students who understand English but freeze when they must speak, write, or present.',
-          proof:'Higher-ed instructor (IPI Paris, Ingetis Institute of Technology, American Business College Paris) • In-home Paris or online • 12 families max',
+          proof:'Higher-ed instructor (IPI Paris, Ingetis Institute of Technology, American Business College Paris, ESILV) • IB/IGCSE/A-Levels coaching • In-home Paris or online • 12 families max',
+          examProof:'Past papers, timed mocks, and feedback aligned to IB/IGCSE/A-Levels.',
           qualifier:'For international & bilingual students (8–18): speak, write, and present clearly in English.',
           cta:'Book a quick chat', secondary:'See the coaching path',
           foot:'We accept a limited number of families for weekly in-home sessions across Paris & Île-de-France or secure online coaching.',
@@ -41,19 +42,19 @@ export const translations = {
           p1: {
             badge: "Ages 8–11",
             title: "Foundation Track",
-            l1: "Build confidence speaking and structuring ideas in English",
-            l2: "Develop vocabulary and clarity for classroom participation",
-            l3: "Practice short presentations and summaries with structure",
+            l1: "Speak with confidence in class",
+            l2: "Short summaries + structured paragraphs",
+            l3: "Vocabulary building without stress",
             l4: "Light projects to explain ideas",
             l5: "A strong base for bilingual or international schooling"
           },
 
           p2: {
             badge: "Ages 12–18",
-            title: "International Academic Track",
-            l1: "Strengthen academic English for international tracks with clear explanations",
-            l2: "Practice orals, essays, and presentations for confident delivery",
-            l3: "Use structured feedback to build clarity and confidence",
+            title: "IB, IGCSE & A-Levels Track (12–18)",
+            l1: "Essay structure + academic vocabulary",
+            l2: "Orals: calm answers under pressure",
+            l3: "Timed practice + examiner-style feedback",
             l4: "Structured feedback for clarity and confidence",
             l5: "International readiness for school, interviews, and future study"
           },
@@ -61,9 +62,9 @@ export const translations = {
           p3: {
             badge: "Ages 16+",
             title: "Exam & Professional Track",
-            l1: "Prepare for exam and professional English with clear targets",
-            l2: "Train interviews and presentations for confident delivery",
-            l3: "Practice timed responses for measurable results",
+            l1: "TOEIC/IELTS targets + strategy",
+            l2: "Interviews + presentations",
+            l3: "Clear, measurable weekly goals",
             l4: "Timed practice and clear outcomes",
             l5: "Focused sessions aligned with exam or admission deadlines"
           },
@@ -117,7 +118,7 @@ export const translations = {
         testimonials:{
           title:'Parent feedback', sub:'Real progress families can see — clearer English, calmer confidence, stronger structure.',
           q1:'“Our son finally explains his ideas clearly in English — the structure helped.”', a1:'— Parent, Paris',
-          q2:'“The oral became manageable once he learned how to frame his answers.”', a2:'— Parent, Neuilly',
+          q2:'“The IB oral became manageable once he learned how to structure answers in English.”', a2:'— Parent, Neuilly',
           q3: "“She’s more confident in English class and in interviews.”",
           a3: "— Parent, Levallois"
         },
@@ -133,8 +134,8 @@ export const translations = {
         },
         exam:{
           title:'Exam & academic readiness in English',
-          sub:'IB, IGCSE, A-Levels, BTS (SIO/CIEL), Bac STI2D, TOEIC/IELTS — focused English prep with clear targets.',
-          e1:{ t:'International school support', l1:'Academic English for orals and essays', l2:'Structure for explanations and arguments', l3:'Timed practice with feedback' },
+          sub:'IB, IGCSE & A-Levels: orals, essays, timed mocks, and score tracking.',
+          e1:{ t:'International school support', l1:'Academic English for orals and essays', l2:'Timed practice with feedback', l3:'Timed practice with feedback' },
           e2:{ t:'Technical track', l1:'Technical vocabulary in English', l2:'Explain processes and projects', l3:'Presentation readiness' },
           e3:{ t:'Tests & interviews', l1:'Score targets and strategy', l2:'Speaking practice with feedback', l3:'Writing clarity' },
           e4:{ t:'Applied expression (optional)', l1:'Applied tasks for structured explanations', l2:'Explain steps and results', l3:'Portfolio-ready communication' }
@@ -151,6 +152,10 @@ export const translations = {
           a1:'In-home in Paris & Île-de-France or online.',
           q2:'Which ages and levels?',
           a2:'Ages 8–18. Foundations to international and exam tracks.',
+          q5:'Do you prepare IB orals and written tasks?',
+          a5:'Yes. We train structure, timing, and calm delivery using IB-style prompts and clear feedback.',
+          q6:'Can you help with sciences or humanities in English (not just language)?',
+          a6:'Yes. The focus is explaining your subject clearly in English: vocabulary, argument structure, and exam phrasing.',
           q3:'Scheduling', a3:'Weekly or intensive; reschedule with 24h notice.',
           q4:'Are you a school or official examiner?', a4:'Private coach, not a school or examiner. Invoices available; payment by bank transfer, PayPal, or Revolut.'
         },
@@ -196,9 +201,10 @@ export const translations = {
         cta:{ book:'Réserver un échange rapide', whatsappSyed:'WhatsApp Syed', callSyed:'Appeler Syed', replyTime:'Réponse: moins de 2h (Paris)' },
         hero:{
           title:'Confiance académique en anglais pour élèves internationaux et bilingues à Paris',
-          sub:'Des bases aux parcours internationaux et examens, un coaching pour une expression académique claire en anglais.',
+          sub:'Coaching privé en anglais pour IB, IGCSE & A-Levels à Paris (à domicile ou en ligne). Clarté pour écrits, oraux et examens.',
           painline:'Pour les élèves qui comprennent l’anglais mais bloquent quand il faut parler, écrire ou présenter.',
-          proof:'Enseignant dans le supérieur (IPI Paris, Ingetis Institute of Technology, American Business College Paris) • À domicile à Paris ou en ligne • 12 familles max',
+          proof:'Intervenant en enseignement supérieur (IPI Paris, Ingetis Institute of Technology, American Business College Paris, ESILV) • Coaching IB/IGCSE/A-Levels • À domicile à Paris ou en ligne • 12 familles max',
+          examProof:'Sujets d’annales, simulations chronométrées et retours alignés IB/IGCSE/A-Levels.',
           qualifier:'Pour élèves internationaux et bilingues (8–18) : parler, écrire et présenter clairement en anglais.',
           cta:'Réserver un échange rapide', secondary:'Voir le parcours de coaching',
           foot:'Nombre de familles limité pour des séances hebdomadaires à domicile à Paris & Île-de-France ou en ligne sécurisée.',
@@ -233,19 +239,19 @@ export const translations = {
           p1: {
             badge: "Âges 8–11",
             title: "Parcours fondations",
-            l1: "Renforcer la confiance pour parler et structurer en anglais",
-            l2: "Développer vocabulaire et clarté pour la classe",
-            l3: "Pratiquer exposés courts et résumés structurés",
+            l1: "Parler avec confiance en classe",
+            l2: "Résumés courts + paragraphes structurés",
+            l3: "Vocabulaire sans stress",
             l4: "Projets légers pour expliquer des idées",
             l5: "Base solide pour scolarité bilingue ou internationale"
           },
 
           p2: {
             badge: "Âges 12–18",
-            title: "Parcours académique international",
-            l1: "Renforcer l’anglais académique pour parcours internationaux",
-            l2: "Pratiquer oraux, dissertations et présentations avec assurance",
-            l3: "Utiliser des retours structurés pour clarté et confiance",
+            title: "Parcours IB, IGCSE & A-Levels (12–18)",
+            l1: "Structure des écrits + vocabulaire académique",
+            l2: "Oral: réponses calmes sous pression",
+            l3: "Entraînement chronométré + retours type examinateur",
             l4: "Retours structurés pour clarté et confiance",
             l5: "Préparation internationale pour études et entretiens"
           },
@@ -253,9 +259,9 @@ export const translations = {
           p3: {
             badge: "Âges 16+",
             title: "Parcours examens & professionnel",
-            l1: "Préparer l’anglais des examens et du professionnel",
-            l2: "Travailler entretiens et présentations avec assurance",
-            l3: "S’entraîner en temps limité pour des résultats mesurables",
+            l1: "Objectifs TOEIC/IELTS + stratégie",
+            l2: "Entretiens + présentations",
+            l3: "Objectifs hebdos clairs et mesurables",
             l4: "Entraînement chronométré et résultats clairs",
             l5: "Séances ciblées selon examens ou admissions"
           },
@@ -309,7 +315,7 @@ export const translations = {
         testimonials:{
           title:'Retours des parents', sub:'Des progrès visibles — anglais plus clair, confiance plus calme, structure solide.',
           q1:'« Notre fils explique enfin ses idées clairement en anglais — la structure l’a aidé. »', a1:'— Parent, Paris',
-          q2:'« L’oral est devenu gérable une fois qu’il a appris à structurer ses réponses. »', a2:'— Parent, Neuilly',
+          q2:'« L’oral IB est devenu gérable une fois qu’il a appris à structurer ses réponses en anglais. »', a2:'— Parent, Neuilly',
           q3: "« Elle est plus à l’aise en cours d’anglais et en entretien. »",
           a3: "— Parent, Levallois"
         },
@@ -325,8 +331,8 @@ export const translations = {
         },
         exam:{
           title:'Préparation académique et examens en anglais',
-          sub:'IB, IGCSE, A-Levels, BTS (SIO/CIEL), Bac STI2D, TOEIC/IELTS — préparation en anglais avec objectifs clairs.',
-          e1:{ t:'Soutien écoles internationales', l1:'Anglais académique pour oraux et dissertations', l2:'Structure pour explications et arguments', l3:'Entraînements chronométrés avec retours' },
+          sub:'IB, IGCSE & A-Levels : oraux, écrits, simulations chronométrées et suivi.',
+          e1:{ t:'Soutien écoles internationales', l1:'Anglais académique pour oraux et dissertations', l2:'Entraînements chronométrés avec retours', l3:'Entraînements chronométrés avec retours' },
           e2:{ t:'Parcours technique', l1:'Vocabulaire technique en anglais', l2:'Expliquer processus et projets', l3:'Préparation aux présentations' },
           e3:{ t:'Tests & entretiens', l1:'Objectifs de score et stratégie', l2:'Pratique orale avec retours', l3:'Clarté à l’écrit' },
           e4:{ t:'Expression appliquée (option)', l1:'Tâches appliquées pour structurer les explications', l2:'Expliquer étapes et résultats', l3:'Communication prête pour portfolio' }
@@ -341,6 +347,10 @@ export const translations = {
           title:'FAQ : coaching d’anglais académique à Paris',
           q1:'Où se déroulent les séances ?', a1:'À domicile à Paris & Île-de-France ou en ligne.',
           q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Fondations, parcours internationaux et examens.',
+          q5:'Prépares-tu les oraux IB et les écrits ?',
+          a5:'Oui. On travaille la structure, le timing et une expression calme avec des sujets type IB et des retours clairs.',
+          q6:'Peux-tu aider en sciences ou en humanités en anglais (pas فقط la langue) ?',
+          a6:'Oui. L’objectif est d’expliquer ton sujet clairement en anglais : vocabulaire, structure d’argument, formulation d’examen.',
           q3:'Organisation', a3:'Hebdomadaire ou intensif ; report avec 24h.',
           q4:'Êtes-vous une école ou un examinateur officiel ?', a4:'Coach privé, pas une école ni un examinateur. Factures disponibles ; paiement par virement, PayPal ou Revolut.'
         },

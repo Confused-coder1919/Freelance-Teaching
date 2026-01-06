@@ -181,7 +181,7 @@ The `LocalBusiness` JSON-LD `url` key must not be duplicated. Use:
 
 * A/B test hero subtitle & trust line.
 * Show **next available consult time** inline (urgency).
-* Add light **logo strip** (ABS, IPI, Ingetis) if rights permit.
+* Add light **logo strip** (ABS, IPI Paris, Ingetis Institute of Technology) if rights permit.
 
 ---
 

@@ -4,7 +4,9 @@ export const translations = {
         cta:{ book:'Book a quick chat', whatsappSyed:'WhatsApp Syed', callSyed:'Call Syed', replyTime:'Reply time: under 2 hours (Paris)' },
         hero:{
           title:'Academic confidence in English for international & bilingual students in Paris',
-          sub:'From foundations to IB and exam readiness, coaching for clear academic expression in English.',
+          sub:'From foundations to international and exam readiness, coaching for clear academic expression in English.',
+          proof:'Higher-ed instructor (IPI/Ingetis/ABC) • In-home Paris or online • 12 families max',
+          qualifier:'For international & bilingual students (8–18): speak, write, and present clearly in English.',
           cta:'Book a quick chat', secondary:'See the coaching path',
           foot:'We accept a limited number of families for weekly in-home sessions across Paris & Île-de-France or secure online coaching.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
@@ -38,9 +40,9 @@ export const translations = {
           p1: {
             badge: "Ages 8–11",
             title: "Foundation Track",
-            l1: "Confidence speaking and structuring ideas in English",
-            l2: "Calm sessions for vocabulary and clarity",
-            l3: "Short presentations, summaries, simple writing",
+            l1: "Build confidence speaking and structuring ideas in English",
+            l2: "Develop vocabulary and clarity for classroom participation",
+            l3: "Practice short presentations and summaries with structure",
             l4: "Light projects to explain ideas",
             l5: "A strong base for bilingual or international schooling"
           },
@@ -48,9 +50,9 @@ export const translations = {
           p2: {
             badge: "Ages 12–18",
             title: "International Academic Track",
-            l1: "Academic English for IB, IGCSE, A-Levels, bilingual lycée",
-            l2: "Explain maths, sciences, and humanities in English",
-            l3: "Orals, essays, presentations, exam technique",
+            l1: "Strengthen academic English for international tracks with clear explanations",
+            l2: "Practice orals, essays, and presentations for confident delivery",
+            l3: "Use structured feedback to build clarity and confidence",
             l4: "Structured feedback for clarity and confidence",
             l5: "International readiness for school, interviews, and future study"
           },
@@ -58,9 +60,9 @@ export const translations = {
           p3: {
             badge: "Ages 16+",
             title: "Exam & Professional Track",
-            l1: "BTS (SIO / CIEL) and Bac STI2D support in English",
-            l2: "TOEIC / IELTS preparation with targets",
-            l3: "Interview coaching and professional communication",
+            l1: "Prepare for exam and professional English with clear targets",
+            l2: "Train interviews and presentations for confident delivery",
+            l3: "Practice timed responses for measurable results",
             l4: "Timed practice and clear outcomes",
             l5: "Focused sessions aligned with exam or admission deadlines"
           },
@@ -82,7 +84,7 @@ export const translations = {
           },
           b4: {
             t: "International pathways supported",
-            d: "IB, IGCSE, A-Levels, bilingual lycée, BTS/STI2D."
+            d: "International and exam tracks supported."
           },
           b5: {
             t: "In-home or online delivery",
@@ -114,7 +116,7 @@ export const translations = {
         testimonials:{
           title:'Parent feedback', sub:'Real progress families can see — clearer English, calmer confidence, stronger structure.',
           q1:'“Our son finally explains his ideas clearly in English — the structure helped.”', a1:'— Parent, Paris',
-          q2:'“The IB oral became manageable once he learned how to frame his answers.”', a2:'— Parent, Neuilly',
+          q2:'“The oral became manageable once he learned how to frame his answers.”', a2:'— Parent, Neuilly',
           q3: "“She’s more confident in English class and in interviews.”",
           a3: "— Parent, Levallois"
         },
@@ -124,7 +126,7 @@ export const translations = {
           perHour:'/h', cta:'Book a quick chat',
           p1:{ t:'Foundation Track', d:'Foundation clarity and confidence in English.', note:'Suggested starter: 4×1h (€100)' },
           p2:{ t:'International Academic Track', d:'International track: orals, essays, academic English.', note:'Best for 12–18' },
-          p3:{ t:'Exam & Professional Track', d:'BTS/STI2D, TOEIC/IELTS, interviews.', note:'Focused prep for exams or admissions' },
+          p3:{ t:'Exam & Professional Track', d:'Exam-track prep and interviews.', note:'Focused prep for exams or admissions' },
           note:'In-home sessions may include a small transport supplement depending on location.'
         },
         exam:{
@@ -146,7 +148,7 @@ export const translations = {
           q1:'Where are sessions held?',
           a1:'In-home in Paris & Île-de-France or online.',
           q2:'Which ages and levels?',
-          a2:'Ages 8–18. Foundations to international and exam tracks (IB/IGCSE/A-Levels, BTS/STI2D).',
+          a2:'Ages 8–18. Foundations to international and exam tracks.',
           q3:'Scheduling', a3:'Weekly or intensive; reschedule with 24h notice.',
           q4:'Are you a school or official examiner?', a4:'Private coach, not a school or examiner. Invoices available; payment by bank transfer, PayPal, or Revolut.'
         },
@@ -192,7 +194,9 @@ export const translations = {
         cta:{ book:'Réserver un échange rapide', whatsappSyed:'WhatsApp Syed', callSyed:'Appeler Syed', replyTime:'Réponse: moins de 2h (Paris)' },
         hero:{
           title:'Confiance académique en anglais pour élèves internationaux et bilingues à Paris',
-          sub:'Des bases à l’IB et aux examens, un coaching pour une expression académique claire en anglais.',
+          sub:'Des bases aux parcours internationaux et examens, un coaching pour une expression académique claire en anglais.',
+          proof:'Enseignant dans le supérieur (IPI/Ingetis/ABC) • À domicile à Paris ou en ligne • 12 familles max',
+          qualifier:'Pour élèves internationaux et bilingues (8–18) : parler, écrire et présenter clairement en anglais.',
           cta:'Réserver un échange rapide', secondary:'Voir le parcours de coaching',
           foot:'Nombre de familles limité pour des séances hebdomadaires à domicile à Paris & Île-de-France ou en ligne sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
@@ -226,9 +230,9 @@ export const translations = {
           p1: {
             badge: "Âges 8–11",
             title: "Parcours fondations",
-            l1: "Confiance pour parler et structurer ses idées en anglais",
-            l2: "Séances calmes pour vocabulaire et clarté",
-            l3: "Courts exposés, résumés, écrits simples",
+            l1: "Renforcer la confiance pour parler et structurer en anglais",
+            l2: "Développer vocabulaire et clarté pour la classe",
+            l3: "Pratiquer exposés courts et résumés structurés",
             l4: "Projets légers pour expliquer des idées",
             l5: "Base solide pour scolarité bilingue ou internationale"
           },
@@ -236,9 +240,9 @@ export const translations = {
           p2: {
             badge: "Âges 12–18",
             title: "Parcours académique international",
-            l1: "Anglais académique pour IB, IGCSE, A-Levels, lycée bilingue",
-            l2: "Expliquer maths, sciences et humanités en anglais",
-            l3: "Oraux, dissertations, présentations, méthode d’examen",
+            l1: "Renforcer l’anglais académique pour parcours internationaux",
+            l2: "Pratiquer oraux, dissertations et présentations avec assurance",
+            l3: "Utiliser des retours structurés pour clarté et confiance",
             l4: "Retours structurés pour clarté et confiance",
             l5: "Préparation internationale pour études et entretiens"
           },
@@ -246,9 +250,9 @@ export const translations = {
           p3: {
             badge: "Âges 16+",
             title: "Parcours examens & professionnel",
-            l1: "BTS (SIO / CIEL) et Bac STI2D en anglais",
-            l2: "Préparation TOEIC / IELTS avec objectifs",
-            l3: "Coaching entretiens et communication professionnelle",
+            l1: "Préparer l’anglais des examens et du professionnel",
+            l2: "Travailler entretiens et présentations avec assurance",
+            l3: "S’entraîner en temps limité pour des résultats mesurables",
             l4: "Entraînement chronométré et résultats clairs",
             l5: "Séances ciblées selon examens ou admissions"
           },
@@ -270,7 +274,7 @@ export const translations = {
             },
             b4: {
               t: "Parcours internationaux accompagnés",
-              d: "IB, IGCSE, A-Levels, lycée bilingue, BTS/STI2D."
+              d: "Parcours internationaux et examens."
             },
             b5: {
               t: "À domicile ou en ligne",
@@ -302,7 +306,7 @@ export const translations = {
         testimonials:{
           title:'Retours des parents', sub:'Des progrès visibles — anglais plus clair, confiance plus calme, structure solide.',
           q1:'« Notre fils explique enfin ses idées clairement en anglais — la structure l’a aidé. »', a1:'— Parent, Paris',
-          q2:'« L’oral d’IB est devenu gérable une fois qu’il a appris à structurer ses réponses. »', a2:'— Parent, Neuilly',
+          q2:'« L’oral est devenu gérable une fois qu’il a appris à structurer ses réponses. »', a2:'— Parent, Neuilly',
           q3: "« Elle est plus à l’aise en cours d’anglais et en entretien. »",
           a3: "— Parent, Levallois"
         },
@@ -312,7 +316,7 @@ export const translations = {
           perHour:'/h', cta:'Réserver un échange rapide',
           p1:{ t:'Parcours fondations', d:'Fondations: clarté et confiance en anglais.', note:'Format recommandé : 4×1h (100 €)' },
           p2:{ t:'Parcours académique international', d:'Parcours international: oraux, dissertations, anglais académique.', note:'Idéal pour 12–18' },
-          p3:{ t:'Parcours examens & professionnel', d:'BTS/STI2D, TOEIC/IELTS, entretiens.', note:'Préparation ciblée pour examens ou admissions' },
+          p3:{ t:'Parcours examens & professionnel', d:'Préparation examens et entretiens.', note:'Préparation ciblée pour examens ou admissions' },
           note:'Les séances à domicile peuvent inclure un léger supplément selon la localisation.'
         },
         exam:{
@@ -332,7 +336,7 @@ export const translations = {
         faq:{
           title:'FAQ : coaching d’anglais académique à Paris',
           q1:'Où se déroulent les séances ?', a1:'À domicile à Paris & Île-de-France ou en ligne.',
-          q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Fondations à parcours internationaux et examens (IB/IGCSE/A-Levels, BTS/STI2D).',
+          q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Fondations, parcours internationaux et examens.',
           q3:'Organisation', a3:'Hebdomadaire ou intensif ; report avec 24h.',
           q4:'Êtes-vous une école ou un examinateur officiel ?', a4:'Coach privé, pas une école ni un examinateur. Factures disponibles ; paiement par virement, PayPal ou Revolut.'
         },

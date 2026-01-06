@@ -1,6 +1,7 @@
 import { $ } from './dom.js';
+import { WA_BASE } from './contact-config.js';
 
-const WHATSAPP_URL = 'https://wa.me/33667135850';
+const WHATSAPP_URL = WA_BASE;
 const MAILTO = 'mailto:syed-mohammad.shah_mostafa@edu.devinci.fr';
 
 const buildMessage = (lang = 'en') => {

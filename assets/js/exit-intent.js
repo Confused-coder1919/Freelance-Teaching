@@ -1,4 +1,5 @@
 import { $ } from './dom.js';
+import { BOOKING_URL, TEL_URL } from './contact-config.js';
 
 const STORAGE_KEY = 'exitModalShown';
 
@@ -7,10 +8,13 @@ export const initExitIntent = () => {
   if (!modal) return;
 
   const closeBtn = $('#exitClose');
-  const form = $('#exitForm');
-  const thanks = $('#exitThanks');
+  const bookingLink = $('#exitBooking');
+  const callLink = $('#exitCall');
   const overlay = modal.firstElementChild;
   let hasShown = sessionStorage.getItem(STORAGE_KEY) === '1';
+
+  if (bookingLink) bookingLink.href = BOOKING_URL;
+  if (callLink) callLink.href = TEL_URL;
 
   const lockBody = (lock) => {
     document.body.style.overflow = lock ? 'hidden' : '';
@@ -42,11 +46,5 @@ export const initExitIntent = () => {
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && !modal.classList.contains('hidden')) hide();
-  });
-
-  form?.addEventListener('submit', (event) => {
-    event.preventDefault();
-    thanks?.classList.remove('hidden');
-    setTimeout(() => hide(), 1200);
   });
 };

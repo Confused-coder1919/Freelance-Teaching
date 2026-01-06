@@ -1,6 +1,7 @@
 export const translations = {
       en: {
         nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Private Intake' },
+        cta:{ book:'Book a quick chat', whatsapp:'WhatsApp', call:'Call', questions:'Questions?', replyTime:'Reply time: under 2 hours (Paris)' },
         hero:{
           title:'English & coding lessons for kids in Paris and Île-de-France',
           sub:'A concierge-led journey for discerning parents seeking a <a href="#programs" class="text-brand-yellow hover:underline">private English tutor for children in Paris</a> with modern tech projects, IELTS/TOEIC milestones, and calm in-home ateliers.',
@@ -183,11 +184,12 @@ export const translations = {
           whatsapp:'Message me on WhatsApp'
         },
         sticky:{ text:'Limited atelier slots this month', cta:'Book intake' },
-        exit:{ title:'Free mini-lesson outline', desc:'Leave your email — I’ll send a sample 4-session plan tailored to your child’s age.', cta:'Send me the outline' }
+        exit:{ title:'Want to discuss your child’s goals?', desc:'Pick the fastest way to connect and we’ll plan the next step.', whatsapp:'Message on WhatsApp' }
       },
 
       fr: {
         nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Intake privé' },
+        cta:{ book:'Réserver un échange rapide', whatsapp:'WhatsApp', call:'Appeler', questions:'Une question ?', replyTime:'Réponse : moins de 2h (Paris)' },
         hero:{
           title:'Cours d’anglais et technologie pour enfants à Paris et en Île-de-France',
           sub:'Parcours concierge pour des parents exigeants à la recherche d’un <a href="#programs" class="text-brand-yellow hover:underline">professeur d’anglais pour enfants à domicile à Paris</a> avec projets numériques, IELTS/TOEIC, et ateliers calmes.',
@@ -368,6 +370,6 @@ export const translations = {
           whatsapp:'Écrivez-moi sur WhatsApp'
         },
         sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Intake privé' },
-        exit:{ title:'Mini-séquence offerte', desc:'Laissez votre email — j’envoie un exemple de plan en 4 séances adapté à l’âge.', cta:'Recevoir le plan' }
+        exit:{ title:'Envie de discuter des objectifs de votre enfant ?', desc:'Choisissez le canal le plus rapide et planifions la suite.', whatsapp:'Message sur WhatsApp' }
       }
     }

@@ -1,26 +1,27 @@
 import { $$ } from './dom.js';
+import { WA_BASE } from './contact-config.js';
 
-const WHATSAPP_BASE = 'https://wa.me/33667135850';
 const WHATSAPP_MESSAGES = {
-  en: 'Hello! I saw your Kids English + Coding program. I’d like a 15-min parent consult. Our availability…',
-  fr: 'Bonjour ! Je viens de voir le programme Anglais + Codage. Je souhaite un appel parent (15 min). Nos dispos…'
+  en: 'Hi Syed, I’m interested in English + coding lessons in Paris. Child age: __. Goal: __. Can we book a quick call?',
+  fr: 'Bonjour Syed, je suis intéressé(e) par des cours d’anglais + coding à Paris. Âge: __. Objectif: __. Peut-on réserver un appel rapide ?'
 };
 
 export const initWhatsAppLinks = (i18n) => {
   const updateLinks = (lang) => {
     const text = WHATSAPP_MESSAGES[lang] || WHATSAPP_MESSAGES.en;
-    $$('#whatsapp-hero, #whatsapp-lead').forEach((anchor) => {
+    $$('#whatsapp-hero, #whatsapp-lead, [data-whatsapp-link]').forEach((anchor) => {
       try {
-        const url = new URL(WHATSAPP_BASE);
+        const url = new URL(WA_BASE);
         url.searchParams.set('text', text);
         anchor.href = url.toString();
       } catch {
-        anchor.href = WHATSAPP_BASE;
+        anchor.href = WA_BASE;
       }
     });
   };
 
-  const currentLang = i18n?.getLang?.() ?? 'en';
+  const storedLang = localStorage.getItem('site-lang');
+  const currentLang = i18n?.getLang?.() ?? storedLang ?? 'en';
   updateLinks(currentLang);
   i18n?.subscribe?.(updateLinks);
 };

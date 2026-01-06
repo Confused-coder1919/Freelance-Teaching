@@ -115,6 +115,9 @@
   border-top:1px solid rgba(255,255,255,.08);
   margin-top:.35rem;
 }
+.mobile-cta{
+  padding-bottom:calc(.75rem + env(safe-area-inset-bottom));
+}
 .mobile-links .mobile-link{
   padding:.65rem 0;
   border-bottom:1px solid rgba(255,255,255,.05);
@@ -611,6 +614,9 @@
 }
 
 @media (max-width:768px){
+  body{
+    padding-bottom:calc(96px + env(safe-area-inset-bottom));
+  }
   .hero-cta{
     width:100%;
     flex-direction:column;

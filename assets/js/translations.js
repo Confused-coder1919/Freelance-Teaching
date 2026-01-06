@@ -3,373 +3,373 @@ export const translations = {
         nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Book a quick chat' },
         cta:{ book:'Book a quick chat', whatsappSyed:'WhatsApp Syed', callSyed:'Call Syed', replyTime:'Reply time: under 2 hours (Paris)' },
         hero:{
-          title:'English & coding lessons for kids in Paris and Île-de-France',
-          sub:'A concierge-led journey for discerning parents seeking a <a href="#programs" class="text-brand-yellow hover:underline">private English tutor for children in Paris</a> with modern tech projects, IELTS/TOEIC milestones, and calm in-home ateliers.',
-          cta:'Book a quick chat', secondary:'See the Maison path',
-          foot:'We reserve fewer than 12 families at a time for weekly ateliers in Paris or via secure telepresence.',
+          title:'Academic confidence in English for international & bilingual students in Paris',
+          sub:'Private coaching in-home across Paris & Île-de-France or online. From early foundations to IB, IGCSE, A-Levels and exam readiness — focused on clarity, confidence, and academic expression.',
+          cta:'Book a quick chat', secondary:'See the coaching path',
+          foot:'We accept a limited number of families for weekly in-home sessions across Paris & Île-de-France or secure online coaching.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
-          signet:'Maison BrightMinds',
+          signet:'BrightMinds Paris',
           signetLocale:'Paris · Île-de-France',
-          clientele:'Families across every Paris arrondissement and the wider Île-de-France—from the 1ᵉʳ to Neuilly and Boulogne—trust us for discreet in-home ateliers, detailed English progress dossiers, and concierge scheduling.',
-          chip1:'Residences across Paris & Île-de-France',
-          chip2:'English-only dossiers, recap films & KPIs',
-          chip3:'Concierge planning & discreet scheduling',
-          press1:'Paris & Île-de-France residences',
-          press2:'Diplomatic, founder & executive families',
-          press3:'Signature English dossiers & recap films',
-          note:'From central Paris to the western suburbs, we blend Parisian elegance with future-ready English and technology mastery.',
-          p1:'Real projects: Mini Website, AI-Apps, Digital Slides/Poster', p2:'Confidence Coaching: Speaking & Presenting In English',
-          p3:'Digital Safety & Balanced Tech Use', p4:'Exam prep: IELTS, TOEIC, IGCSE/A-Level'
+          clientele:'International and bilingual families across Paris & Île-de-France choose discreet in-home coaching or secure online sessions for clear English expression and academic confidence.',
+          chip1:'In-home coaching across Paris & Île-de-France',
+          chip2:'Secure online sessions for international schedules',
+          chip3:'Orals, essays, and interviews coached in English',
+          press1:'In-home across Paris & Île-de-France',
+          press2:'International & bilingual families',
+          press3:'Clear English progress notes',
+          note:'Calm, structured coaching that helps students explain complex ideas in English.',
+          p1:'Structured expression: short talks, summaries, clear arguments', p2:'Academic English: essays, orals, interviews',
+          p3:'Projects used to explain ideas in English', p4:'Exam readiness: IB, IGCSE, A-Levels, TOEIC'
         },
-        banner:'Now enrolling', bannerTail:'limited private slots this month (priority to siblings & referrals).', bannerCta:'Book a quick chat',
-        trust:{ areas:'Trusted by families across Paris & Île-de-France', dbsc:'Led English-only learning environments', invoice:'Conducted training sessions within Qualiopi-certified programs' },
+        banner:'Now enrolling', bannerTail:'limited private slots for in-home or online coaching this month.', bannerCta:'Book a quick chat',
+        trust:{ areas:'Trusted by international families across Paris & Île-de-France', dbsc:'Academic rigor informed by higher‑education teaching', invoice:'Clear progress notes with focused next steps' },
         instructor:{
-          title:'Meet the Instructor',
-          copy:'Hi, I’m Syed — an English and technology instructor based in Paris. I teach at the American Business School of Paris and other top institutions, helping students communicate clearly and think creatively in English. My sessions combine strong language skills with practical digital learning — from building simple websites to understanding coding and modern tools — so every child grows confident in both English and technology.',
-          i1: "Native English instruction",
-          i2: "Project-based learning (web, coding, and communication)",
-          i3: "Presentation and interview coaching",
-          i4: "Confidence for the digital future",
-          cta1:'Portfolio', cta2:'See example projects'
+          title:'Meet your coach',
+          copy:'Hi, I’m Syed — an English coach based in Paris. I teach in higher‑education institutions and work privately with international and bilingual students. Sessions focus on explaining ideas clearly in English for class participation, essays, orals, and exams. Projects and simple digital work are tools to structure thinking and communication — not the goal.',
+          i1: "Academic English coaching (oral + written)",
+          i2: "Clear explanations of complex ideas",
+          i3: "Orals, presentations, interviews",
+          i4: "In-home Paris & secure online sessions",
+          cta1:'Portfolio', cta2:'See example work'
         },
         programs:{
-          title:'Programs by age: English + coding courses in Paris',
-          sub:'Project-based learning with measurable outcomes — English tutor for kids across Paris and Île-de-France.',
+          title:'Three pathways to academic confidence in English',
+          sub:'Private coaching in-home across Paris & Île-de-France or online, aligned to international and bilingual school paths.',
           p1: {
-            badge: "Ages 8–10",
-            title: "English & Digital Discovery",
-            l1: "Build confidence through fun English conversation, games, and storytelling",
-            l2: "Practice clear communication and presentation skills in a supportive environment",
-            l3: "Create small digital projects — a personal webpage, interactive story, or online poster",
-            l4: "Learn responsible and balanced technology use while exploring creativity",
-            l5: "Grow curiosity, creativity, and self-expression — entirely in English"
+            badge: "Ages 8–11",
+            title: "Foundation Track",
+            l1: "Build confidence speaking and structuring ideas in English",
+            l2: "Calm, structured sessions to grow vocabulary and clarity",
+            l3: "Short presentations, reading summaries, and simple writing",
+            l4: "Light projects used to explain ideas in English",
+            l5: "A strong base for bilingual or international schooling"
           },
 
           p2: {
-            badge: "Ages 11–14",
-            title: "English, IT & Business Basics",
-            l1: "Strengthen English for schoolwork, writing, and confident speaking",
-            l2: "Learn key IT concepts: hardware, software, and how computers work",
-            l3: "Create small website projects using HTML, CSS, and simple interactivity",
-            l4: "Discover the basics of business, money, and smart digital finance",
-            l5: "Build early exam readiness — practice skills for IGCSE, TOEIC, or IELTS foundations"
+            badge: "Ages 12–18",
+            title: "International Academic Track",
+            l1: "Academic English for IB, IGCSE, A-Levels, bilingual lycée",
+            l2: "Explain maths, sciences, and humanities clearly in English",
+            l3: "Orals, essays, presentations, and exam techniques",
+            l4: "Structured feedback to improve clarity and confidence",
+            l5: "International readiness for school, interviews, and future study"
           },
 
           p3: {
-            badge: "Ages 15–18",
-            title: "Academic English, Coding & AI Readiness",
-            l1: "Master academic and professional English through comprehension, writing exercises, and presentations",
-            l2: "Develop full website projects using HTML, CSS, JavaScript, and modern tools",
-            l3: "Explore coding logic and new technologies including AI and prompt engineering",
-            l4: "Prepare for international exams: TOEIC, IELTS, and IGCSE/A-Level English & IT",
-            l5: "Build confidence for university interviews, presentations, and future digital careers"
+            badge: "Ages 16+",
+            title: "Exam & Professional Track",
+            l1: "BTS (SIO / CIEL) and Bac STI2D support in English",
+            l2: "TOEIC / IELTS preparation with practical targets",
+            l3: "Interview coaching and professional communication",
+            l4: "Clear structure, timed practice, measurable outcomes",
+            l5: "Focused sessions aligned with exam or admission deadlines"
           },
 
         },
         benefits: {
-          title: "Why parents choose this English tutor in Paris",
+          title: "Why families choose this academic English coach in Paris",
           b1: {
-            t: "Experienced English & Technology Instructor",
-            d: "Currently teaching at business and engineering schools in Paris — bringing real-world expertise into premium in-home English tutoring for your child."
+            t: "Academic rigor, private attention",
+            d: "Higher‑education teaching experience applied to tailored private coaching."
           },
           b2: {
-            t: "Visible Progress & Confidence",
-            d: "Parents across Paris receive couture recaps that show growth in English fluency, public speaking, and digital creation every few sessions."
+            t: "Clarity under pressure",
+            d: "Students learn to articulate ideas calmly in English for orals, essays, and exams."
           },
           b3: {
-            t: "Learning with Purpose",
-            d: "English is taught through coding, design, entrepreneurship, and AI briefs so ambitious learners stay inspired and build bilingual portfolios."
+            t: "Method over subject",
+            d: "Projects and digital tasks are used to structure thinking and expression, not as the end goal."
           },
           b4: {
-            t: "Academic & Exam Preparation",
-            d: "Structured guidance for IGCSE, IELTS, TOEIC, and A-Level English with examiner-style feedback, timed mocks, and confident presenting."
+            t: "International pathways supported",
+            d: "IB, IGCSE, A-Levels, bilingual lycée, BTS/STI2D aligned coaching."
           },
           b5: {
-            t: "Flexible & Personalised Format",
-            d: "Private English lessons at home in Paris or secure online sessions with concierge scheduling, chauffeur coordination, and sibling ateliers."
+            t: "In-home or online delivery",
+            d: "Private sessions across Paris & Île-de-France or secure online scheduling."
           },
           b6: {
-            t: "Confidence that Lasts",
-            d: "Learners 8–18 speak with poise in interviews, defend ideas during coding demos, and carry English confidence into lycée and university."
+            t: "Visible progress",
+            d: "Short written notes and clear goals help families see growth without noise."
           },
         },
         concierge:{
-          eyebrow:'Maison services',
-          title:'Concierge-level English tutoring experience',
-          sub:'Each family receives couture-level communication: English-only notes, weekly dossiers, and rapid WhatsApp access.',
-          c1:{ tag:'Atelier privé', t:'Discreet in-home ateliers', d:'Tailored sessions anywhere in Paris or surrounding Île-de-France neighborhoods (16e, Neuilly, Passy, Levallois, and beyond) with curated materials, studio-grade devices, and quiet focus.' },
-          c2:{ tag:'English dossier', t:'English progress dossiers', d:'Parents receive cinematic summaries, short video clips, and data-driven checkpoints after every atelier—all delivered in English for seamless family communication.' },
-          c3:{ tag:'Concierge care', t:'Concierge scheduling & care', d:'Priority WhatsApp access for scheduling, chauffeur coordination, and invitations to private mock exams or immersive study weekends.' },
-          foot:'Families also enjoy priority booking for sibling ateliers, curated study retreats, and English documentation for international schools.'
+          eyebrow:'Private coaching',
+          title:'A calm, structured learning experience',
+          sub:'In-home sessions across Paris & Île-de-France or secure online coaching, with clear goals and quiet consistency.',
+          c1:{ tag:'In-home', t:'Private sessions at home or online', d:'Discreet in-home sessions across Paris & Île-de-France or secure online for travel schedules.' },
+          c2:{ tag:'Progress', t:'Clear progress notes', d:'Short English summaries after sessions with what was practiced and what comes next.' },
+          c3:{ tag:'Scheduling', t:'Flexible scheduling', d:'Weekly or intensive formats depending on exams and school demands.' },
+          foot:'Families receive a clear plan, measurable steps, and consistent support.'
         },
 
-        success:{ title:'What English tutoring success looks like', before:'Before', after:'After',
-          b1:'“Avoids speaking English, low confidence.”', a1:'Presents a short project clearly in English — proud & motivated.',
-          b2:'“Unstructured practice, no real outcomes.”', a2:'Builds a mini website & explains it in English.',
-          b3:'“Anxious about exams; unclear targets.”', a3:'Weekly micro-goals, timed mocks, clear plan to target band/grade.'
+        success:{ title:'What academic confidence in English looks like', before:'Before', after:'After',
+          b1:'“Hesitates in English during class.”', a1:'Explains ideas clearly in English with calm structure.',
+          b2:'“Writes without structure; ideas are unclear.”', a2:'Produces clear summaries and well-structured paragraphs.',
+          b3:'“Exam stress; unsure what to focus on.”', a3:'Follows a focused plan with visible progress.'
         },
-        projects:{ title:'Example English + coding projects for kids', sub:'No student photos needed — outcomes from English + coding lessons in Paris that build IELTS & TOEIC confidence.',
-          c1:'Personal website — hobbies page (HTML/CSS)', c2:'Digital poster — “My week in English”', c3:'Short presentation — “AI for teens (in English)”', cta:'Get a sample 4-session plan for your child in Paris'
+        projects:{ title:'Projects as structured expression in English', sub:'Projects are tools to practice clarity and explanation — not the end goal.',
+          c1:'Short presentation — explain a concept in English', c2:'One‑page brief — structure an argument', c3:'Mini project — explain process and results in English', cta:'Request a sample 4-session plan'
         },
         testimonials:{
-          title:'Parent feedback', sub:'Real progress parents can see — confidence, creativity, and clear communication in English.',
-          q1:'“Our daughter used to doubt her English… now she presents short projects confidently.”', a1:'— Parent, Neuilly (12-year-old)',
-          q2:'“He built a small booking website and explained it in English — we were so proud.”', a2:'— Parent, Paris 16ᵉ (14-year-old)',
-          q3: "“Our daughter now speaks with real confidence — she presents her ideas clearly and even enjoys creating projects in English.”",
-          a3: "— Parent, Levallois (15-year-old)"
+          title:'Family feedback', sub:'Real progress families can see — clearer English, calmer confidence, stronger structure.',
+          q1:'“Our son finally explains his ideas clearly in English — the structure helped.”', a1:'— Parent, Paris (15-year-old)',
+          q2:'“The IB oral became manageable once he learned how to frame his answers.”', a2:'— Parent, Neuilly (16-year-old)',
+          q3: "“She’s more confident in English class and in interviews.”",
+          a3: "— Parent, Levallois (17-year-old)"
         },
         pricing:{
-          title:'Pricing for private English tutoring in Paris',
-          sub2:'Transparent and flexible. Choose private sessions or a small group.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
+          title:'Pricing for private academic English coaching in Paris',
+          sub2:'Transparent and focused. In-home across Paris & Île-de-France or online.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
           perHour:'/h', cta:'Book a quick chat',
-          p1:{ t:'Private Progress Plan', d:'1:1 tailored English + tech. Fast, visible results in 4 weeks.', note:'Suggested starter: 4×1h (€100)' },
-          p2:{ t:'Siblings/Friends Accelerator', d:'2–4 learners: teamwork, communication, and creative projects.', note:'Great value for siblings' },
-          p3:{ t:'Exam & Confidence Mastery', d:'TOEIC, IELTS, IGCSE/A-Level — with speaking & presentation coaching.', note:'Suggested focus: 6–8 weeks to target band/grade' },
-          note:'In-person sessions may include a small transport supplement depending on location.'
+          p1:{ t:'Foundation Track', d:'Calm, structured coaching to build confidence and clear expression.', note:'Suggested starter: 4×1h (€100)' },
+          p2:{ t:'International Academic Track', d:'IB, IGCSE, A-Levels, bilingual lycée — orals, essays, and clear explanations in English.', note:'Best for 12–18' },
+          p3:{ t:'Exam & Professional Track', d:'BTS/STI2D, TOEIC/IELTS, interviews — outcome‑driven preparation.', note:'Focused prep for exams or admissions' },
+          note:'In-home sessions may include a small transport supplement depending on location.'
         },
         exam:{
-          title:'IELTS, TOEIC, IGCSE & A-Level tutoring in Paris',
-          sub:'IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Past papers, timed mocks, score tracking — plus an optional real-project track.',
-          e1:{ t:'IGCSE / O-Level / IAL / A-Level Pack', l1:'Chapter-wise notes & mastery', l2:'Past papers & examiner-style marking', l3:'Timed mocks & weekly micro-goals' },
-          e2:{ t:'IELTS / TOEIC English Pack', l1:'Full mock tests with band/score estimates', l2:'Speaking interviews & writing feedback', l3:'Personal plan to reach target score' },
-          e3:{ t:'Mocks, Scores & Reports', l1:'Diagnostic → roadmap & dated milestones', l2:'Error analysis & retakes', l3:'Parent report with next steps' },
-          e4:{ t:'Project Boost (Optional)', l1:'Real projects: website, database, algorithms, AI/ML', l2:'Presentation & documentation skills', l3:'Portfolio piece for applications' }
+          title:'Exam & academic readiness in English',
+          sub:'IB, IGCSE, A-Levels, bilingual lycée, BTS (SIO/CIEL), Bac STI2D, TOEIC/IELTS — structured practice with clear targets.',
+          e1:{ t:'International school support', l1:'IB / IGCSE / A-Levels writing and orals', l2:'Clear structure for essays and explanations', l3:'Timed practice with feedback' },
+          e2:{ t:'BTS / Bac STI2D track', l1:'Technical vocabulary in English', l2:'Explain processes and projects clearly', l3:'Interview and presentation readiness' },
+          e3:{ t:'TOEIC / IELTS & interviews', l1:'Targeted score plans and strategies', l2:'Speaking practice with actionable feedback', l3:'Writing clarity and coherence' },
+          e4:{ t:'Project-based expression (optional)', l1:'Use a project to structure thinking', l2:'Explain steps and results in English', l3:'Portfolio-ready communication' }
         },
-        process:{ eyebrow:'Sales funnel', title:'Maison funnel',
-          intro:'A curated buyer journey tailored to upper-class Paris families: awareness, fit, bespoke plan, conversion to private ateliers.',
-          s1:{t:'Intake & alignment', d:'15-minute private call to audit goals, schooling context, and availability. Families receive a discovery dossier within 24h.'},
-          s2:{t:'Bespoke atelier plan', d:'We craft a four-session pilot with KPIs, signature projects, and pricing for 1:1 or sibling formats.'},
-          s3:{t:'Ateliers & dossiers', d:'Weekly ateliers with English recap videos, KPI dashboards, and concierge scheduling keep parents informed and students motivated.'}
+        process:{ eyebrow:'How it works', title:'Private coaching path',
+          intro:'A calm process for international families: align goals, design a plan, and coach consistently.',
+          s1:{t:'Alignment call', d:'Short call to understand goals, school context, and in-home or online format.'},
+          s2:{t:'Structured plan', d:'A clear plan with weekly focus, targets, and priorities.'},
+          s3:{t:'Coaching & progress', d:'Regular sessions with concise English progress notes.'}
         },
         faq:{
-          title:'FAQ: English tutor for kids in Paris',
+          title:'FAQ: academic English coaching in Paris',
           q1:'Where are sessions held?',
-          a1:'At home anywhere in Paris/Île-de-France or online via Google Meet. Parents are welcome nearby for first sessions.',
+          a1:'In-home across Paris & Île-de-France or secure online sessions.',
           q2:'Which ages and levels?',
-          a2:'Ages 8–18, beginner to advanced. IGCSE, O-Level, IAL, A-Level, IELTS, TOEIC supported. University writing/presentations on request.',
-          q3:'Scheduling', a3:'Weekly or twice-weekly recommended. Rescheduling with 24h notice.',
-          q4:'Invoices & payment', a4:'Invoices under micro-entrepreneur status. Payment by bank transfer or PayPal/Revolut.'
+          a2:'Ages 8–18. Foundation through IB/IGCSE/A-Levels, bilingual lycée, and BTS (SIO/CIEL) or Bac STI2D.',
+          q3:'Scheduling', a3:'Weekly or intensive blocks around exams; 24h rescheduling.',
+          q4:'Are you a school or official examiner?', a4:'No. I’m a private academic English coach. Invoices under micro-entrepreneur status; payment by bank transfer or PayPal/Revolut.'
         },
         lead:{
-          title:'Request a private intake call',
-          sub:'We accept fewer than 12 Paris and Île-de-France families concurrently. Share your brief so we can hold a confidential 15-minute intake.',
-          f:{ name:'Parent name', child:'Learner age(s) & priorities', slot:'Preferred window' },
+          title:'Start with a quick chat',
+          sub:'Private coaching in-home across Paris & Île-de-France or online. Share your goals so we can propose the right plan.',
+          f:{ name:'Parent / guardian name', child:'Student age(s) & goals', slot:'Preferred window' },
           opt1:'Weekday evening', opt2:'Saturday', opt3:'Sunday',
-          cta:{ submit:'Submit & hold intake slot' }, email:'Send via email',
+          cta:{ submit:'Send & request a slot' }, email:'Send by email',
           qual:{
-            t1:'Residency & intent', d1:'Primary residences anywhere in Paris intra-muros or the wider Île-de-France region with defined goals.',
-            t2:'Learner profile', d2:'Students 8–18 seeking confident English poise, digital creation, or exam excellence.',
-            t3:'Parent partnership', d3:'Parents commit to weekly 10-minute touchpoints for KPIs, dossiers, and concierge scheduling.'
+            t1:'Location & format', d1:'In-home across Paris & Île-de-France or secure online sessions.',
+            t2:'Academic goals', d2:'International track, exams, or confidence in English expression.',
+            t3:'Family alignment', d3:'We agree on goals, pace, and progress check-ins.'
           },
           meta:{
-            r:{ t:'Response time', d:'We reply within 24 hours with a discovery dossier and proposed slots.' },
-            l:{ t:'Languages', d:'English-only communication and support for parents and learners.' },
+            r:{ t:'Response time', d:'We reply within 24 hours with a proposed plan and slots.' },
+            l:{ t:'Languages', d:'Sessions are in English; parent coordination in English/French.' },
             g:{ t:'GDPR & safeguarding', d:'GDPR-compliant handling of student data and in-home protocols.' }
           },
-          note:'Every detail remains confidential; dossiers are encrypted and shared only with the requesting family.'
+          note:'Every detail remains confidential; progress notes are shared only with your family.'
         },
         pay:{
-          title:'Concierge billing & receipts',
-          sub:'Once the atelier plan is confirmed, settle installments via <strong>Revolut</strong>, <strong>PayPal</strong>, or concierge bank transfer. Every payment triggers an English invoice and receipt.',
-          badge:'Invoices issued under Maison BrightMinds (micro-entrepreneur).',
+          title:'Billing & receipts',
+          sub:'Once the plan is confirmed, pay via <strong>Revolut</strong>, <strong>PayPal</strong>, or bank transfer. Each payment receives an English invoice.',
+          badge:'Invoices issued under micro-entrepreneur status.',
           revolut:'Pay via Revolut', paypal:'Pay via PayPal',
           bank:'Request bank transfer',
           l1:'Revolut & PayPal support card, Apple Pay, and Google Pay.',
-          l2:'Installment schedules aligned with atelier milestones.',
-          l3:'Concierge bank transfer available on request.',
+          l2:'Installment schedules aligned with your plan.',
+          l3:'Bank transfer available on request.',
           l4:'<strong>English-only invoices</strong> issued for every session or pack.',
-          l5:'Payments processed securely via PCI-compliant providers.',
+          l5:'Payments processed securely.',
           l6:'Refunds for unused sessions according to your plan.',
           help:'Prefer to confirm details first?',
           whatsapp:'Message me on WhatsApp'
         },
-        sticky:{ text:'Limited atelier slots this month', cta:'Book a quick chat' },
-        exit:{ title:'Want to discuss your child’s goals?', desc:'Pick the fastest way to connect and we’ll plan the next step.', whatsapp:'Message on WhatsApp' }
+        sticky:{ text:'Limited slots this month', cta:'Book a quick chat' },
+        exit:{ title:'Want to discuss academic goals?', desc:'Pick the fastest way to connect and we’ll plan the next step.', whatsapp:'Message on WhatsApp' }
       },
 
       fr: {
         nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Réserver un échange rapide' },
         cta:{ book:'Réserver un échange rapide', whatsappSyed:'WhatsApp Syed', callSyed:'Appeler Syed', replyTime:'Réponse: moins de 2h (Paris)' },
         hero:{
-          title:'Cours d’anglais et technologie pour enfants à Paris et en Île-de-France',
-          sub:'Parcours concierge pour des parents exigeants à la recherche d’un <a href="#programs" class="text-brand-yellow hover:underline">professeur d’anglais pour enfants à domicile à Paris</a> avec projets numériques, IELTS/TOEIC, et ateliers calmes.',
-          cta:'Réserver un échange rapide', secondary:'Voir le parcours Maison',
-          foot:'Moins de 12 familles accompagnées simultanément – ateliers hebdomadaires à Paris ou via téléprésence sécurisée.',
+          title:'Confiance académique en anglais pour élèves internationaux et bilingues à Paris',
+          sub:'Coaching privé à domicile à Paris et en Île-de-France ou en ligne. Des bases aux IB, A-Levels et à la préparation aux examens — clarté, confiance et expression académique.',
+          cta:'Réserver un échange rapide', secondary:'Voir le parcours de coaching',
+          foot:'Nombre de familles limité pour des séances hebdomadaires à domicile à Paris & Île-de-France ou en ligne sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
-          signet:'Maison BrightMinds',
+          signet:'BrightMinds Paris',
           signetLocale:'Paris · Île-de-France',
-          clientele:'Des familles dans tous les arrondissements parisiens et en Île-de-France — du 1er à Neuilly et Boulogne — réservent des ateliers privés à domicile, des dossiers détaillés en anglais et un suivi concierge.',
-          chip1:'Résidences à Paris & en Île-de-France',
-          chip2:'Dossiers et films récap 100 % en anglais',
-          chip3:'Planification concierge & suivi discret',
-          press1:'Résidences à Paris & en Île-de-France',
-          press2:'Familles diplomatiques, fondateurs & dirigeants',
-          press3:'Dossiers et vidéos de suivi 100 % en anglais',
-          note:'De Paris centre aux communes de l’ouest, nous allions élégance parisienne et maîtrise de l’anglais et des technologies.',
-          p1:'Projets concrets : mini site web, applications IA, diaporamas ou affiches numériques', p2:'Coaching en confiance : expression et présentation en anglais',
-          p3:'Sécurité numérique et usage équilibré des technologies', p4:'Préparation aux examens : IELTS, TOEIC, IGCSE/A-Level'
+          clientele:'Les familles internationales et bilingues à Paris & Île-de-France choisissent un coaching discret à domicile ou en ligne pour une expression claire et une confiance académique en anglais.',
+          chip1:'Coaching à domicile à Paris & Île-de-France',
+          chip2:'Séances en ligne sécurisées pour les emplois du temps internationaux',
+          chip3:'Oraux, dissertations et entretiens coachés en anglais',
+          press1:'À domicile à Paris & Île-de-France',
+          press2:'Familles internationales & bilingues',
+          press3:'Notes de progrès en anglais',
+          note:'Un coaching calme et structuré pour expliquer des idées complexes en anglais.',
+          p1:'Expression structurée : exposés, résumés, arguments clairs', p2:'Anglais académique : dissertations, oraux, entretiens',
+          p3:'Projets utilisés pour expliquer des idées en anglais', p4:'Préparation : IB, IGCSE, A-Levels, TOEIC'
         },
-        banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci (priorité aux fratries & parrainages).', bannerCta:'Réserver un échange rapide',
-        trust:{ areas:'Recommandé par des familles dans tout Paris & en Île-de-France', dbsc:'Encadré des formations dispensées exclusivement en anglais', invoice:'Dispensé des formations dans le cadre de programmes certifiés Qualiopi' },
+        banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci pour séances à domicile ou en ligne.', bannerCta:'Réserver un échange rapide',
+        trust:{ areas:'Recommandé par des familles internationales à Paris & Île-de-France', dbsc:'Rigueur académique issue de l’enseignement supérieur', invoice:'Notes de progrès claires avec prochaines étapes' },
         instructor:{
-          title:'Rencontrez l’enseignant',
-          copy:'Bonjour, je m’appelle Syed — enseignant en anglais et en technologies basé à Paris. J’enseigne à l’American Business School of Paris et dans d’autres établissements réputés, en aidant les élèves à communiquer clairement et à penser de manière créative en anglais. Mes cours associent une solide maîtrise linguistique à un apprentissage numérique pratique — de la création de petits sites web à la compréhension du code et des outils modernes — afin que chaque élève gagne en confiance, à la fois en anglais et en technologie.',
-          i1: "Cours dispensés en anglais natif",
-          i2: "Apprentissage par projets (web, code et communication)",
-          i3: "Préparation aux présentations et entretiens",
-          i4: "Confiance pour l’avenir numérique",
-          cta1:'Voir le portfolio', cta2:'Explorer des projets exemples'
+          title:'Rencontrez votre coach',
+          copy:'Bonjour, je m’appelle Syed — coach d’anglais à Paris. J’enseigne dans l’enseignement supérieur et j’accompagne en privé des élèves internationaux et bilingues. Les séances visent à expliquer clairement en anglais pour la classe, les dissertations, les oraux et les examens. Les projets et le numérique servent à structurer la pensée et la communication — pas l’objectif.',
+          i1: "Coaching d’anglais académique (oral + écrit)",
+          i2: "Explications claires d’idées complexes",
+          i3: "Oraux, présentations, entretiens",
+          i4: "À domicile à Paris & en ligne sécurisée",
+          cta1:'Voir le portfolio', cta2:'Voir des exemples de travail'
         },
         programs:{
-          title:'Programmes par âge : cours d’anglais + coding à Paris',
-          sub:'Apprentissage par projets avec résultats mesurables pour enfants et ados à Paris et en Île-de-France.',
+          title:'Trois parcours pour une confiance académique en anglais',
+          sub:'Coaching privé à domicile à Paris & Île-de-France ou en ligne, aligné sur les parcours internationaux et bilingues.',
           p1: {
-            badge: "Âges 8–10",
-            title: "Découverte de l’anglais et du numérique",
-            l1: "Développer la confiance grâce à des conversations, jeux et histoires amusants en anglais",
-            l2: "Pratiquer la communication claire et la prise de parole dans un environnement bienveillant",
-            l3: "Créer de petits projets numériques — une page web personnelle, une histoire interactive ou une affiche en ligne",
-            l4: "Apprendre à utiliser la technologie de manière responsable et équilibrée tout en stimulant la créativité",
-            l5: "Développer la curiosité, la créativité et l’expression de soi — entièrement en anglais"
+            badge: "Âges 8–11",
+            title: "Parcours fondations",
+            l1: "Confiance pour parler et structurer ses idées en anglais",
+            l2: "Séances calmes et structurées pour vocabulaire et clarté",
+            l3: "Courts exposés, résumés de lecture et écrits simples",
+            l4: "Projets légers pour expliquer des idées en anglais",
+            l5: "Base solide pour scolarité bilingue ou internationale"
           },
 
           p2: {
-            badge: "Âges 11–14",
-            title: "Anglais, informatique et bases du business",
-            l1: "Renforcer l’anglais pour les devoirs, l’écriture et l’expression orale confiante",
-            l2: "Apprendre les notions clés de l’informatique : matériel, logiciels et fonctionnement des ordinateurs",
-            l3: "Créer de petits sites web avec HTML, CSS et une interactivité simple",
-            l4: "Découvrir les bases du business, de l’argent et de la finance numérique intelligente",
-            l5: "Développer une préparation précoce aux examens — pratiquer les compétences pour l’IGCSE, le TOEIC ou les bases de l’IELTS"
+            badge: "Âges 12–18",
+            title: "Parcours académique international",
+            l1: "Anglais académique pour IB, IGCSE, A-Levels, lycée bilingue",
+            l2: "Expliquer maths, sciences et humanités clairement en anglais",
+            l3: "Oraux, dissertations, présentations, méthodes d’examen",
+            l4: "Retours structurés pour gagner en clarté et confiance",
+            l5: "Préparation internationale pour études et entretiens"
           },
 
           p3: {
-            badge: "Âges 15–18",
-            title: "Anglais académique, programmation et préparation à l’IA",
-            l1: "Maîtriser l’anglais académique et professionnel grâce à la compréhension, aux exercices d’écriture et aux présentations",
-            l2: "Développer des projets web complets avec HTML, CSS, JavaScript et des outils modernes",
-            l3: "Explorer la logique du code et les nouvelles technologies, y compris l’intelligence artificielle et le prompt engineering",
-            l4: "Se préparer aux examens internationaux : TOEIC, IELTS et IGCSE/A-Level en anglais et en informatique",
-            l5: "Gagner en assurance pour les entretiens universitaires, les présentations et les futures carrières numériques"
+            badge: "Âges 16+",
+            title: "Parcours examens & professionnel",
+            l1: "BTS (SIO / CIEL) et Bac STI2D en anglais",
+            l2: "Préparation TOEIC / IELTS avec objectifs pratiques",
+            l3: "Coaching entretiens et communication professionnelle",
+            l4: "Structure claire, entraînement chronométré, résultats mesurables",
+            l5: "Séances ciblées selon examens ou admissions"
           },
 
         },
           benefits: {
-            title: "Pourquoi choisir ce professeur d’anglais à Paris",
+            title: "Pourquoi les familles choisissent ce coach d’anglais académique à Paris",
             b1: {
-              t: "Enseignant expérimenté en anglais & technologie",
-              d: "Intervient dans des écoles de commerce et d’ingénierie parisiennes et transpose ces exigences dans un accompagnement premium à domicile."
+              t: "Rigueur académique, attention privée",
+              d: "Expérience d’enseignement supérieur appliquée à un coaching sur mesure."
             },
             b2: {
-              t: "Progrès visibles & confiance",
-              d: "Parents parisiens reçoivent des dossiers couture montrant les progrès en anglais, prise de parole et création numérique."
+              t: "Clarté sous pression",
+              d: "Les élèves apprennent à articuler calmement en anglais pour oraux, dissertations et examens."
             },
             b3: {
-              t: "Apprendre avec du sens",
-              d: "L’anglais s’appuie sur le coding, le design, l’entrepreneuriat et l’IA pour stimuler des profils ambitieux."
+              t: "Méthode plutôt que matière",
+              d: "Les projets et tâches numériques servent à structurer la pensée et l’expression, pas comme objectif final."
             },
             b4: {
-              t: "Préparation scolaire & examens",
-              d: "Accompagnement structuré pour IGCSE, IELTS, TOEIC ou A-Level avec retours façon examinateur et oraux blancs."
+              t: "Parcours internationaux accompagnés",
+              d: "IB, IGCSE, A-Levels, lycée bilingue, BTS/STI2D."
             },
             b5: {
-              t: "Format flexible & personnalisé",
-              d: "Cours d’anglais privé à domicile dans Paris ou en ligne, avec conciergerie planning, chauffeur et formats fratrie."
+              t: "À domicile ou en ligne",
+              d: "Séances privées à Paris & Île-de-France ou en ligne sécurisée."
             },
             b6: {
-              t: "Une confiance qui dure",
-              d: "Collégiens et lycéens apprennent à présenter, argumenter et défendre leurs projets en anglais au-delà de la grammaire."
+              t: "Progrès visibles",
+              d: "Notes courtes et objectifs clairs pour suivre l’évolution."
             },
           },
           concierge:{
-            eyebrow:'Services maison',
-            title:'Expérience concierge',
-            sub:'Chaque famille reçoit des comptes rendus raffinés : notes en anglais, dossiers hebdomadaires et accès WhatsApp réactif.',
-            c1:{ tag:'Atelier privé', t:'Ateliers discrets à domicile', d:'Séances sur mesure dans tout Paris ou en Île-de-France (16e, Neuilly, Passy, Levallois, etc.) avec matériel sélectionné et ambiance calme.' },
-            c2:{ tag:'Dossier en anglais', t:'Comptes rendus en anglais', d:'Résumés cinématiques, mini vidéos et indicateurs transmis après chaque atelier — intégralement en anglais pour faciliter les échanges.' },
-            c3:{ tag:'Conciergerie', t:'Canal dédié', d:'Accès WhatsApp prioritaire pour le planning, la coordination chauffeur et des invitations à des examens blancs ou retraites immersives.' },
-            foot:'Les familles bénéficient aussi de créneaux prioritaires pour la fratrie, de séjours d’étude sur mesure et de documents en anglais pour les écoles internationales.'
+            eyebrow:'Coaching privé',
+            title:'Une expérience calme et structurée',
+            sub:'Séances à domicile à Paris & Île-de-France ou en ligne sécurisée, avec objectifs clairs et régularité.',
+            c1:{ tag:'À domicile', t:'Séances privées à domicile ou en ligne', d:'Séances discrètes à Paris & Île-de-France ou en ligne sécurisée pour les emplois du temps internationaux.' },
+            c2:{ tag:'Progrès', t:'Notes de progrès claires', d:'Courts comptes rendus en anglais avec ce qui a été travaillé et la suite.' },
+            c3:{ tag:'Organisation', t:'Planning flexible', d:'Formats hebdomadaires ou intensifs selon examens et contraintes scolaires.' },
+            foot:'Un plan clair, des étapes mesurables, et un suivi constant.'
           },
 
-        success:{ title:'À quoi ressemble la réussite', before:'Avant', after:'Après',
-          b1:'« Évite l’anglais, manque de confiance. »', a1:'Présente un mini-projet clairement en anglais — fier & motivé.',
-          b2:'« Pratique non structurée, peu de résultats. »', a2:'Crée un mini-site et l’explique en anglais.',
-          b3:'« Stress d’examen ; objectifs flous. »', a3:'Micro-objectifs hebdo, examens blancs, plan clair vers la note visée.'
+        success:{ title:'À quoi ressemble la confiance académique en anglais', before:'Avant', after:'Après',
+          b1:'« Hésite en anglais en classe. »', a1:'Explique ses idées clairement en anglais avec structure.',
+          b2:'« Écrit sans structure ; les idées sont floues. »', a2:'Rédige des résumés clairs et des paragraphes structurés.',
+          b3:'« Stress des examens ; ne sait pas quoi travailler. »', a3:'Suit un plan ciblé avec des progrès visibles.'
         },
-        projects:{ title:'Exemples de projets anglais + coding pour enfants', sub:'Résultats concrets des cours d’anglais et de coding à Paris — parfaits pour IELTS et TOEIC.',
-          c1:'Site personnel — page “passions” (HTML/CSS)', c2:'Affiche numérique — « Ma semaine en anglais »', c3:'Courte présentation — « L’IA pour les ados (en anglais) »', cta:'Recevoir un plan en 4 séances pour votre enfant'
+        projects:{ title:'Des projets pour structurer l’expression en anglais', sub:'Les projets servent à pratiquer la clarté et l’explication — pas comme finalité.',
+          c1:'Courte présentation — expliquer un concept en anglais', c2:'Fiche d’une page — structurer un argument', c3:'Mini‑projet — expliquer le processus et le résultat en anglais', cta:'Recevoir un plan de 4 séances'
         },
         testimonials:{
-          title:'Avis de parents', sub:'Des progrès visibles — confiance, créativité et communication claire en anglais.',
-          q1:'« Notre fille doutait de son anglais… elle présente désormais des projets avec assurance. »', a1:'— Parent, Neuilly (12 ans)',
-          q2:'« Il a créé un petit site de réservation et l’a expliqué en anglais — fierté totale. »', a2:'— Parent, Paris 16ᵉ (14 ans)',
-          q3: "« Notre fille parle maintenant avec une vraie assurance — elle présente ses idées clairement et aime même créer des projets en anglais. »",
-          a3: "— Parent, Levallois (15 ans)"
+          title:'Retours des familles', sub:'Des progrès visibles — anglais plus clair, confiance plus calme, structure solide.',
+          q1:'« Notre fils explique enfin ses idées clairement en anglais — la structure l’a aidé. »', a1:'— Parent, Paris (15 ans)',
+          q2:'« L’oral d’IB est devenu gérable une fois qu’il a appris à structurer ses réponses. »', a2:'— Parent, Neuilly (16 ans)',
+          q3: "« Elle est plus à l’aise en cours d’anglais et en entretien. »",
+          a3: "— Parent, Levallois (17 ans)"
         },
         pricing:{
-          title:'Tarifs des cours d’anglais privé à Paris',
-          sub2:'Transparents et flexibles. Choisissez un suivi individuel ou un petit groupe.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
+          title:'Tarifs du coaching privé d’anglais académique à Paris',
+          sub2:'Transparents et ciblés. À domicile à Paris & Île-de-France ou en ligne.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
           perHour:'/h', cta:'Réserver un échange rapide',
-          p1:{ t:'Plan Progrès Privé', d:'Coaching 1:1 anglais + tech. Résultats visibles en 4 semaines.', note:'Format recommandé : 4×1h (100 €)' },
-          p2:{ t:'Accélérateur Fratrie / Amis', d:'2 à 4 élèves : travail d’équipe, communication et projets créatifs.', note:'Excellent pour frères/sœurs' },
-          p3:{ t:'Maîtrise Examens & Confiance', d:'TOEIC, IELTS, IGCSE/A-Level avec coaching oral et présentation.', note:'Prévoir 6–8 semaines pour viser la note cible' },
-          note:'Les déplacements peuvent inclure un léger supplément selon la localisation.'
+          p1:{ t:'Parcours fondations', d:'Coaching calme et structuré pour gagner en confiance et clarté.', note:'Format recommandé : 4×1h (100 €)' },
+          p2:{ t:'Parcours académique international', d:'IB, IGCSE, A-Levels, lycée bilingue — oraux, dissertations, explications claires en anglais.', note:'Idéal pour 12–18' },
+          p3:{ t:'Parcours examens & professionnel', d:'BTS/STI2D, TOEIC/IELTS, entretiens — préparation orientée résultats.', note:'Préparation ciblée pour examens ou admissions' },
+          note:'Les séances à domicile peuvent inclure un léger supplément selon la localisation.'
         },
         exam:{
-          title:'Préparation IELTS, TOEIC, IGCSE & A-Level à Paris',
-          sub:'IGCSE / O-Level / IAL / A-Level • IELTS • TOEIC. Annales, examens blancs chronométrés, suivi des scores — avec un module projet en option.',
-          e1:{ t:'Pack IGCSE / O-Level / IAL / A-Level', l1:'Fiches & maîtrise chapitre par chapitre', l2:'Corrections façon examinateur', l3:'Examens blancs & micro-objectifs hebdo' },
-          e2:{ t:'Pack Anglais IELTS / TOEIC', l1:'Vrais examens blancs avec estimation de score', l2:'Entretiens oraux & retours écrits', l3:'Plan personnel vers la note visée' },
-          e3:{ t:'Blancs, Scores & Rapports', l1:'Diagnostic → feuille de route datée', l2:'Analyse d’erreurs & retakes', l3:'Rapport parent & prochaines étapes' },
-          e4:{ t:'Boost Projet (option)', l1:'Vrais projets : site, base de données, algorithmes, IA/ML', l2:'Compétences de présentation & documentation', l3:'Projet de portfolio pour candidatures' }
+          title:'Préparation académique et examens en anglais',
+          sub:'IB, IGCSE, A-Levels, lycée bilingue, BTS (SIO/CIEL), Bac STI2D, TOEIC/IELTS — pratique structurée avec objectifs clairs.',
+          e1:{ t:'Soutien écoles internationales', l1:'Écrits et oraux IB / IGCSE / A-Levels', l2:'Structure claire pour dissertations et explications', l3:'Entraînements chronométrés avec retours' },
+          e2:{ t:'Parcours BTS / Bac STI2D', l1:'Vocabulaire technique en anglais', l2:'Expliquer processus et projets clairement', l3:'Préparation aux entretiens et présentations' },
+          e3:{ t:'TOEIC / IELTS & entretiens', l1:'Plan de score et stratégies ciblées', l2:'Pratique orale avec retours actionnables', l3:'Clarté et cohérence à l’écrit' },
+          e4:{ t:'Expression par projet (option)', l1:'Utiliser un projet pour structurer la pensée', l2:'Expliquer étapes et résultats en anglais', l3:'Communication prête pour portfolio' }
         },
-        process:{ eyebrow:'Funnel maison', title:'Parcours Maison',
-          intro:'Un funnel pensé pour les familles haut de gamme : prise de conscience, qualification, plan sur mesure, conversion en ateliers privés.',
-          s1:{t:'Intake & alignement', d:'Entretien privé de 15 min pour analyser objectifs, contexte scolaire et disponibilités. Dossier découverte sous 24h.'},
-          s2:{t:'Plan d’atelier sur mesure', d:'Pilotage de quatre séances avec KPIs, projets signature et tarification 1:1 ou fratrie.'},
-          s3:{t:'Ateliers & dossiers', d:'Ateliers hebdo avec vidéos récap en anglais, KPIs et coordination concierge pour garder parents & élèves alignés.'}
+        process:{ eyebrow:'Comment ça se passe', title:'Parcours de coaching privé',
+          intro:'Un processus calme pour les familles internationales : aligner les objectifs, construire un plan, et coacher régulièrement.',
+          s1:{t:'Appel d’alignement', d:'Court échange pour comprendre les objectifs, le contexte scolaire et le format à domicile ou en ligne.'},
+          s2:{t:'Plan structuré', d:'Plan clair avec priorités, objectifs et rythme hebdomadaire.'},
+          s3:{t:'Coaching & progression', d:'Séances régulières avec notes de progrès concises en anglais.'}
         },
         faq:{
-          title:'FAQ — cours d’anglais pour enfants à Paris',
-          q1:'Où ont lieu les cours ?', a1:'À domicile dans tout Paris/IDF ou en ligne (Google Meet). Les parents sont bienvenus à proximité au début.',
-          q2:'Quels âges et niveaux ?', a2:'De 8 à 18 ans, de débutant à avancé. IGCSE, O-Level, IAL, A-Level, IELTS, TOEIC. Aide universitaire sur demande.',
-          q3:'Planification', a3:'Hebdomadaire ou bi-hebdo recommandé. Report possible avec 24h de préavis.',
-          q4:'Factures & paiement', a4:'Factures micro-entrepreneur. Paiement par virement ou PayPal/Revolut.'
+          title:'FAQ : coaching d’anglais académique à Paris',
+          q1:'Où se déroulent les séances ?', a1:'À domicile à Paris & Île-de-France ou en ligne sécurisée.',
+          q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Des fondations jusqu’à IB/IGCSE/A-Levels, lycée bilingue, BTS (SIO/CIEL) ou Bac STI2D.',
+          q3:'Organisation', a3:'Hebdomadaire ou intensif avant examens ; report avec 24h.',
+          q4:'Êtes-vous une école ou un examinateur officiel ?', a4:'Non. Je suis un coach privé d’anglais académique. Factures en micro‑entreprise ; paiement par virement ou PayPal/Revolut.'
         },
         lead:{
-          title:'Demander un appel d’intake privé',
-          sub:'Nous accompagnons moins de 12 familles parisiennes en parallèle. Partagez votre brief et nous bloquons un appel confidentiel de 15 minutes.',
-          f:{ name:'Nom du parent', child:'Âge(s) & priorités', slot:'Créneau privilégié' },
+          title:'Commencer par un échange rapide',
+          sub:'Coaching privé à domicile à Paris & Île-de-France ou en ligne. Partagez vos objectifs pour proposer le bon plan.',
+          f:{ name:'Parent / responsable', child:'Âge(s) et objectifs de l’élève', slot:'Créneau souhaité' },
           opt1:'Soir en semaine', opt2:'Samedi', opt3:'Dimanche',
-          cta:{ submit:'Envoyer & bloquer un créneau' }, email:'Envoyer par email',
+          cta:{ submit:'Envoyer & demander un créneau' }, email:'Envoyer par email',
           qual:{
-            t1:'Résidence & intention', d1:'Résidences principales partout dans Paris intra-muros ou en Île-de-France avec objectifs clairs.',
-            t2:'Profil élève', d2:'Élèves 8–18 visant aisance en anglais, création digitale ou excellence aux examens.',
-            t3:'Partenariat parent', d3:'Parents disponibles pour 10 min hebdomadaires : revue de KPIs, dossiers et planning concierge.'
+            t1:'Lieu & format', d1:'À domicile à Paris & Île-de-France ou en ligne sécurisée.',
+            t2:'Objectifs académiques', d2:'Parcours international, examens ou confiance en anglais.',
+            t3:'Alignement famille', d3:'Accord sur objectifs, rythme et points de suivi.'
           },
           meta:{
-            r:{ t:'Temps de réponse', d:'Retour sous 24 h avec dossier découverte et créneaux proposés.' },
-            l:{ t:'Langues', d:'Communication et suivi uniquement en anglais.' },
+            r:{ t:'Temps de réponse', d:'Retour sous 24 h avec proposition de plan et créneaux.' },
+            l:{ t:'Langues', d:'Séances en anglais ; coordination parents en anglais/français.' },
             g:{ t:'RGPD & sécurité', d:'Gestion des données et protocoles domicile conformes RGPD.' }
           },
-          note:'Toutes les informations restent confidentielles ; les dossiers sont chiffrés et partagés uniquement avec la famille concernée.'
+          note:'Toutes les informations restent confidentielles ; les notes de progrès sont partagées uniquement avec la famille concernée.'
         },
         pay:{
-          title:'Facturation concierge & reçus',
-          sub:'Après validation du plan d’ateliers, réglez par <strong>Revolut</strong>, <strong>PayPal</strong> ou virement concierge. Chaque paiement déclenche une facture en anglais.',
-          badge:'Factures émises par Maison BrightMinds (micro-entrepreneur).',
+          title:'Facturation & reçus',
+          sub:'Une fois le plan confirmé, paiement via <strong>Revolut</strong>, <strong>PayPal</strong> ou virement. Chaque paiement reçoit une facture en anglais.',
+          badge:'Factures émises sous statut micro‑entrepreneur.',
           revolut:'Payer avec Revolut', paypal:'Payer avec PayPal',
           bank:'Demander un virement',
           l1:'Revolut & PayPal acceptent carte, Apple Pay et Google Pay.',
-          l2:'Échéancier aligné sur les jalons de l’atelier.',
-          l3:'Virement bancaire concierge sur demande.',
-          l4:'<strong>Facture uniquement en anglais</strong> pour chaque séance ou pack.',
-          l5:'Paiements sécurisés via prestataires conformes PCI.',
-          l6:'Remboursements des séances non utilisées selon votre plan.',
+          l2:'Échéanciers possibles selon votre plan.',
+          l3:'Virement bancaire sur demande.',
+          l4:'<strong>Factures en anglais</strong> pour chaque séance ou pack.',
+          l5:'Paiements traités de manière sécurisée.',
+          l6:'Remboursement des séances non utilisées selon votre plan.',
           help:'Besoin de confirmer d’abord ?',
           whatsapp:'Écrivez-moi sur WhatsApp'
         },
-        sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Réserver un échange rapide' },
-        exit:{ title:'Envie de discuter des objectifs de votre enfant ?', desc:'Choisissez le canal le plus rapide et planifions la suite.', whatsapp:'Message sur WhatsApp' }
+        sticky:{ text:'Places limitées ce mois-ci', cta:'Réserver un échange rapide' },
+        exit:{ title:'Discuter des objectifs académiques ?', desc:'Choisissez le canal le plus rapide pour avancer.', whatsapp:'Message sur WhatsApp' }
       }
     }

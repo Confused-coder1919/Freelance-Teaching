@@ -5,6 +5,7 @@ export const translations = {
         hero:{
           title:'Academic confidence in English for international & bilingual students in Paris',
           sub:'From foundations to international and exam readiness, coaching for clear academic expression in English.',
+          painline:'For students who understand English but freeze when they must speak, write, or present.',
           proof:'Higher-ed instructor (IPI/Ingetis/ABC) • In-home Paris or online • 12 families max',
           qualifier:'For international & bilingual students (8–18): speak, write, and present clearly in English.',
           cta:'Book a quick chat', secondary:'See the coaching path',
@@ -20,8 +21,8 @@ export const translations = {
           press2:'International & bilingual families',
           press3:'Clear English progress notes',
           note:'Calm, structured coaching that helps students explain complex ideas in English.',
-          p1:'Structured expression', p2:'Essays, orals, interviews',
-          p3:'Projects for explanation', p4:'Exam readiness'
+          p1:'Explain ideas clearly under pressure', p2:'Structure answers for essays and orals',
+          p3:'Practice speaking through real explanations', p4:'Prepare calmly for exams and interviews'
         },
         banner:'Now enrolling', bannerTail:'limited private slots this month.', bannerCta:'Book a quick chat',
         trust:{ areas:'IPI · Ingetis · ABC Business College · ESILV — academic English coaching for international tracks.', dbsc:'Academic rigor informed by higher-education teaching', invoice:'Clear progress notes with focused next steps' },
@@ -123,6 +124,7 @@ export const translations = {
         pricing:{
           title:'Pricing for private academic English coaching in Paris',
           sub2:'Transparent rates for private academic English coaching.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
+          anchor:'Focused private coaching, often replacing multiple generic tutors.',
           perHour:'/h', cta:'Book a quick chat',
           p1:{ t:'Foundation Track', d:'Foundation clarity and confidence in English.', note:'Suggested starter: 4×1h (€100)' },
           p2:{ t:'International Academic Track', d:'International track: orals, essays, academic English.', note:'Best for 12–18' },
@@ -195,6 +197,7 @@ export const translations = {
         hero:{
           title:'Confiance académique en anglais pour élèves internationaux et bilingues à Paris',
           sub:'Des bases aux parcours internationaux et examens, un coaching pour une expression académique claire en anglais.',
+          painline:'Pour les élèves qui comprennent l’anglais mais bloquent quand il faut parler, écrire ou présenter.',
           proof:'Enseignant dans le supérieur (IPI/Ingetis/ABC) • À domicile à Paris ou en ligne • 12 familles max',
           qualifier:'Pour élèves internationaux et bilingues (8–18) : parler, écrire et présenter clairement en anglais.',
           cta:'Réserver un échange rapide', secondary:'Voir le parcours de coaching',
@@ -210,8 +213,8 @@ export const translations = {
           press2:'Familles internationales & bilingues',
           press3:'Notes de progrès en anglais',
           note:'Un coaching calme et structuré pour expliquer des idées complexes en anglais.',
-          p1:'Expression structurée', p2:'Dissertations, oraux, entretiens',
-          p3:'Projets pour expliquer', p4:'Préparation aux examens'
+          p1:'Expliquer ses idées clairement, même sous pression', p2:'Structurer ses réponses pour écrits et oraux',
+          p3:'S’entraîner à parler via de vraies explications', p4:'Se préparer sereinement aux examens et entretiens'
         },
         banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci.', bannerCta:'Réserver un échange rapide',
         trust:{ areas:'IPI · Ingetis · ABC Business College · ESILV — coaching d’anglais académique pour parcours internationaux.', dbsc:'Rigueur académique issue de l’enseignement supérieur', invoice:'Notes de progrès claires avec prochaines étapes' },
@@ -313,6 +316,7 @@ export const translations = {
         pricing:{
           title:'Tarifs du coaching privé d’anglais académique à Paris',
           sub2:'Tarifs transparents pour le coaching privé d’anglais académique.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
+          anchor:'Un accompagnement privé ciblé, qui remplace souvent plusieurs cours généralistes.',
           perHour:'/h', cta:'Réserver un échange rapide',
           p1:{ t:'Parcours fondations', d:'Fondations: clarté et confiance en anglais.', note:'Format recommandé : 4×1h (100 €)' },
           p2:{ t:'Parcours académique international', d:'Parcours international: oraux, dissertations, anglais académique.', note:'Idéal pour 12–18' },

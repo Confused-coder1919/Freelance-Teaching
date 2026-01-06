@@ -53,7 +53,7 @@ export const translations = {
             badge: "Ages 12–18",
             title: "IB, IGCSE & A-Levels Track (12–18)",
             l1: "Essay structure + academic vocabulary",
-            l2: "Orals: calm answers under pressure",
+            l2: "Explain maths, physics, and sciences clearly in English",
             l3: "Timed practice + examiner-style feedback",
             l4: "Structured feedback for clarity and confidence",
             l5: "International readiness for school, interviews, and future study"
@@ -154,8 +154,8 @@ export const translations = {
           a2:'Ages 8–18. Foundations to international and exam tracks.',
           q5:'Do you prepare IB orals and written tasks?',
           a5:'Yes. We train structure, timing, and calm delivery using IB-style prompts and clear feedback.',
-          q6:'Can you help with sciences or humanities in English (not just language)?',
-          a6:'Yes. The focus is explaining your subject clearly in English: vocabulary, argument structure, and exam phrasing.',
+          q6:'Can you help with maths, physics, or sciences in English (not just language)?',
+          a6:'Yes. We focus on explaining maths, physics, or science clearly in English: vocabulary, argument structure, and exam phrasing.',
           q3:'Scheduling', a3:'Weekly or intensive; reschedule with 24h notice.',
           q4:'Are you a school or official examiner?', a4:'Private coach, not a school or examiner. Invoices available; payment by bank transfer, PayPal, or Revolut.'
         },
@@ -250,7 +250,7 @@ export const translations = {
             badge: "Âges 12–18",
             title: "Parcours IB, IGCSE & A-Levels (12–18)",
             l1: "Structure des écrits + vocabulaire académique",
-            l2: "Oral: réponses calmes sous pression",
+            l2: "Expliquer maths, physique et sciences clairement en anglais",
             l3: "Entraînement chronométré + retours type examinateur",
             l4: "Retours structurés pour clarté et confiance",
             l5: "Préparation internationale pour études et entretiens"
@@ -349,8 +349,8 @@ export const translations = {
           q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Fondations, parcours internationaux et examens.',
           q5:'Prépares-tu les oraux IB et les écrits ?',
           a5:'Oui. On travaille la structure, le timing et une expression calme avec des sujets type IB et des retours clairs.',
-          q6:'Peux-tu aider en sciences ou en humanités en anglais (pas فقط la langue) ?',
-          a6:'Oui. L’objectif est d’expliquer ton sujet clairement en anglais : vocabulaire, structure d’argument, formulation d’examen.',
+          q6:'Peux-tu aider en maths, physique ou sciences en anglais (pas seulement la langue) ?',
+          a6:'Oui. On explique maths, physique ou sciences clairement en anglais : vocabulaire, structure d’argument, formulation d’examen.',
           q3:'Organisation', a3:'Hebdomadaire ou intensif ; report avec 24h.',
           q4:'Êtes-vous une école ou un examinateur officiel ?', a4:'Coach privé, pas une école ni un examinateur. Factures disponibles ; paiement par virement, PayPal ou Revolut.'
         },

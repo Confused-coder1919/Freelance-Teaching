@@ -1,11 +1,11 @@
 export const translations = {
       en: {
-        nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Private Intake' },
-        cta:{ book:'Book a quick chat', whatsapp:'WhatsApp', call:'Call', questions:'Questions?', replyTime:'Reply time: under 2 hours (Paris)' },
+        nav:{ programs:'Programs', benefits:'Benefits', projects:'Projects', pricing:'Pricing', exam:'Exam Prep', faq:'FAQ', cta:'Book a quick chat' },
+        cta:{ book:'Book a quick chat', whatsappSyed:'WhatsApp Syed', callSyed:'Call Syed', replyTime:'Reply time: under 2 hours (Paris)' },
         hero:{
           title:'English & coding lessons for kids in Paris and Île-de-France',
           sub:'A concierge-led journey for discerning parents seeking a <a href="#programs" class="text-brand-yellow hover:underline">private English tutor for children in Paris</a> with modern tech projects, IELTS/TOEIC milestones, and calm in-home ateliers.',
-          cta:'Book a private intake call', secondary:'See the Maison path',
+          cta:'Book a quick chat', secondary:'See the Maison path',
           foot:'We reserve fewer than 12 families at a time for weekly ateliers in Paris or via secure telepresence.',
           badge:'Instructor at <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersecurity & Cloud @ ESILV',
           signet:'Maison BrightMinds',
@@ -21,7 +21,7 @@ export const translations = {
           p1:'Real projects: Mini Website, AI-Apps, Digital Slides/Poster', p2:'Confidence Coaching: Speaking & Presenting In English',
           p3:'Digital Safety & Balanced Tech Use', p4:'Exam prep: IELTS, TOEIC, IGCSE/A-Level'
         },
-        banner:'Now enrolling', bannerTail:'limited private slots this month (priority to siblings & referrals).', bannerCta:'Book Now',
+        banner:'Now enrolling', bannerTail:'limited private slots this month (priority to siblings & referrals).', bannerCta:'Book a quick chat',
         trust:{ areas:'Trusted by families across Paris & Île-de-France', dbsc:'Led English-only learning environments', invoice:'Conducted training sessions within Qualiopi-certified programs' },
         instructor:{
           title:'Meet the Instructor',
@@ -121,7 +121,7 @@ export const translations = {
         pricing:{
           title:'Pricing for private English tutoring in Paris',
           sub2:'Transparent and flexible. Choose private sessions or a small group.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Introductory launch rates</span>',
-          perHour:'/h', cta:'Book Free Consult',
+          perHour:'/h', cta:'Book a quick chat',
           p1:{ t:'Private Progress Plan', d:'1:1 tailored English + tech. Fast, visible results in 4 weeks.', note:'Suggested starter: 4×1h (€100)' },
           p2:{ t:'Siblings/Friends Accelerator', d:'2–4 learners: teamwork, communication, and creative projects.', note:'Great value for siblings' },
           p3:{ t:'Exam & Confidence Mastery', d:'TOEIC, IELTS, IGCSE/A-Level — with speaking & presentation coaching.', note:'Suggested focus: 6–8 weeks to target band/grade' },
@@ -183,17 +183,17 @@ export const translations = {
           help:'Prefer to confirm details first?',
           whatsapp:'Message me on WhatsApp'
         },
-        sticky:{ text:'Limited atelier slots this month', cta:'Book intake' },
+        sticky:{ text:'Limited atelier slots this month', cta:'Book a quick chat' },
         exit:{ title:'Want to discuss your child’s goals?', desc:'Pick the fastest way to connect and we’ll plan the next step.', whatsapp:'Message on WhatsApp' }
       },
 
       fr: {
-        nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Intake privé' },
-        cta:{ book:'Réserver un échange rapide', whatsapp:'WhatsApp', call:'Appeler', questions:'Une question ?', replyTime:'Réponse : moins de 2h (Paris)' },
+        nav:{ programs:'Programmes', benefits:'Avantages', projects:'Projets', pricing:'Tarifs', exam:'Préparation examens', faq:'FAQ', cta:'Réserver un échange rapide' },
+        cta:{ book:'Réserver un échange rapide', whatsappSyed:'WhatsApp Syed', callSyed:'Appeler Syed', replyTime:'Réponse: moins de 2h (Paris)' },
         hero:{
           title:'Cours d’anglais et technologie pour enfants à Paris et en Île-de-France',
           sub:'Parcours concierge pour des parents exigeants à la recherche d’un <a href="#programs" class="text-brand-yellow hover:underline">professeur d’anglais pour enfants à domicile à Paris</a> avec projets numériques, IELTS/TOEIC, et ateliers calmes.',
-          cta:'Réserver un appel d’intake privé', secondary:'Voir le parcours Maison',
+          cta:'Réserver un échange rapide', secondary:'Voir le parcours Maison',
           foot:'Moins de 12 familles accompagnées simultanément – ateliers hebdomadaires à Paris ou via téléprésence sécurisée.',
           badge:'Enseignant à <strong>IPI</strong> · <strong>Ingetis</strong> · <strong>ABC Business College</strong> — M2 Cybersécurité & Cloud @ ESILV',
           signet:'Maison BrightMinds',
@@ -209,7 +209,7 @@ export const translations = {
           p1:'Projets concrets : mini site web, applications IA, diaporamas ou affiches numériques', p2:'Coaching en confiance : expression et présentation en anglais',
           p3:'Sécurité numérique et usage équilibré des technologies', p4:'Préparation aux examens : IELTS, TOEIC, IGCSE/A-Level'
         },
-        banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci (priorité aux fratries & parrainages).', bannerCta:'Réserver',
+        banner:'Inscriptions en cours', bannerTail:'places privées limitées ce mois-ci (priorité aux fratries & parrainages).', bannerCta:'Réserver un échange rapide',
         trust:{ areas:'Recommandé par des familles dans tout Paris & en Île-de-France', dbsc:'Encadré des formations dispensées exclusivement en anglais', invoice:'Dispensé des formations dans le cadre de programmes certifiés Qualiopi' },
         instructor:{
           title:'Rencontrez l’enseignant',
@@ -309,7 +309,7 @@ export const translations = {
         pricing:{
           title:'Tarifs des cours d’anglais privé à Paris',
           sub2:'Transparents et flexibles. Choisissez un suivi individuel ou un petit groupe.<span class="rounded-full border border-brand-yellow/40 bg-brand-yellow/10 text-brand-yellow px-2 py-0.5 text-xs ml-2">Tarifs lancement</span>',
-          perHour:'/h', cta:'Réserver un appel',
+          perHour:'/h', cta:'Réserver un échange rapide',
           p1:{ t:'Plan Progrès Privé', d:'Coaching 1:1 anglais + tech. Résultats visibles en 4 semaines.', note:'Format recommandé : 4×1h (100 €)' },
           p2:{ t:'Accélérateur Fratrie / Amis', d:'2 à 4 élèves : travail d’équipe, communication et projets créatifs.', note:'Excellent pour frères/sœurs' },
           p3:{ t:'Maîtrise Examens & Confiance', d:'TOEIC, IELTS, IGCSE/A-Level avec coaching oral et présentation.', note:'Prévoir 6–8 semaines pour viser la note cible' },
@@ -369,7 +369,7 @@ export const translations = {
           help:'Besoin de confirmer d’abord ?',
           whatsapp:'Écrivez-moi sur WhatsApp'
         },
-        sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Intake privé' },
+        sticky:{ text:'Places atelier limitées ce mois-ci', cta:'Réserver un échange rapide' },
         exit:{ title:'Envie de discuter des objectifs de votre enfant ?', desc:'Choisissez le canal le plus rapide et planifions la suite.', whatsapp:'Message sur WhatsApp' }
       }
     }

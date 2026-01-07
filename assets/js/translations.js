@@ -347,9 +347,9 @@ export const translations = {
           title:'FAQ : coaching d’anglais académique à Paris',
           q1:'Où se déroulent les séances ?', a1:'À domicile à Paris & Île-de-France ou en ligne.',
           q2:'Âges et niveaux ?', a2:'De 8 à 18 ans. Fondations, parcours internationaux et examens.',
-          q5:'Prépares-tu les oraux IB et les écrits ?',
+          q5:'Préparez-vous les oraux IB et les écrits ?',
           a5:'Oui. On travaille la structure, le timing et une expression calme avec des sujets type IB et des retours clairs.',
-          q6:'Peux-tu aider en maths, physique ou sciences en anglais (pas seulement la langue) ?',
+          q6:'Pouvez-vous aider en maths, physique ou sciences en anglais (pas seulement la langue) ?',
           a6:'Oui. On explique maths, physique ou sciences clairement en anglais : vocabulaire, structure d’argument, formulation d’examen.',
           q3:'Organisation', a3:'Hebdomadaire ou intensif ; report avec 24h.',
           q4:'Êtes-vous une école ou un examinateur officiel ?', a4:'Coach privé, pas une école ni un examinateur. Factures disponibles ; paiement par virement, PayPal ou Revolut.'

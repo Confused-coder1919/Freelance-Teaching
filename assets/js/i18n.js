@@ -2,6 +2,7 @@ import { $$ } from './dom.js';
 import { translations } from './translations.js';
 
 const STORAGE_KEY = 'site-lang';
+const DEFAULT_LANG = 'fr';
 
 const resolvePath = (source, path) =>
   path.reduce((acc, key) => {
@@ -11,7 +12,7 @@ const resolvePath = (source, path) =>
 
 export const initI18n = () => {
   const listeners = new Set();
-  let currentLang = 'en';
+  let currentLang = DEFAULT_LANG;
 
   const notify = (lang) => listeners.forEach((fn) => fn(lang));
   const langButtons = $$('[data-lang]');
@@ -57,8 +58,7 @@ export const initI18n = () => {
   };
 
   const saved = localStorage.getItem(STORAGE_KEY);
-  const browserPref = (navigator.language || 'en').slice(0, 2).toLowerCase();
-  const initial = translations[saved] ? saved : translations[browserPref] ? browserPref : 'en';
+  const initial = translations[saved] ? saved : DEFAULT_LANG;
   applyLang(initial);
 
   langButtons.forEach((btn) => {

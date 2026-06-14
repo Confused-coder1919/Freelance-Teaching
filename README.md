@@ -14,6 +14,11 @@
 > **What this is:** A conversion-focused microsite that turns parent interest into booked consults for kids’ **English + Technology** lessons (ages 8–18) in Paris.
 > **Why recruiters should care:** Clear market positioning, measurable learning outcomes, accessibility-first implementation, bilingual UX, and a clean, scalable funnel.
 
+## Recruiter snapshot
+- Bilingual, conversion-focused microsite with a real audience and a clear business goal
+- Demonstrates practical front-end product work: SEO, accessibility, analytics, i18n, and lead capture
+- Good evidence for freelance/product-marketing-facing engineering and polished public web delivery
+
 ---
 
 ## 🔗 Live Demo
